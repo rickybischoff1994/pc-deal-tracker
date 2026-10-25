@@ -46,6 +46,7 @@ START_MARKER = "<!-- PRICES:START -->"
 END_MARKER = "<!-- PRICES:END -->"
 
 BRISBANE = timezone(timedelta(hours=10))   # Queensland: UTC+10, no daylight saving
+DEAL_HISTORY_DAYS = 365                    # keep a year of OzBargain deals (graphs still show 30 days)
 PAUSE_SECONDS = 2                          # wait between requests to be polite
 
 # Shown instead of a photo when we couldn't find a picture of that exact product.
@@ -114,6 +115,65 @@ def remove_duplicates(listings):
 # ---------------------------------------------------------------------------
 # COLLECTING - asking each website about one part
 # ---------------------------------------------------------------------------
+def product_key(listing, part):
+    """
+    Work out WHICH product a listing is, so the same graphics card sold at
+    Umart and MSY counts as one product.
+    We use the model codes in the name (see model_codes). Codes that just
+    repeat the part name (like "RX9070XT") or describe a spec (like "GEN4X4")
+    are ignored, because every listing has those.
+    If there's no useful code, we fall back to the squashed product name.
+    """
+    part_words = [squash(word) for word in part["must_include"]]
+    useful = sorted(
+        code for code in model_codes(listing["title"])
+        if not any(word in squash(code) for word in part_words)          # not the part name
+        and not re.match(r"(GEN|PCIE|DDR|GDDR|NVME|M2|CL\d)", code)     # not a spec
+    )
+    # A "tuple" can be used as a dictionary key; an empty one means "no code".
+    return tuple(useful) if useful else (squash(listing["title"]),)
+
+
+def pick_top(good, part, how_many):
+    """
+    Choose the listings to show for a part. good = matching listings, cheapest first.
+
+    1. Group the listings into products (same product at different stores).
+    2. Show each product ONCE, at its cheapest store, up to how_many products.
+       The other stores' prices for it are kept in listing["also"].
+    3. If there aren't enough different products (CPUs usually only come in
+       one or two versions), fill the remaining rows with the next cheapest
+       store listings, so every part still shows how_many rows.
+    """
+    products = {}          # product key -> list of its listings (cheapest first)
+    for listing in good:
+        key = product_key(listing, part)
+        # setdefault: get the list for this key, creating an empty one if new.
+        products.setdefault(key, []).append(listing)
+
+    top = []
+    for offers in products.values():          # dictionaries remember insertion order,
+        if len(top) == how_many:              # so the cheapest products come first
+            break
+        best = dict(offers[0])                # a copy, so we can add "also" safely
+        best["also"] = offers[1:]             # the same product at other stores
+        top.append(best)
+
+    if len(top) < how_many:
+        # Not enough different products: add more stores, cheapest first.
+        shown = {id(offers[0]) for offers in products.values()}   # id() = an object's unique number
+        extra = [l for l in good if id(l) not in shown][:how_many - len(top)]
+        for listing in extra:
+            listing = dict(listing, also=[])
+            top.append(listing)
+        # Stores that now have their own row shouldn't also appear in "also".
+        extra_links = {l["link"] for l in extra}
+        for listing in top:
+            listing["also"] = [o for o in listing["also"] if o["link"] not in extra_links]
+
+    return sorted(top, key=lambda l: l["price"])
+
+
 def collect_listings(part):
     """Ask every website about one part and return all listings together."""
     listings = []
@@ -263,7 +323,8 @@ def build_report(rows, checked_at, sources_used):
                 lines.append(
                     f"| {picture(listing['image']) or CATEGORY_ICONS.get(part['category'], '')} "
                     f"| **{money(listing['price'])}**{tick} "
-                    f"| {listing['store']} | {number}. [{safe(listing['title'])}]({listing['link']}) "
+                    f"| {listing['store']} | {number}. [{safe(listing['title'])}]({listing['link']})"
+                    f"{also_at(listing)} "
                     f"| {STOCK_ICONS.get(listing['stock'], listing['stock'])} |"
                 )
 
@@ -277,20 +338,33 @@ def build_report(rows, checked_at, sources_used):
     return "\n".join(lines)
 
 
+def also_at(listing, most=4):
+    """
+    Small text listing the same product at other stores, e.g.
+    "<br><sub>Also: $599 MSY · $599 UMart</sub>". Empty text if there are none.
+    <sub> makes the text smaller on GitHub; <br> starts a new line in the cell.
+    """
+    others = listing.get("also", [])[:most]
+    if not others:
+        return ""
+    links = " · ".join(f"[{money(o['price'])} {o['store']}]({o['link']})" for o in others)
+    return f"<br><sub>Also: {links}</sub>"
+
+
 def history_details(part_name):
     """
     A collapsible list (<details>) of the OzBargain deals saved for this part
-    in the last 30 days, including expired ones. Returns a list of lines,
+    in the last DEAL_HISTORY_DAYS days (a year), including expired ones. Returns a list of lines,
     or an empty list if there are no deals (so nothing is added).
     """
     try:
-        deals = history.recent_deals(part_name)
+        deals = history.recent_deals(part_name, days=DEAL_HISTORY_DAYS)
     except Exception as error:         # never let the history break the report
         print(f"  Could not read deal history: {error}")
         return []
     if not deals:
         return []
-    lines = ["", "<details>", f"<summary>OzBargain deal history ({len(deals)})</summary>", ""]
+    lines = ["", "<details>", f"<summary>OzBargain deal history, last 12 months ({len(deals)})</summary>", ""]
     for deal in deals:
         # "2026-09-18" -> "18 Sep"
         day = datetime.strptime(deal["posted_date"], "%Y-%m-%d").strftime("%d %b")
@@ -352,10 +426,11 @@ def main():
         print(f"Checking {part['name']}...")
         listings = collect_listings(part)
 
-        # Keep only real matches, sort cheapest first, drop repeats, keep the top few.
+        # Keep only real matches, sort cheapest first, drop repeats, then pick
+        # how_many DIFFERENT products (see pick_top).
         good = [l for l in listings if is_good_match(l, part, skip_everywhere)]
         good = remove_duplicates(sorted(good, key=lambda l: l["price"]))
-        top = good[:how_many]          # a "slice": the first how_many items
+        top = pick_top(good, part, how_many)
 
         deals = [d for d in all_deals if is_good_match(d, part, skip_everywhere)]
 
@@ -377,8 +452,10 @@ def main():
     try:
         print("Reading OzBargain deal history...")
         found = sources.ozbargain_history(settings.get("ozbargain_history_pages", []),
-                                          settings.get("ozbargain_feeds", []))
-        new = history.update_deal_history(settings["parts"], skip_everywhere, found, is_good_match)
+                                          settings.get("ozbargain_feeds", []),
+                                          days=DEAL_HISTORY_DAYS)
+        new = history.update_deal_history(settings["parts"], skip_everywhere, found,
+                                          is_good_match, days=DEAL_HISTORY_DAYS)
         print(f"  {len(found)} deals read, {new} new saved to deal_history.csv")
     except Exception as error:
         print(f"  Deal history failed (the price report still gets written): {error}")

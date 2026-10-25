@@ -183,6 +183,24 @@ def mwave_search(search_text):
 # ===========================================================================
 # 3) OZBARGAIN - deals posted by the community
 # ===========================================================================
+def price_in_title(title):
+    """
+    Find the deal price (in Australian dollars) in an OzBargain title.
+      "... $999 Delivered @ Centre Com"           -> 999.0
+      "... US$554.30 (~A$859.51) Delivered @ ..." -> 859.51  (use the A$ amount)
+    Returns None if there's no Australian-dollar price.
+    """
+    # First choice: an amount written as "A$123" (an AUD conversion).
+    aud = re.search(r"A\$([\d,]+(?:\.\d\d)?)", title)
+    if aud:
+        return float(aud.group(1).replace(",", ""))
+    # Otherwise the first plain "$123", but NOT one straight after a letter
+    # (that would be another currency, like US$ or NZ$).
+    # (?<![A-Za-z]) is a "lookbehind": the $ must not have a letter before it.
+    plain = re.search(r"(?<![A-Za-z])\$([\d,]+(?:\.\d\d)?)", title)
+    return float(plain.group(1).replace(",", "")) if plain else None
+
+
 def ozbargain_deals(feed_paths, days=30):
     """
     Read OzBargain "feeds" (RSS - a simple list of the newest posts that
@@ -217,14 +235,13 @@ def ozbargain_deals(feed_paths, days=30):
                 continue
 
             image = re.search(r'image="([^"]+)"', item)
-            # Find the first "$123" or "$1,234.56" in the title = the deal price.
-            price = re.search(r"\$([\d,]+(?:\.\d\d)?)", title)
+            price = price_in_title(title)     # the deal price in AUD (or None)
             # Shops are named after an "@" at the end, e.g. "... @ Amazon AU".
             store = title.rsplit("@", 1)[1].strip() if "@" in title else "OzBargain"
             votes = re.search(r'votes-pos="(\d+)"', item)
 
             deals[link] = {
-                "price": float(price.group(1).replace(",", "")) if price else None,
+                "price": price,
                 "title": title,
                 "store": store,
                 "link": link,
@@ -250,12 +267,11 @@ def deal_from_title(title, link, posted_day, expired, votes):
     bits of a deal post. `posted_day` is a date. Extra labelled values:
     "posted_date" (like "2026-09-18") and "expired" (True/False).
     """
-    # Find the first "$123" or "$1,234.56" in the title = the deal price.
-    price = re.search(r"\$([\d,]+(?:\.\d\d)?)", title)
+    price = price_in_title(title)     # the deal price in AUD (or None)
     # Shops are named after an "@" at the end, e.g. "... @ Amazon AU".
     store = title.rsplit("@", 1)[1].strip() if "@" in title else "OzBargain"
     return {
-        "price": float(price.group(1).replace(",", "")) if price else None,
+        "price": price,
         "title": title,
         "store": store,
         "link": link,
