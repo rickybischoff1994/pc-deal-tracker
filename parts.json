@@ -261,7 +261,8 @@
         "cooler only"
       ],
       "min_price": 400,
-      "target_price": 549
+      "target_price": 549,
+      "group_products": false
     },
     {
       "category": "Processors",
@@ -282,7 +283,8 @@
         "cooler only"
       ],
       "min_price": 450,
-      "target_price": 699
+      "target_price": 699,
+      "group_products": false
     },
     {
       "category": "Processors",
@@ -303,7 +305,8 @@
         "cooler only"
       ],
       "min_price": 600,
-      "target_price": 899
+      "target_price": 899,
+      "group_products": false
     },
     {
       "category": "Memory (RAM)",
@@ -411,5 +414,6 @@
       "target_price": 1199
     }
   ],
-  "_pages_help": "'pages' (optional) = how many pages of 20 StaticICE results to read for a part. Use more when laptops/PCs crowd out the real part."
+  "_pages_help": "'pages' (optional) = how many pages of 20 StaticICE results to read for a part. Use more when laptops/PCs crowd out the real part.",
+  "_group_help": "'group_products' (optional, default true): true = show 5 DIFFERENT products, each at its cheapest store, with other stores' prices beside it. false = just show the 5 cheapest store listings (used for CPUs, which are the same chip everywhere)."
 }

@@ -145,6 +145,12 @@ def pick_top(good, part, how_many):
        one or two versions), fill the remaining rows with the next cheapest
        store listings, so every part still shows how_many rows.
     """
+    # Some parts (like CPUs) are the same chip at every store, so "different
+    # products" doesn't make sense. For those, parts.json sets
+    # "group_products": false and we just show the cheapest stores.
+    if not part.get("group_products", True):
+        return [dict(listing, also=[]) for listing in good[:how_many]]
+
     products = {}          # product key -> list of its listings (cheapest first)
     for listing in good:
         key = product_key(listing, part)
