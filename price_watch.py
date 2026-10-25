@@ -72,11 +72,16 @@ RESULT_PATTERN = re.compile(
 # FUNCTIONS - each one does one small job. "def" starts a function.
 # ---------------------------------------------------------------------------
 def load_parts():
-    """Open parts.json and return the list of parts inside it."""
+    """
+    Open parts.json and return two things:
+      - the list of parts to watch
+      - the "skip_everywhere" list (words/product codes to always ignore)
+    """
     # "with" opens the file and closes it again automatically when done.
     with open(PARTS_FILE, encoding="utf-8") as f:
         data = json.load(f)      # turns the JSON text into Python lists/dicts
-    return data["parts"]
+    # .get(..., []) means "use an empty list if skip_everywhere isn't there".
+    return data["parts"], data.get("skip_everywhere", [])
 
 
 def download_search_page(search_text, min_price=0):
@@ -126,15 +131,22 @@ def find_results(page_html):
     return results
 
 
-def is_good_match(result, part):
-    """Return True if this search result really is the part we want."""
+def is_good_match(result, part, skip_everywhere):
+    """
+    Return True if this search result really is the part we want.
+    skip_everywhere is a list of words/product codes from parts.json that
+    rule a listing out for EVERY part (e.g. "end of line", or a code you
+    found was out of stock).
+    """
     title = result["title"].lower()               # lower-case so "XT" == "xt"
 
     # all(...) is True only if EVERY required word is in the title.
     if not all(word.lower() in title for word in part["must_include"]):
         return False
     # any(...) is True if AT LEAST ONE banned word is in the title.
-    if any(word.lower() in title for word in part.get("exclude", [])):
+    # The + joins the part's own exclude list and the global skip list together.
+    banned = part.get("exclude", []) + skip_everywhere
+    if any(word.lower() in title for word in banned):
         return False
     # Too cheap usually means it's an accessory, not the real thing.
     if result["price"] < part.get("min_price", 0):
@@ -142,17 +154,22 @@ def is_good_match(result, part):
     return True
 
 
-def find_cheapest(part):
-    """Search for one part and return its cheapest good result (or None)."""
+def find_cheapest(part, skip_everywhere, how_many=3):
+    """
+    Search for one part and return its cheapest good results, cheapest first.
+    We keep the top 3 (not just 1) so that if the cheapest turns out to be a
+    dud (out of stock, end of line), you can still see the next best options.
+    """
     page = download_search_page(part["search"], part.get("min_price", 0))
     results = find_results(page)
 
     # A "list comprehension": keep only results that pass is_good_match.
-    good = [r for r in results if is_good_match(r, part)]
-    if not good:                                  # an empty list counts as False
-        return None
-    # min() with key= picks the result with the smallest price.
-    return min(good, key=lambda r: r["price"])
+    good = [r for r in results if is_good_match(r, part, skip_everywhere)]
+    # sorted() with key= puts them in order from cheapest to dearest.
+    good = sorted(good, key=lambda r: r["price"])
+    # [:how_many] is a "slice": it keeps only the first 3 items.
+    # If the list is empty, this just returns an empty list.
+    return good[:how_many]
 
 
 def build_table(rows, checked_at):
@@ -160,21 +177,26 @@ def build_table(rows, checked_at):
     lines = [
         f"_Last checked: {checked_at} (Brisbane time)_",
         "",
-        "| Part | Best price | Target | Deal? | Store | Product |",
-        "|---|---:|---:|:---:|---|---|",
+        "| Part | Best price | Target | Deal? | Store | Product | Next cheapest |",
+        "|---|---:|---:|:---:|---|---|---|",
     ]
     for row in rows:
         part, best = row["part"], row["best"]
         target = f"${part['target_price']:,.0f}"      # 1099 -> "$1,099"
         if best is None:
-            lines.append(f"| {part['name']} | not found | {target} | - | - | - |")
+            lines.append(f"| {part['name']} | not found | {target} | - | - | - | - |")
             continue                                  # skip to the next row
         deal = "✅ YES" if best["price"] <= part["target_price"] else "—"
         # The | character would break a table cell, so swap it for a dash.
         product = best["title"].replace("|", "-")[:80]
+        # Build links like "[$359 CPL](link)" for the 2nd and 3rd cheapest,
+        # then join them with "<br>" so each sits on its own line in the cell.
+        others = "<br>".join(
+            f"[${r['price']:,.0f} {r['store']}]({r['link']})" for r in row["others"]
+        ) or "-"                    # "or" gives "-" if there were no others
         lines.append(
             f"| {part['name']} | **${best['price']:,.2f}** | {target} | {deal} "
-            f"| {best['store']} | [{product}]({best['link']}) |"
+            f"| {best['store']} | [{product}]({best['link']}) | {others} |"
         )
     return "\n".join(lines)                           # join lines with new lines
 
@@ -208,23 +230,28 @@ def main():
     """The starting point: runs all the steps in order."""
     checked_at = datetime.now(BRISBANE).strftime("%Y-%m-%d %H:%M")
     rows = []
+    parts, skip_everywhere = load_parts()   # a function can hand back 2 things
 
-    for part in load_parts():
+    for part in parts:
         print(f"Checking {part['name']}...")
         # try/except: if one part fails (site hiccup), report it and keep going
         # instead of crashing the whole program.
         try:
-            best = find_cheapest(part)
+            top = find_cheapest(part, skip_everywhere)
         except Exception as error:
             print(f"  Problem checking this part: {error}")
-            best = None
+            top = []
+
+        # top[0] is the cheapest; top[1:] is "everything after the first".
+        best = top[0] if top else None
+        others = top[1:]
 
         if best:
             print(f"  ${best['price']:,.2f} at {best['store']} - {best['title'][:60]}")
         else:
             print("  No matching result found")
 
-        rows.append({"part": part, "best": best})
+        rows.append({"part": part, "best": best, "others": others})
         time.sleep(3)    # be polite: wait 3 seconds so we don't hammer the site
 
     update_readme(build_table(rows, checked_at))

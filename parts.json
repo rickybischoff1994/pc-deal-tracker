@@ -1,5 +1,17 @@
 {
   "_how_to_edit": "Each part below is one thing to watch. 'search' is what we type into StaticICE. A result must contain ALL of 'must_include' words and NONE of 'exclude' words. Results cheaper than 'min_price' are skipped (that filters out accessories). 'target_price' is the price you'd be happy to pay, in AUD.",
+  "_skip_help": "Any listing whose name contains one of these words or product codes is ignored for EVERY part. If the cheapest result turns out to be out of stock or end of line, add its product code here (copy it from the product name).",
+  "skip_everywhere": [
+    "end of line",
+    "out of stock",
+    "discontinued",
+    "pre-order",
+    "preorder",
+    "refurbished",
+    "open box",
+    "used",
+    "F5-6000J3040F16GX2-RS5W"
+  ],
   "parts": [
     {
       "name": "GPU - Radeon RX 9070 XT 16GB",
