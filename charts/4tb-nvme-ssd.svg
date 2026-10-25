@@ -32,12 +32,13 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="208.3" x2="696" y2="208.3" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="203.3" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $429</text>
-<polyline points="672.0,197.5 674.1,197.5 674.2,197.5 674.9,197.5 675.0,197.5 675.1,197.5" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="672.0,197.5 674.1,197.5 674.2,197.5 674.9,197.5 675.0,197.5 675.1,197.5 682.0,197.5" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="672.0" cy="197.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="674.1" cy="197.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="674.2" cy="197.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="674.9" cy="197.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:54: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="675.0" cy="197.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:00: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="675.1" cy="197.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:07: $449 at Computer &amp; Parts Land</title></circle>
+<circle cx="682.0" cy="197.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 07:59: $449 at Computer &amp; Parts Land</title></circle>
 <path d="M97.5 89.8 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-09-28: $637.43 - Corsair MP600 PRO LPX 4TB M.2 NVMe PCIe X4 Gen4 SSD $637.43 Delivered @ Amazon UK via AU (expired)</title></path>
 </svg>
