@@ -1,265 +1,343 @@
 """
-price_watch.py - finds the cheapest Australian price for each PC part we want.
+price_watch.py - finds the cheapest Australian prices for the PC parts we want.
 
 HOW IT WORKS (the big picture):
   1. Read the list of parts from parts.json
-  2. For each part, search StaticICE (an Aussie price-comparison website)
-  3. Pull every price + product name out of the web page
-  4. Throw away results that don't match (wrong product, accessories, etc.)
-  5. Keep the cheapest one that's left
-  6. Write a table of results into README.md, and save a line per part
-     into price_history.csv so we can see prices change over time
+  2. For each part, collect listings from several websites (see sources.py):
+       StaticICE (~15 stores), Mwave, and OzBargain deals
+  3. Throw away listings that don't match (wrong product, accessories...)
+  4. Sort what's left from cheapest to dearest and keep the top few
+  5. Find a product picture for each one
+  6. Write everything into README.md (the repo's front page) and save the
+     cheapest price for each part into price_history.csv
 
-This file only uses Python's built-in "standard library", so there is
-nothing extra to install. You can run it yourself with:
+This program only uses Python's built-in "standard library", so there is
+nothing extra to install. Run it yourself with:
     python price_watch.py
 """
 
 # ---------------------------------------------------------------------------
-# IMPORTS - pulling in ready-made tools that come with Python
+# IMPORTS - ready-made tools. The last line imports OUR OWN file, sources.py.
 # ---------------------------------------------------------------------------
 import csv                      # reads/writes CSV (spreadsheet-style) files
-import html                     # turns things like "&amp;" back into "&"
-import json                     # reads our parts.json file
+import json                     # reads/writes JSON files
 import re                       # "regular expressions" - pattern matching in text
 import time                     # lets us pause between web requests
-import urllib.parse             # builds and picks apart web addresses (URLs)
-import urllib.request           # downloads web pages
 from datetime import datetime, timezone, timedelta
 from pathlib import Path        # a tidy way to work with file paths
 
-# ---------------------------------------------------------------------------
-# SETTINGS - values used throughout the program. Written in CAPITALS by
-# convention, which tells other programmers "this never changes while running".
-# ---------------------------------------------------------------------------
-SEARCH_URL = "https://www.staticice.com.au/cgi-bin/search.cgi"
+import sources                  # our file with one function per website
 
-# Path(__file__).parent means "the folder this script lives in", so the
-# program finds its files no matter where you run it from.
-HERE = Path(__file__).parent
+# ---------------------------------------------------------------------------
+# SETTINGS - CAPITAL names are a convention for "this never changes".
+# ---------------------------------------------------------------------------
+HERE = Path(__file__).parent    # the folder this script lives in
 PARTS_FILE = HERE / "parts.json"
 README_FILE = HERE / "README.md"
 HISTORY_FILE = HERE / "price_history.csv"
+IMAGE_CACHE_FILE = HERE / "images.json"   # remembers pictures we've found
 
 # The README has two invisible marker comments. We replace everything
-# between them with the new table, and leave the rest of the README alone.
+# between them, and leave the rest of the README alone.
 START_MARKER = "<!-- PRICES:START -->"
 END_MARKER = "<!-- PRICES:END -->"
 
-# Brisbane time is UTC+10 all year (Queensland has no daylight saving).
-BRISBANE = timezone(timedelta(hours=10))
+BRISBANE = timezone(timedelta(hours=10))   # Queensland: UTC+10, no daylight saving
+PAUSE_SECONDS = 2                          # wait between requests to be polite
 
-# Websites like to know who is visiting. We say honestly what we are.
-HEADERS = {"User-Agent": "Mozilla/5.0 (pc-deal-tracker hobby project; daily check)"}
+# Shown instead of a photo when we couldn't find a picture of that exact product.
+CATEGORY_ICONS = {
+    "Graphics cards": "🎮",
+    "Processors": "🧠",
+    "Memory (RAM)": "💾",
+    "Storage (SSD)": "🗄️",
+}
 
-# This pattern finds each search result on the StaticICE page. In the page's
-# HTML a result looks roughly like:
-#   <a ... href="...newurl=STORE_LINK&..." target="_blank">$599.00</a><br></td>
-#   <td valign="bottom">PRODUCT NAME<br> ... <b><font ...>STORE NAME</font></b>
-# The bits in ( ) brackets are "capture groups" - the parts we want to keep.
-#   (?P<name> ... )  gives a capture group a name so we can ask for it later
-#   .*?              means "any characters, as few as possible"
-#   re.DOTALL        lets . also match new lines
-RESULT_PATTERN = re.compile(
-    r'href="(?P<link>[^"]*?)"\s+target="_blank">\$(?P<price>[\d,]+\.\d\d)</a><br></td>'
-    r'\s*<td valign="bottom">(?P<title>.*?)<br>'
-    r'.*?<b><font color="#0080CC">(?P<store>.*?)</font></b>',
-    re.DOTALL,
-)
+# Little coloured dots to show stock status in the README.
+STOCK_ICONS = {
+    "in stock": "🟢 in stock",
+    "pre-order": "🟡 pre-order",
+    "out of stock": "🔴 out of stock",
+    "?": "⚪ check site",
+}
 
 
 # ---------------------------------------------------------------------------
-# FUNCTIONS - each one does one small job. "def" starts a function.
+# MATCHING - deciding whether a listing really is the part we want
 # ---------------------------------------------------------------------------
-def load_parts():
+def squash(text):
     """
-    Open parts.json and return two things:
-      - the list of parts to watch
-      - the "skip_everywhere" list (words/product codes to always ignore)
+    Lower-case the text and remove spaces, dashes and underscores, so that
+    "RX 9070 XT", "RX9070XT" and "rx-9070-xt" all become "rx9070xt".
+    That way one rule in parts.json matches however a shop writes the name.
     """
-    # "with" opens the file and closes it again automatically when done.
-    with open(PARTS_FILE, encoding="utf-8") as f:
-        data = json.load(f)      # turns the JSON text into Python lists/dicts
-    # .get(..., []) means "use an empty list if skip_everywhere isn't there".
-    return data["parts"], data.get("skip_everywhere", [])
+    return re.sub(r"[\s\-_]", "", text.lower())
 
 
-def download_search_page(search_text, min_price=0):
-    """Search StaticICE for search_text and return the page's HTML as text."""
-    # urlencode turns {"q": "RX 9070 XT"} into "q=RX+9070+XT" (safe for a URL).
-    # "price-min" asks StaticICE to skip anything cheaper than min_price, so
-    # cheap accessories don't fill up the first page of results.
-    query = urllib.parse.urlencode({"q": search_text, "price-min": min_price})
-    url = f"{SEARCH_URL}?{query}"   # an f-string drops variables into text
-
-    request = urllib.request.Request(url, headers=HEADERS)
-    # timeout=30 means give up if the site takes longer than 30 seconds.
-    with urllib.request.urlopen(request, timeout=30) as response:
-        # The site's text is encoded as "latin-1"; decode turns bytes into text.
-        return response.read().decode("latin-1")
-
-
-def get_store_link(redirect_link):
-    """
-    StaticICE links go through its own redirect page, with the real shop
-    address tucked inside as "newurl=...". This digs out the real address
-    so the README links straight to the shop.
-    """
-    query_part = urllib.parse.urlparse(html.unescape(redirect_link)).query
-    params = urllib.parse.parse_qs(query_part)   # {"newurl": ["https://..."], ...}
-    # .get() returns the default ([redirect_link]) if "newurl" isn't there.
-    return params.get("newurl", [redirect_link])[0]
-
-
-def clean_text(raw_html):
-    """Remove leftover HTML tags and turn codes like &amp; into normal text."""
-    no_tags = re.sub(r"<[^>]+>", "", raw_html)   # delete anything like <b>
-    return html.unescape(no_tags).strip()        # .strip() trims spaces
-
-
-def find_results(page_html):
-    """Pull every (price, title, store, link) out of a search page."""
-    results = []                                  # start with an empty list
-    for match in RESULT_PATTERN.finditer(page_html):
-        results.append({
-            # "1,199.00" -> 1199.0 (remove the comma, then turn text into a number)
-            "price": float(match.group("price").replace(",", "")),
-            "title": clean_text(match.group("title")),
-            "store": clean_text(match.group("store")),
-            "link": get_store_link(match.group("link")),
-        })
-    return results
-
-
-def is_good_match(result, part, skip_everywhere):
-    """
-    Return True if this search result really is the part we want.
-    skip_everywhere is a list of words/product codes from parts.json that
-    rule a listing out for EVERY part (e.g. "end of line", or a code you
-    found was out of stock).
-    """
-    title = result["title"].lower()               # lower-case so "XT" == "xt"
+def is_good_match(listing, part, skip_everywhere):
+    """Return True if this listing really is the part we want."""
+    title = squash(listing["title"])
 
     # all(...) is True only if EVERY required word is in the title.
-    if not all(word.lower() in title for word in part["must_include"]):
+    if not all(squash(word) in title for word in part["must_include"]):
         return False
     # any(...) is True if AT LEAST ONE banned word is in the title.
-    # The + joins the part's own exclude list and the global skip list together.
+    # The + joins the part's own exclude list and the global skip list.
     banned = part.get("exclude", []) + skip_everywhere
-    if any(word.lower() in title for word in banned):
+    if any(squash(word) in title for word in banned):
         return False
     # Too cheap usually means it's an accessory, not the real thing.
-    if result["price"] < part.get("min_price", 0):
+    # (OzBargain deals sometimes have no price, so check it exists first.)
+    if listing["price"] is not None and listing["price"] < part.get("min_price", 0):
         return False
     return True
 
 
-def find_cheapest(part, skip_everywhere, how_many=3):
+def remove_duplicates(listings):
     """
-    Search for one part and return its cheapest good results, cheapest first.
-    We keep the top 3 (not just 1) so that if the cheapest turns out to be a
-    dud (out of stock, end of line), you can still see the next best options.
+    The same product from the same store can turn up twice (e.g. listed
+    twice on StaticICE). Keep only the first of each store + product pair.
     """
-    page = download_search_page(part["search"], part.get("min_price", 0))
-    results = find_results(page)
-
-    # A "list comprehension": keep only results that pass is_good_match.
-    good = [r for r in results if is_good_match(r, part, skip_everywhere)]
-    # sorted() with key= puts them in order from cheapest to dearest.
-    good = sorted(good, key=lambda r: r["price"])
-    # [:how_many] is a "slice": it keeps only the first 3 items.
-    # If the list is empty, this just returns an empty list.
-    return good[:how_many]
+    seen = set()               # a "set" is like a list that ignores repeats
+    unique = []
+    for listing in listings:
+        key = (listing["store"], squash(listing["title"]))   # a "tuple" pair
+        if key not in seen:
+            seen.add(key)
+            unique.append(listing)
+    return unique
 
 
-def build_table(rows, checked_at):
-    """Turn our results into a Markdown table (GitHub shows it as a nice table)."""
-    lines = [
-        f"_Last checked: {checked_at} (Brisbane time)_",
-        "",
-        "| Part | Best price | Target | Deal? | Store | Product | Next cheapest |",
-        "|---|---:|---:|:---:|---|---|---|",
+# ---------------------------------------------------------------------------
+# COLLECTING - asking each website about one part
+# ---------------------------------------------------------------------------
+def collect_listings(part):
+    """Ask every website about one part and return all listings together."""
+    listings = []
+    # Each entry: (website name, a function to call). "lambda" makes a tiny
+    # nameless function, so we can store "how to search" in a list.
+    websites = [
+        ("StaticICE", lambda: sources.staticice_search(
+            part["search"], part.get("min_price", 0), part.get("pages", 1))),
+        ("Mwave", lambda: sources.mwave_search(part["search"])),
     ]
+    for website_name, search in websites:
+        # try/except: if one website fails (hiccup, blocked), print a note
+        # and carry on with the others instead of crashing.
+        try:
+            found = search()
+            listings.extend(found)       # extend = add every item from found
+        except Exception as error:
+            print(f"  {website_name} failed: {error}")
+        time.sleep(PAUSE_SECONDS)
+    return listings
+
+
+def model_codes(title):
+    """
+    Pull out the model codes in a product name, e.g. "RX9070XT-16G-A" or
+    "100-100001084WOF". The same code at two different shops means it's the
+    same product, so they can share a picture.
+    A code here = a word of 6+ characters that mixes letters AND numbers.
+    """
+    words = re.findall(r"[A-Za-z0-9\-]{6,}", title)
+    return {w.upper() for w in words                       # a "set comprehension"
+            if re.search(r"\d", w) and re.search(r"[A-Za-z]", w)
+            and not re.fullmatch(r"\d+(GB|TB|MHZ)", w.upper())}   # not "6000MHz"
+
+
+def get_image(listing, image_cache):
+    """Return a listing's picture, fetching it from the shop page only once ever."""
+    if listing["image"]:
+        return listing["image"]
+    link = listing["link"]
+    if link not in image_cache:                 # never tried this link before
+        image_cache[link] = sources.find_image(link)
+        if image_cache[link] is not None:
+            time.sleep(1)                       # be polite to the shop
+    return image_cache[link]
+
+
+def add_pictures(rows, image_cache):
+    """
+    Give each listing we show a picture of THAT product:
+      1. Use the picture the website gave us, or fetch one from the shop page.
+      2. If that shop doesn't share pictures, look for the same model code at
+         a shop that does (Umart, MSY, JB Hi-Fi, Mwave) and use that picture.
+    """
     for row in rows:
-        part, best = row["part"], row["best"]
-        target = f"${part['target_price']:,.0f}"      # 1099 -> "$1,099"
+        for listing in row["top"]:
+            listing["image"] = get_image(listing, image_cache)
+            if listing["image"]:
+                continue                        # got one - next listing
+            codes = model_codes(listing["title"])
+            for other in row["all"]:            # every matching listing for this part
+                # "&" between two sets = the codes they have in common.
+                if other is not listing and codes & model_codes(other["title"]):
+                    image = get_image(other, image_cache)
+                    if image:
+                        listing["image"] = image
+                        break                   # found one - stop looking
+        # The part's picture for the summary table = first one we have.
+        # If none of the top listings has one, try every matching listing.
+        row["picture"] = next((l["image"] for l in row["top"] if l["image"]), "")
+        if not row["picture"]:
+            for other in row["all"]:
+                row["picture"] = get_image(other, image_cache)
+                if row["picture"]:
+                    break
+
+
+# ---------------------------------------------------------------------------
+# WRITING THE README
+# ---------------------------------------------------------------------------
+def picture(url, size=60):
+    """HTML for a small picture (GitHub's README allows simple HTML)."""
+    return f'<img src="{url}" width="{size}">' if url else ""
+
+
+def safe(text, length=70):
+    """Shorten text and remove | characters, which would break a table."""
+    text = text.replace("|", "-")
+    return text if len(text) <= length else text[:length - 1] + "…"
+
+
+def money(amount):
+    """1199.0 -> "$1,199"   and   226.7 -> "$226.70"."""
+    if amount is None:
+        return "?"
+    return f"${amount:,.0f}" if amount == int(amount) else f"${amount:,.2f}"
+
+
+def build_report(rows, checked_at, sources_used):
+    """Build the whole price report as Markdown text."""
+    lines = [
+        f"_Last checked: {checked_at} (Brisbane time) · Sources: {sources_used}_",
+        "",
+        "### Summary",
+        "",
+        "| | Part | Best price | Target | Deal? | Store |",
+        "|---|---|---:|---:|:---:|---|",
+    ]
+    # ---- summary table: one line per part ----
+    for row in rows:
+        part = row["part"]
+        best = row["top"][0] if row["top"] else None
         if best is None:
-            lines.append(f"| {part['name']} | not found | {target} | - | - | - | - |")
-            continue                                  # skip to the next row
-        deal = "✅ YES" if best["price"] <= part["target_price"] else "—"
-        # The | character would break a table cell, so swap it for a dash.
-        product = best["title"].replace("|", "-")[:80]
-        # Build links like "[$359 CPL](link)" for the 2nd and 3rd cheapest,
-        # then join them with "<br>" so each sits on its own line in the cell.
-        others = "<br>".join(
-            f"[${r['price']:,.0f} {r['store']}]({r['link']})" for r in row["others"]
-        ) or "-"                    # "or" gives "-" if there were no others
-        lines.append(
-            f"| {part['name']} | **${best['price']:,.2f}** | {target} | {deal} "
-            f"| {best['store']} | [{product}]({best['link']}) | {others} |"
-        )
-    return "\n".join(lines)                           # join lines with new lines
+            lines.append(f"| {picture(row['picture'], 40)} | {part['name']} | not found "
+                         f"| {money(part['target_price'])} | - | - |")
+            continue
+        deal = "✅" if best["price"] <= part["target_price"] else "—"
+        lines.append(f"| {picture(row['picture'], 40)} | [{part['name']}](#{anchor(part['name'])}) "
+                     f"| **{money(best['price'])}** | {money(part['target_price'])} | {deal} "
+                     f"| {best['store']} |")
+
+    # ---- a detailed section for each category, then each part ----
+    current_category = None
+    for row in rows:
+        part = row["part"]
+        if part["category"] != current_category:     # a new category starts
+            current_category = part["category"]
+            lines += ["", f"## {current_category}"]
+
+        lines += ["", f"### {part['name']}",
+                  f"Target: **{money(part['target_price'])}**", ""]
+        if not row["top"]:
+            lines.append("_Nothing matching found today._")
+        else:
+            lines += ["| | Price | Store | Product | Stock |",
+                      "|---|---:|---|---|---|"]
+            # enumerate() counts for us: 1, 2, 3... alongside each listing.
+            for number, listing in enumerate(row["top"], start=1):
+                tick = " ✅" if listing["price"] <= part["target_price"] else ""
+                lines.append(
+                    f"| {picture(listing['image']) or CATEGORY_ICONS.get(part['category'], '')} "
+                    f"| **{money(listing['price'])}**{tick} "
+                    f"| {listing['store']} | {number}. [{safe(listing['title'])}]({listing['link']}) "
+                    f"| {STOCK_ICONS.get(listing['stock'], listing['stock'])} |"
+                )
+
+        if row["deals"]:
+            lines += ["", "**🔥 OzBargain deals (last 30 days):**", ""]
+            for deal in row["deals"]:
+                lines.append(f"- {deal['posted']} · 👍 {deal['votes']} · "
+                             f"[{safe(deal['title'], 120)}]({deal['link']})")
+    return "\n".join(lines)
 
 
-def update_readme(table):
-    """Swap the old table in README.md for the new one."""
+def anchor(heading):
+    """GitHub turns a heading into a link target: "RTX 5070 Ti" -> "rtx-5070-ti"."""
+    return re.sub(r"[^a-z0-9 \-]", "", heading.lower()).replace(" ", "-")
+
+
+def update_readme(report):
+    """Swap the old report in README.md for the new one."""
     text = README_FILE.read_text(encoding="utf-8")
-    start = text.index(START_MARKER) + len(START_MARKER)   # just after START
-    end = text.index(END_MARKER)                            # just before END
-    # Keep the text before and after, and put the new table in the middle.
-    new_text = text[:start] + "\n" + table + "\n" + text[end:]
-    README_FILE.write_text(new_text, encoding="utf-8")
+    start = text.index(START_MARKER) + len(START_MARKER)
+    end = text.index(END_MARKER)
+    README_FILE.write_text(text[:start] + "\n" + report + "\n" + text[end:], encoding="utf-8")
 
 
 def save_history(rows, checked_at):
-    """Add today's prices to the bottom of price_history.csv."""
+    """Add today's cheapest price for each part to price_history.csv."""
     file_is_new = not HISTORY_FILE.exists()
-    # "a" means append: add to the end instead of overwriting the file.
-    with open(HISTORY_FILE, "a", newline="", encoding="utf-8") as f:
+    with open(HISTORY_FILE, "a", newline="", encoding="utf-8") as f:   # "a" = append
         writer = csv.writer(f)
-        if file_is_new:                                # header row, first time only
+        if file_is_new:
             writer.writerow(["checked_at", "part", "price", "store", "product"])
         for row in rows:
-            best = row["best"]
-            if best:
+            if row["top"]:
+                best = row["top"][0]
                 writer.writerow([checked_at, row["part"]["name"], best["price"],
                                  best["store"], best["title"]])
 
 
+# ---------------------------------------------------------------------------
+# MAIN - runs all the steps in order
+# ---------------------------------------------------------------------------
 def main():
-    """The starting point: runs all the steps in order."""
     checked_at = datetime.now(BRISBANE).strftime("%Y-%m-%d %H:%M")
+    settings = json.loads(PARTS_FILE.read_text(encoding="utf-8"))
+    skip_everywhere = settings.get("skip_everywhere", [])
+    how_many = settings.get("show_per_part", 5)
+
+    # Load pictures found on earlier runs (or start with an empty dictionary).
+    image_cache = {}
+    if IMAGE_CACHE_FILE.exists():
+        image_cache = json.loads(IMAGE_CACHE_FILE.read_text(encoding="utf-8"))
+
+    # OzBargain deals are read once, then matched to every part below.
+    print("Reading OzBargain deals...")
+    all_deals = sources.ozbargain_deals(settings.get("ozbargain_feeds", []))
+    print(f"  {len(all_deals)} current deals found")
+
     rows = []
-    parts, skip_everywhere = load_parts()   # a function can hand back 2 things
-
-    for part in parts:
+    for part in settings["parts"]:
         print(f"Checking {part['name']}...")
-        # try/except: if one part fails (site hiccup), report it and keep going
-        # instead of crashing the whole program.
-        try:
-            top = find_cheapest(part, skip_everywhere)
-        except Exception as error:
-            print(f"  Problem checking this part: {error}")
-            top = []
+        listings = collect_listings(part)
 
-        # top[0] is the cheapest; top[1:] is "everything after the first".
-        best = top[0] if top else None
-        others = top[1:]
+        # Keep only real matches, sort cheapest first, drop repeats, keep the top few.
+        good = [l for l in listings if is_good_match(l, part, skip_everywhere)]
+        good = remove_duplicates(sorted(good, key=lambda l: l["price"]))
+        top = good[:how_many]          # a "slice": the first how_many items
 
-        if best:
-            print(f"  ${best['price']:,.2f} at {best['store']} - {best['title'][:60]}")
+        deals = [d for d in all_deals if is_good_match(d, part, skip_everywhere)]
+
+        if top:
+            print(f"  {len(good)} matches, cheapest {money(top[0]['price'])} at {top[0]['store']}")
         else:
-            print("  No matching result found")
+            print("  No matching listings")
+        rows.append({"part": part, "top": top, "all": good, "deals": deals, "picture": ""})
 
-        rows.append({"part": part, "best": best, "others": others})
-        time.sleep(3)    # be polite: wait 3 seconds so we don't hammer the site
+    print("Finding pictures...")
+    add_pictures(rows, image_cache)
+    IMAGE_CACHE_FILE.write_text(json.dumps(image_cache, indent=1), encoding="utf-8")
 
-    update_readme(build_table(rows, checked_at))
+    update_readme(build_report(rows, checked_at, "StaticICE (~15 stores), Mwave, OzBargain"))
     save_history(rows, checked_at)
     print("Done! README.md and price_history.csv updated.")
 
 
-# This line means "only run main() when this file is run directly",
-# not when another Python file imports it. It's a common Python habit.
+# Only run main() when this file is run directly (not when imported).
 if __name__ == "__main__":
     main()

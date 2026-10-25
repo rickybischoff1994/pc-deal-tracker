@@ -1,24 +1,32 @@
 {
-  "_how_to_edit": "Each part below is one thing to watch. 'search' is what we type into StaticICE. A result must contain ALL of 'must_include' words and NONE of 'exclude' words. Results cheaper than 'min_price' are skipped (that filters out accessories). 'target_price' is the price you'd be happy to pay, in AUD.",
-  "_skip_help": "Any listing whose name contains one of these words or product codes is ignored for EVERY part. If the cheapest result turns out to be out of stock or end of line, add its product code here (copy it from the product name).",
+  "_how_to_edit": "Each part below is one thing to watch. 'search' is what we type into each website. A listing must contain ALL of the 'must_include' words and NONE of the 'exclude' words (spaces and dashes are ignored, so '9070xt' also matches '9070 XT'). Listings cheaper than 'min_price' are skipped (that filters out accessories). 'target_price' is the price you'd be happy to pay, in AUD.",
+  "_skip_help": "Any listing whose name contains one of these words or product codes is ignored for EVERY part. If a listing turns out to be a dud (out of stock, end of line), add its product code here.",
   "skip_everywhere": [
     "end of line",
     "out of stock",
     "discontinued",
-    "pre-order",
-    "preorder",
     "refurbished",
     "open box",
     "used",
     "F5-6000J3040F16GX2-RS5W"
   ],
+  "show_per_part": 5,
+  "ozbargain_feeds": [
+    "cat/computing/deals",
+    "tag/video-card",
+    "tag/ddr5",
+    "tag/ssd",
+    "tag/cpu",
+    "product/amd-radeon-rx-9070-xt",
+    "product/amd-ryzen-7-9800x3d"
+  ],
   "parts": [
     {
-      "name": "GPU - Radeon RX 9070 XT 16GB",
-      "search": "9070 XT",
+      "category": "Graphics cards",
+      "name": "RX 9070 XT",
+      "search": "RX 9070 XT",
       "must_include": [
-        "9070",
-        "xt"
+        "9070xt"
       ],
       "exclude": [
         "water block",
@@ -26,34 +34,266 @@
         "backplate",
         "bracket",
         "cable",
-        "desktop",
+        "riser",
+        "laptop",
+        "notebook",
         "gaming pc",
-        "system"
+        "desktop pc",
+        "system",
+        "bundle",
+        "16in",
+        "18in",
+        "inch",
+        "wqxga",
+        "xg mobile",
+        "zephyrus",
+        "raider",
+        "strix scar",
+        "legion",
+        "predator",
+        "omen",
+        "titan 18",
+        "275hx",
+        "285hx",
+        "9955hx",
+        "ultra 9",
+        "ultra 7",
+        "windows",
+        "w11",
+        "win11",
+        "egpu",
+        "external",
+        "ai box",
+        "ryzen ai",
+        "stealth",
+        "\"",
+        "hz,"
       ],
       "min_price": 700,
       "target_price": 1099
     },
     {
-      "name": "CPU - Ryzen 7 9800X3D",
-      "search": "9800X3D",
+      "category": "Graphics cards",
+      "name": "RTX 5070 Ti",
+      "search": "RTX 5070 Ti",
+      "must_include": [
+        "5070ti"
+      ],
+      "exclude": [
+        "water block",
+        "waterblock",
+        "backplate",
+        "bracket",
+        "cable",
+        "riser",
+        "laptop",
+        "notebook",
+        "gaming pc",
+        "desktop pc",
+        "system",
+        "bundle",
+        "16in",
+        "18in",
+        "inch",
+        "wqxga",
+        "xg mobile",
+        "zephyrus",
+        "raider",
+        "strix scar",
+        "legion",
+        "predator",
+        "omen",
+        "titan 18",
+        "275hx",
+        "285hx",
+        "9955hx",
+        "ultra 9",
+        "ultra 7",
+        "windows",
+        "w11",
+        "win11",
+        "egpu",
+        "external",
+        "ai box",
+        "ryzen ai",
+        "stealth",
+        "\"",
+        "hz,"
+      ],
+      "min_price": 900,
+      "target_price": 1199
+    },
+    {
+      "category": "Graphics cards",
+      "name": "RTX 5080",
+      "search": "RTX 5080",
+      "must_include": [
+        "rtx5080"
+      ],
+      "exclude": [
+        "water block",
+        "waterblock",
+        "backplate",
+        "bracket",
+        "cable",
+        "riser",
+        "laptop",
+        "notebook",
+        "gaming pc",
+        "desktop pc",
+        "system",
+        "bundle",
+        "5070ti",
+        "16in",
+        "18in",
+        "inch",
+        "wqxga",
+        "xg mobile",
+        "zephyrus",
+        "raider",
+        "strix scar",
+        "legion",
+        "predator",
+        "omen",
+        "titan 18",
+        "275hx",
+        "285hx",
+        "9955hx",
+        "ultra 9",
+        "ultra 7",
+        "windows",
+        "w11",
+        "win11",
+        "egpu",
+        "external",
+        "ai box",
+        "ryzen ai",
+        "stealth",
+        "\"",
+        "hz,"
+      ],
+      "min_price": 1400,
+      "target_price": 1799,
+      "pages": 2
+    },
+    {
+      "category": "Graphics cards",
+      "name": "RTX 5090",
+      "search": "RTX 5090",
+      "must_include": [
+        "rtx5090"
+      ],
+      "exclude": [
+        "water block",
+        "waterblock",
+        "backplate",
+        "bracket",
+        "cable",
+        "riser",
+        "laptop",
+        "notebook",
+        "gaming pc",
+        "desktop pc",
+        "system",
+        "bundle",
+        "16in",
+        "18in",
+        "inch",
+        "wqxga",
+        "xg mobile",
+        "zephyrus",
+        "raider",
+        "strix scar",
+        "legion",
+        "predator",
+        "omen",
+        "titan 18",
+        "275hx",
+        "285hx",
+        "9955hx",
+        "ultra 9",
+        "ultra 7",
+        "windows",
+        "w11",
+        "win11",
+        "egpu",
+        "external",
+        "ai box",
+        "ryzen ai",
+        "stealth",
+        "\"",
+        "hz,"
+      ],
+      "min_price": 3000,
+      "target_price": 4200,
+      "pages": 5
+    },
+    {
+      "category": "Processors",
+      "name": "Ryzen 7 9800X3D",
+      "search": "Ryzen 7 9800X3D",
       "must_include": [
         "9800x3d"
       ],
       "exclude": [
-        "desktop",
         "gaming pc",
+        "desktop pc",
         "system",
         "bundle",
         "combo",
         "rtx",
         "radeon",
-        "motherboard"
+        "motherboard",
+        "cooler only"
       ],
       "min_price": 400,
       "target_price": 549
     },
     {
-      "name": "RAM - DDR5 32GB (2x16GB) 6000MHz CL30",
+      "category": "Processors",
+      "name": "Ryzen 7 9850X3D",
+      "search": "Ryzen 7 9850X3D",
+      "must_include": [
+        "9850x3d"
+      ],
+      "exclude": [
+        "gaming pc",
+        "desktop pc",
+        "system",
+        "bundle",
+        "combo",
+        "rtx",
+        "radeon",
+        "motherboard",
+        "cooler only"
+      ],
+      "min_price": 450,
+      "target_price": 699
+    },
+    {
+      "category": "Processors",
+      "name": "Ryzen 9 9950X3D",
+      "search": "Ryzen 9 9950X3D",
+      "must_include": [
+        "9950x3d"
+      ],
+      "exclude": [
+        "gaming pc",
+        "desktop pc",
+        "system",
+        "bundle",
+        "combo",
+        "rtx",
+        "radeon",
+        "motherboard",
+        "cooler only"
+      ],
+      "min_price": 600,
+      "target_price": 899
+    },
+    {
+      "category": "Memory (RAM)",
+      "name": "DDR5 32GB (2x16GB) 6000MHz CL30",
       "search": "DDR5 32GB 6000 CL30",
       "must_include": [
         "ddr5",
@@ -65,13 +305,16 @@
         "sodimm",
         "so-dimm",
         "laptop",
-        "notebook"
+        "notebook",
+        "1x32gb",
+        "1x64gb"
       ],
       "min_price": 100,
-      "target_price": 299
+      "target_price": 349
     },
     {
-      "name": "RAM - DDR5 64GB (2x32GB) 6000MHz CL30",
+      "category": "Memory (RAM)",
+      "name": "DDR5 64GB (2x32GB) 6000MHz CL30",
       "search": "DDR5 64GB 6000 CL30",
       "must_include": [
         "ddr5",
@@ -83,18 +326,20 @@
         "sodimm",
         "so-dimm",
         "laptop",
-        "notebook"
+        "notebook",
+        "1x32gb",
+        "1x64gb"
       ],
       "min_price": 200,
-      "target_price": 699
+      "target_price": 899
     },
     {
-      "name": "SSD - 2TB NVMe Gen4",
+      "category": "Storage (SSD)",
+      "name": "2TB NVMe SSD",
       "search": "2TB NVMe SSD",
       "must_include": [
         "2tb",
-        "nvme",
-        "2280"
+        "nvme"
       ],
       "exclude": [
         "2230",
@@ -103,18 +348,19 @@
         "external",
         "portable",
         "gen3",
-        "heatsink only"
+        "sata",
+        "2.5\""
       ],
       "min_price": 120,
       "target_price": 219
     },
     {
-      "name": "SSD - 4TB NVMe Gen4",
+      "category": "Storage (SSD)",
+      "name": "4TB NVMe SSD",
       "search": "4TB NVMe SSD",
       "must_include": [
         "4tb",
-        "nvme",
-        "2280"
+        "nvme"
       ],
       "exclude": [
         "2230",
@@ -122,10 +368,34 @@
         "enclosure",
         "external",
         "portable",
-        "gen3"
+        "gen3",
+        "sata",
+        "2.5\""
       ],
       "min_price": 250,
       "target_price": 429
+    },
+    {
+      "category": "Storage (SSD)",
+      "name": "8TB NVMe SSD",
+      "search": "8TB NVMe SSD",
+      "must_include": [
+        "8tb",
+        "nvme"
+      ],
+      "exclude": [
+        "2230",
+        "2242",
+        "enclosure",
+        "external",
+        "portable",
+        "gen3",
+        "sata",
+        "2.5\""
+      ],
+      "min_price": 600,
+      "target_price": 1199
     }
-  ]
+  ],
+  "_pages_help": "'pages' (optional) = how many pages of 20 StaticICE results to read for a part. Use more when laptops/PCs crowd out the real part."
 }
