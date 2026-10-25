@@ -1,0 +1,44 @@
+# This file tells GitHub Actions WHEN and HOW to run our price checker.
+# GitHub reads any .yml file inside .github/workflows/ automatically.
+
+name: Daily price check          # the name shown in the repo's "Actions" tab
+
+on:                              # "on" = what starts (triggers) this workflow
+  schedule:
+    # Cron format: minute hour day-of-month month day-of-week  (in UTC time)
+    # 37 21 * * *  = 21:37 UTC every day = 7:37am Brisbane time.
+    - cron: "37 21 * * *"
+  workflow_dispatch:             # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: write                # lets the workflow save (push) changes to the repo
+
+jobs:
+  check-prices:
+    runs-on: ubuntu-latest       # GitHub lends us a fresh Linux computer each run
+
+    steps:
+      # Step 1: copy this repo's files onto that computer.
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      # Step 2: install Python.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Step 3: run our script (updates README.md and price_history.csv).
+      - name: Check prices
+        run: python price_watch.py
+
+      # Step 4: save the changed files back into the repo as a new commit.
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add README.md price_history.csv
+          # Only commit if something actually changed ("git diff --staged --quiet"
+          # succeeds when nothing changed, so || means "otherwise, commit").
+          git diff --staged --quiet || git commit -m "Daily price update"
+          git push
