@@ -14,7 +14,7 @@ PC **every morning**, using GitHub Actions. It looks at:
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-10-25 20:37 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-10-25 22:56 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -134,9 +134,9 @@ Target: **$899**
 |---|---:|---|---|---|
 | 💾 | **$959** | Computer & Parts Land | 1. [G.Skill F5-6000J3040G32GX2-RS5K Ripjaws S5 64GB (2x 32GB) DDR5 6000MH…](https://cplonline.com.au/g-skill-f5-6000j3040g32gx2-rs5k-ripjaws-s5-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black.html) | ⚪ check site |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_black_ac78807_77990.jpg?v=1787797249" width="60"> | **$1,499** | Mwave | 2. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Bl…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black-ac78807) | 🔴 out of stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_white_ac78811_35070.jpg?v=1787797250" width="60"> | **$1,499** | Mwave | 3. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Wh…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,799** | Scorptec | 4. [[SP064GXLWU60AFDF] Silicon Power XPOWER Zenith RGB 64GB (2x32GB) 6000…](https://www.scorptec.com.au/product/memory/ddr5-desktop-memory/129715-sp064gxlwu60afdf) | ⚪ check site |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,899** | PC Case Gear | 5. [G.Skill Trident Z5 64GB (2x32GB) 6000MHz CL30 DDR5 Silver [F5-6000J30…](https://www.pccasegear.com/products/61409/g-skill-trident-z5-64gb-2x32gb-6000mhz-cl30-ddr5-silver) | ⚪ check site |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,799** | Scorptec | 3. [[SP064GXLWU60AFDF] Silicon Power XPOWER Zenith RGB 64GB (2x32GB) 6000…](https://www.scorptec.com.au/product/memory/ddr5-desktop-memory/129715-sp064gxlwu60afdf) | ⚪ check site |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,899** | PC Case Gear | 4. [G.Skill Trident Z5 64GB (2x32GB) 6000MHz CL30 DDR5 Silver [F5-6000J30…](https://www.pccasegear.com/products/61409/g-skill-trident-z5-64gb-2x32gb-6000mhz-cl30-ddr5-silver) | ⚪ check site |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,899** | PC Case Gear | 5. [Klevv Cras V RGB 64GB (2x32GB) 6000MHz CL30 DDR5 Black [KD5BGUA80-60A…](https://www.pccasegear.com/products/71063/klevv-cras-v-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-black) | 🟢 in stock |
 
 ## Storage (SSD)
 
