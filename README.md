@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-10-25 23:54 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-10-26 00:00 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -109,9 +109,9 @@ Target: **$1,199**
 |---|---:|---|---|---|
 | <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/Inno3D-GeForce-RTX-5070-Ti-X3-16G-Graphics-Card-N507T3-16D7-176068N-5.jpg" width="60"> | **$1,339** | MSY | 1. [N507T3-16D7-176068N Inno3D GeForce RTX 5070 Ti X3 16G Graphics Ca(In …](https://www.msy.com.au/product/inno3d-geforce-rtx-5070-ti-x3-16g-graphics-card-n507t3-16d7-176068n-82142)<br><sub>Also: [$1,339 UMart](https://www.umart.com.au/product/inno3d-geforce-rtx-5070-ti-x3-16g-graphics-card-n507t3-16d7-176068n-82142)</sub> | 🟢 in stock |
 | <img src="https://assets.msy.com.au/newsite/images/202505/goods_img/PNY-GeForce-RTX-5070-Ti-ARGB-Triple-Fan-Plus-OC-16G-Graphics-Card-VCG5071T16TFXXPB1-O-8.jpg" width="60"> | **$1,449** | MSY | 2. [VCG5071T16TFXXPB1-O PNY GeForce RTX 5070 Ti ARGB Triple Fan Plus OC 1…](https://www.msy.com.au/product/pny-geforce-rtx-5070-ti-argb-triple-fan-plus-oc-16g-graphics-card-vcg5071t16tfxxpb1-o-83532)<br><sub>Also: [$1,449 UMart](https://www.umart.com.au/product/pny-geforce-rtx-5070-ti-argb-triple-fan-plus-oc-16g-graphics-card-vcg5071t16tfxxpb1-o-83532)</sub> | ⚪ check site |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/inno3d_geforce_rtx_5070_ti_x3_oc_16gb_gddr7_video_card_ac83002_53782.jpg?v=1787797058" width="60"> | **$1,949** | Mwave | 3. [Inno3D GeForce RTX 5070 TI X3 OC 16GB GDDR7 Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-oc-16gb-gddr7-video-card-ac83002) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5070_ti_gamingpros_16gb_video_card_ac88912_93702.jpg?v=1787798042" width="60"> | **$1,899** | Mwave | 3. [Palit GeForce RTX 5070 Ti GamingPro-S 16GB Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5070-ti-gamingpros-16gb-video-card-ac88912) | 🟢 in stock |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/asus_prime_geforce_rtx_5070_ti_16gb_gddr7_oc_edition_video_card_ac81834_13581.jpg?v=1787795415" width="60"> | **$1,949** | Mwave | 4. [ASUS PRIME GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-prime-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-video-card-ac81834) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_eagle_oc_sff_16gb_video_card_ac82612_8265.jpg?v=1787796644" width="60"> | **$1,999** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti EAGLE OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-eagle-oc-16gb-video-card-ac82612) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/inno3d_geforce_rtx_5070_ti_x3_oc_16gb_gddr7_video_card_ac83002_53782.jpg?v=1787797058" width="60"> | **$1,949** | Mwave | 5. [Inno3D GeForce RTX 5070 TI X3 OC 16GB GDDR7 Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-oc-16gb-gddr7-video-card-ac83002) | 🟢 in stock |
 
 <details>
 <summary>OzBargain deal history, last 12 months (11)</summary>
