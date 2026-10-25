@@ -20,6 +20,20 @@
     "product/amd-radeon-rx-9070-xt",
     "product/amd-ryzen-7-9800x3d"
   ],
+  "_history_help": "Pages used to build the OzBargain price HISTORY (deal_history.csv). Only /product/ and /tag/ pages - OzBargain's robots.txt allows those.",
+  "ozbargain_history_pages": [
+    "product/amd-radeon-rx-9070-xt",
+    "product/nvidia-geforce-rtx-5070-ti",
+    "product/nvidia-geforce-rtx-5080",
+    "product/nvidia-geforce-rtx-5090",
+    "product/amd-ryzen-7-9800x3d",
+    "product/amd-ryzen-7-9850x3d",
+    "product/amd-ryzen-9-9950x3d",
+    "tag/video-card",
+    "tag/cpu",
+    "tag/ddr5",
+    "tag/ssd"
+  ],
   "parts": [
     {
       "category": "Graphics cards",

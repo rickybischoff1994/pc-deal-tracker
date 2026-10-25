@@ -1,7 +1,7 @@
 # PC Deal Tracker 🖥️
 
 A Python project that checks Australian prices for the parts in my next gaming
-PC **every morning**, using GitHub Actions. It looks at:
+PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It looks at:
 
 - **[StaticICE](https://www.staticice.com.au)** - a price-comparison site covering ~15 stores
   (PC Case Gear, Scorptec, Umart, MSY, JB Hi-Fi, Computer & Parts Land, JW Computers,
@@ -188,7 +188,13 @@ Target: **$1,199**
    wrong products (water blocks, laptops, prebuilt PCs...), sorts them cheapest
    first, finds pictures, and rewrites this page. It also adds the cheapest
    price for each part to **`price_history.csv`**.
-4. **`.github/workflows/price-watch.yml`** tells GitHub to run it every morning.
+4. **`history.py`** keeps the price history. It saves real, dated OzBargain deals
+   (including expired ones, from the last ~45 days) into **`deal_history.csv`**
+   and draws a 30-day price graph for every part into **`charts/`** (plain SVG
+   files written by Python). Every dot is a real price with a real date - nothing
+   is estimated or filled in, so a part with few data points just shows few dots.
+5. **`.github/workflows/price-watch.yml`** tells GitHub to run it twice a day and
+   save the new files back to the repo.
 
 ## Run it yourself
 
@@ -210,6 +216,8 @@ Edit `parts.json` - add a part, change a target price, or add words to
 - Splitting a program into modules (`sources.py`)
 - Reading/writing JSON and CSV files
 - Scheduling code with GitHub Actions (cron)
+- Drawing graphs by writing SVG (text) files from Python, with no libraries
+- Keeping a history file that can be re-run safely without adding duplicates
 
 _Prices are for my own tracking only and may be out of date - always check the
 store's site before buying._

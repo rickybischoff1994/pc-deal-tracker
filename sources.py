@@ -29,6 +29,7 @@ WEBSITES USED:
 import html
 import json
 import re
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
@@ -235,6 +236,126 @@ def ozbargain_deals(feed_paths, days=30):
             }
     # .values() gives just the deals, without the link keys.
     return list(deals.values())
+
+
+# ---------------------------------------------------------------------------
+# OZBARGAIN HISTORY - old deals too (including expired ones), with their dates
+# ---------------------------------------------------------------------------
+OZB_SITE = "https://www.ozbargain.com.au"
+
+
+def deal_from_title(title, link, posted_day, expired, votes):
+    """
+    Build one deal dictionary (same shape as ozbargain_deals returns) from the
+    bits of a deal post. `posted_day` is a date. Extra labelled values:
+    "posted_date" (like "2026-09-18") and "expired" (True/False).
+    """
+    # Find the first "$123" or "$1,234.56" in the title = the deal price.
+    price = re.search(r"\$([\d,]+(?:\.\d\d)?)", title)
+    # Shops are named after an "@" at the end, e.g. "... @ Amazon AU".
+    store = title.rsplit("@", 1)[1].strip() if "@" in title else "OzBargain"
+    return {
+        "price": float(price.group(1).replace(",", "")) if price else None,
+        "title": title,
+        "store": store,
+        "link": link,
+        "stock": "?",
+        "image": "",
+        "source": "OzBargain",
+        "posted": posted_day.strftime("%d %b"),
+        "posted_date": posted_day.strftime("%Y-%m-%d"),
+        "expired": expired,
+        "votes": votes,
+    }
+
+
+def parse_ozbargain_page(page_html):
+    """
+    Read one OzBargain web page (a product page or a tag page) and return a
+    list of deals. Each deal on the page is a <div class="node node-ozbdeal ...">
+    block. Finished deals have the word "expired" in that div's class, and
+    "soldout" means the shop ran out of stock. The newest deals come first.
+    """
+    deals = []
+    # Cut the page into one chunk per deal. (?=...) means "split just before".
+    for chunk in re.split(r'(?=<div class="node node-ozbdeal)', page_html)[1:]:
+        classes = re.match(r'<div class="([^"]*)"', chunk).group(1)
+        node_id = re.search(r'id="node(\d+)"', chunk)
+        title = re.search(r'data-title="([^"]*)"', chunk)
+        # The post date looks like "on 18/09/2026 - 14:20".
+        when = re.search(r"on (\d\d)/(\d\d)/(\d{4}) - \d\d:\d\d", chunk)
+        if not (node_id and title and when):
+            continue                      # not a normal deal block - skip it
+        posted_day = datetime(int(when.group(3)), int(when.group(2)), int(when.group(1))).date()
+        votes = re.search(r'class="nvb voteup"><i[^>]*></i><span>(\d+)', chunk)
+        deals.append(deal_from_title(
+            clean_text(title.group(1)),
+            f"{OZB_SITE}/node/{node_id.group(1)}",
+            posted_day,
+            "expired" in classes.split() or "soldout" in classes.split(),
+            int(votes.group(1)) if votes else 0,
+        ))
+    return deals
+
+
+def ozbargain_history(page_paths, feed_paths, days=45, max_pages=6, pause=2):
+    """
+    Collect OzBargain deals from the last `days` days, INCLUDING expired ones
+    (they are real past prices). Two kinds of source:
+      * page_paths - product/tag pages such as "product/amd-ryzen-7-9800x3d"
+        or "tag/ddr5". These list many old deals, 20 per page, so we keep
+        turning the page (?page=1, ?page=2...) until deals get too old.
+      * feed_paths - RSS feeds (also include expired deals and their dates).
+    We only visit pages OzBargain's robots.txt allows (/product/, /tag/, /cat/),
+    and wait `pause` seconds between requests to be polite.
+    """
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).date()
+    found = {}                            # keyed by link so repeats collapse into one
+
+    for path in page_paths:
+        for page_number in range(max_pages):
+            url = f"{OZB_SITE}/{path}" + (f"?page={page_number}" if page_number else "")
+            try:
+                page = download(url)
+            except Exception as error:
+                print(f"  OzBargain page {path} (page {page_number}) failed: {error}")
+                break                     # give up on this path, try the next
+            time.sleep(pause)
+            deals = parse_ozbargain_page(page)
+            for deal in deals:
+                found[deal["link"]] = deal
+            # Stop when the page is empty, has no "next page" button, or its
+            # oldest deal is already older than we care about.
+            if not deals or "pager-next" not in page or deals[-1]["posted_date"] < cutoff.isoformat():
+                break
+
+    for path in feed_paths:
+        try:
+            feed = download(f"{OZB_SITE}/{path}/feed")
+        except Exception as error:
+            print(f"  OzBargain feed {path} failed: {error}")
+            continue
+        time.sleep(pause)
+        for item in re.findall(r"<item>(.*?)</item>", feed, re.DOTALL):
+            title = re.search(r"<title>(.*?)</title>", item, re.DOTALL)
+            link = re.search(r"<link>(.*?)</link>", item)
+            pub = re.search(r"<pubDate>(.*?)</pubDate>", item)
+            if not (title and link and pub):
+                continue
+            posted = parsedate_to_datetime(pub.group(1))
+            expiry = re.search(r'expiry="([^"]+)"', item)
+            # A deal is finished if the feed says so, or its expiry time has passed.
+            expired = 'type="expired"' in item or bool(
+                expiry and datetime.fromisoformat(expiry.group(1)) < datetime.now(timezone.utc))
+            votes = re.search(r'votes-pos="(\d+)"', item)
+            deal = deal_from_title(clean_text(title.group(1)), link.group(1), posted.date(),
+                                   expired, int(votes.group(1)) if votes else 0)
+            # Keep the page version if we already have one (pages are just as good).
+            found.setdefault(deal["link"], deal)
+
+    # Drop anything older than the cutoff, newest first.
+    recent = [d for d in found.values() if d["posted_date"] >= cutoff.isoformat()]
+    return sorted(recent, key=lambda d: d["posted_date"], reverse=True)
 
 
 # ===========================================================================

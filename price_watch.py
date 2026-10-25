@@ -8,8 +8,10 @@ HOW IT WORKS (the big picture):
   3. Throw away listings that don't match (wrong product, accessories...)
   4. Sort what's left from cheapest to dearest and keep the top few
   5. Find a product picture for each one
-  6. Write everything into README.md (the repo's front page) and save the
-     cheapest price for each part into price_history.csv
+  6. Save the cheapest price for each part into price_history.csv, remember
+     real OzBargain deals in deal_history.csv, and draw a price graph for
+     every part into charts/ (see history.py)
+  7. Write everything into README.md (the repo's front page)
 
 This program only uses Python's built-in "standard library", so there is
 nothing extra to install. Run it yourself with:
@@ -26,6 +28,7 @@ import time                     # lets us pause between web requests
 from datetime import datetime, timezone, timedelta
 from pathlib import Path        # a tidy way to work with file paths
 
+import history                  # price history + graphs (our own file)
 import sources                  # our file with one function per website
 
 # ---------------------------------------------------------------------------
@@ -242,6 +245,13 @@ def build_report(rows, checked_at, sources_used):
 
         lines += ["", f"### {part['name']}",
                   f"Target: **{money(part['target_price'])}**", ""]
+
+        # The price graph made by history.py. Only embed it if the file exists,
+        # so a failed chart never leaves a broken-image icon in the README.
+        slug = history.slugify(part["name"])
+        if (HERE / "charts" / f"{slug}.svg").exists():
+            lines += [f"![Price history for {part['name']}](charts/{slug}.svg)", ""]
+
         if not row["top"]:
             lines.append("_Nothing matching found today._")
         else:
@@ -262,7 +272,33 @@ def build_report(rows, checked_at, sources_used):
             for deal in row["deals"]:
                 lines.append(f"- {deal['posted']} · 👍 {deal['votes']} · "
                              f"[{safe(deal['title'], 120)}]({deal['link']})")
+
+        lines += history_details(part["name"])
     return "\n".join(lines)
+
+
+def history_details(part_name):
+    """
+    A collapsible list (<details>) of the OzBargain deals saved for this part
+    in the last 30 days, including expired ones. Returns a list of lines,
+    or an empty list if there are no deals (so nothing is added).
+    """
+    try:
+        deals = history.recent_deals(part_name)
+    except Exception as error:         # never let the history break the report
+        print(f"  Could not read deal history: {error}")
+        return []
+    if not deals:
+        return []
+    lines = ["", "<details>", f"<summary>OzBargain deal history ({len(deals)})</summary>", ""]
+    for deal in deals:
+        # "2026-09-18" -> "18 Sep"
+        day = datetime.strptime(deal["posted_date"], "%Y-%m-%d").strftime("%d %b")
+        expired = " (expired)" if deal["expired"] == "yes" else ""
+        lines.append(f"- {day} · {money(float(deal['price']))} · {safe(deal['store'], 40)} · "
+                     f"[{safe(deal['title'], 100)}]({deal['link']}){expired}")
+    lines += ["", "</details>"]
+    return lines
 
 
 def anchor(heading):
@@ -333,9 +369,26 @@ def main():
     add_pictures(rows, image_cache)
     IMAGE_CACHE_FILE.write_text(json.dumps(image_cache, indent=1), encoding="utf-8")
 
-    update_readme(build_report(rows, checked_at, "StaticICE (~15 stores), Mwave, OzBargain"))
+    # Save our own prices first, so today's check is on the graphs too.
     save_history(rows, checked_at)
-    print("Done! README.md and price_history.csv updated.")
+
+    # Price history + graphs. Each step has its own try/except: if one goes wrong
+    # (OzBargain down, a bug...) we print a note, carry on, and still write the report.
+    try:
+        print("Reading OzBargain deal history...")
+        found = sources.ozbargain_history(settings.get("ozbargain_history_pages", []),
+                                          settings.get("ozbargain_feeds", []))
+        new = history.update_deal_history(settings["parts"], skip_everywhere, found, is_good_match)
+        print(f"  {len(found)} deals read, {new} new saved to deal_history.csv")
+    except Exception as error:
+        print(f"  Deal history failed (the price report still gets written): {error}")
+    try:
+        print(f"  {history.draw_charts(settings['parts'])} charts drawn in charts/")
+    except Exception as error:
+        print(f"  Charts failed (the price report still gets written): {error}")
+
+    update_readme(build_report(rows, checked_at, "StaticICE (~15 stores), Mwave, OzBargain"))
+    print("Done! README.md, price_history.csv, deal_history.csv and charts/ updated.")
 
 
 # Only run main() when this file is run directly (not when imported).
