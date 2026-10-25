@@ -38,10 +38,11 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="171.4" x2="696" y2="171.4" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="166.4" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $699</text>
-<polyline points="672.0,116.0 674.1,116.0 674.2,116.0 674.9,116.0 675.0,116.0" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="672.0,116.0 674.1,116.0 674.2,116.0 674.9,116.0 675.0,116.0 675.1,116.0" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="672.0" cy="116.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $740 at CCPU Computers</title></circle>
 <circle cx="674.1" cy="116.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $740 at CCPU Computers</title></circle>
 <circle cx="674.2" cy="116.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $740 at CCPU Computers</title></circle>
 <circle cx="674.9" cy="116.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:54: $740 at CCPU Computers</title></circle>
 <circle cx="675.0" cy="116.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:00: $740 at CCPU Computers</title></circle>
+<circle cx="675.1" cy="116.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:07: $740 at CCPU Computers</title></circle>
 </svg>
