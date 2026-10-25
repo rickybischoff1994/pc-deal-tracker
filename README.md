@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-10-25 22:56 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-10-25 23:08 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -38,6 +38,8 @@ _Last checked: 2026-10-25 22:56 (Brisbane time) · Sources: StaticICE (~15 store
 ### RX 9070 XT
 Target: **$1,099**
 
+![Price history for RX 9070 XT](charts/rx-9070-xt.svg)
+
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | 🎮 | **$1,199** | PC Case Gear | 1. [PowerColor Radeon RX 9070 XT Reaper 16GB [RX9070XT-16G-A]](https://www.pccasegear.com/products/68061/powercolor-radeon-rx-9070-xt-reaper-16gb) | ⚪ check site |
@@ -49,6 +51,8 @@ Target: **$1,099**
 ### RTX 5070 Ti
 Target: **$1,199**
 
+![Price history for RTX 5070 Ti](charts/rtx-5070-ti.svg)
+
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/Inno3D-GeForce-RTX-5070-Ti-X3-16G-Graphics-Card-N507T3-16D7-176068N-5.jpg" width="60"> | **$1,339** | MSY | 1. [N507T3-16D7-176068N Inno3D GeForce RTX 5070 Ti X3 16G Graphics Ca(In …](https://www.msy.com.au/product/inno3d-geforce-rtx-5070-ti-x3-16g-graphics-card-n507t3-16d7-176068n-82142) | 🟢 in stock |
@@ -57,8 +61,17 @@ Target: **$1,199**
 | <img src="https://assets.umart.com.au/newsite/images/202505/goods_img/PNY-GeForce-RTX-5070-Ti-ARGB-Triple-Fan-Plus-OC-16G-Graphics-Card-VCG5071T16TFXXPB1-O-8.jpg" width="60"> | **$1,449** | UMart | 4. [VCG5071T16TFXXPB1-O PNY GeForce RTX 5070 Ti ARGB Triple Fan Plus OC 1…](https://www.umart.com.au/product/pny-geforce-rtx-5070-ti-argb-triple-fan-plus-oc-16g-graphics-card-vcg5071t16tfxxpb1-o-83532) | ⚪ check site |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5070_ti_gamingpros_16gb_video_card_ac88912_93702.jpg?v=1787798042" width="60"> | **$1,899** | Mwave | 5. [Palit GeForce RTX 5070 Ti GamingPro-S 16GB Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5070-ti-gamingpros-16gb-video-card-ac88912) | 🟢 in stock |
 
+<details>
+<summary>OzBargain deal history (1)</summary>
+
+- 16 Oct · $1,449 · Umart · [PNY GeForce RTX 5070 Ti ARGB Triple Fan Plus OC 16G Graphics Card $1,449 + Delivery ($0 C&C) @ Umart](https://www.ozbargain.com.au/node/979226) (expired)
+
+</details>
+
 ### RTX 5080
 Target: **$1,799**
+
+![Price history for RTX 5080](charts/rtx-5080.svg)
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
@@ -70,6 +83,8 @@ Target: **$1,799**
 
 ### RTX 5090
 Target: **$4,200**
+
+![Price history for RTX 5090](charts/rtx-5090.svg)
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
@@ -84,6 +99,8 @@ Target: **$4,200**
 ### Ryzen 7 9800X3D
 Target: **$549**
 
+![Price history for Ryzen 7 9800X3D](charts/ryzen-7-9800x3d.svg)
+
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | <img src="https://assets.msy.com.au/newsite/images/202411/goods_img/AMD-CPU-AMD-Ryzen-7-9800X3D-8-Core-AM5-5-2GHz-CPU-Processor-100-100001084WOF-2.jpg" width="60"> | **$595** | CCPU Computers | 1. [AMD RYZEN 7 9800X3D CPU 100-100001084WOF](https://www.ccpu.com.au/product/amd-ryzen-7-9800x3d-cpu-100-100001084wof/) | ⚪ check site |
@@ -92,8 +109,17 @@ Target: **$549**
 | <img src="https://assets.msy.com.au/newsite/images/202411/goods_img/AMD-CPU-AMD-Ryzen-7-9800X3D-8-Core-AM5-5-2GHz-CPU-Processor-100-100001084WOF-2.jpg" width="60"> | **$599** | MSY | 4. [100-100001084WOF AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Proces(In …](https://www.msy.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125) | 🟢 in stock |
 | <img src="https://assets.umart.com.au/newsite/images/202411/goods_img/AMD-CPU-AMD-Ryzen-7-9800X3D-8-Core-AM5-5-2GHz-CPU-Processor-100-100001084WOF-2.jpg" width="60"> | **$599** | UMart | 5. [100-100001084WOF AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Proces(In …](https://www.umart.com.au/product/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof-80125) | 🟢 in stock |
 
+<details>
+<summary>OzBargain deal history (1)</summary>
+
+- 04 Oct · $581.99 · Amazon DE via AU · [AMD Ryzen 7 9800X3D 8-Core, 16-Thread Desktop Processor $581.99 (RRP $821) Delivered @ Amazon DE vi…](https://www.ozbargain.com.au/node/977686) (expired)
+
+</details>
+
 ### Ryzen 7 9850X3D
 Target: **$699**
+
+![Price history for Ryzen 7 9850X3D](charts/ryzen-7-9850x3d.svg)
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
@@ -106,6 +132,8 @@ Target: **$699**
 ### Ryzen 9 9950X3D
 Target: **$899**
 
+![Price history for Ryzen 9 9950X3D](charts/ryzen-9-9950x3d.svg)
+
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | <img src="https://assets.umart.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$835** ✅ | CCPU Computers | 1. [AMD RYZEN 9 9950X3D OEM CPU on tray 100-100000719WOF 3 years wty](https://www.ccpu.com.au/product/amd-ryzen-9-9950x3d-oem-cpu-on-tray-100-100000719wof-3-years-wty/) | ⚪ check site |
@@ -114,10 +142,19 @@ Target: **$899**
 | <img src="https://assets.umart.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$939** | PC Case Gear | 4. [AMD Ryzen 9 9950X3D Processor [100-100000719WOF] [Avail: In Stock]](https://www.pccasegear.com/products/68688/amd-ryzen-9-9950x3d-processor) | 🟢 in stock |
 | <img src="https://assets.umart.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$939** | Scorptec | 5. [[100-100000719WOF] AMD Ryzen 9 9950X3D Desktop Processor](https://www.scorptec.com.au/product/cpu/amd-socket-am5/116832-100-100000719wof) | ⚪ check site |
 
+<details>
+<summary>OzBargain deal history (1)</summary>
+
+- 09 Oct · $848.50 · Amazon UK via AU · [AMD Ryzen 9 9950X3D CPU $848.50 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/978308) (expired)
+
+</details>
+
 ## Memory (RAM)
 
 ### DDR5 32GB (2x16GB) 6000MHz CL30
 Target: **$349**
+
+![Price history for DDR5 32GB (2x16GB) 6000MHz CL30](charts/ddr5-32gb-2x16gb-6000mhz-cl30.svg)
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
@@ -129,6 +166,8 @@ Target: **$349**
 
 ### DDR5 64GB (2x32GB) 6000MHz CL30
 Target: **$899**
+
+![Price history for DDR5 64GB (2x32GB) 6000MHz CL30](charts/ddr5-64gb-2x32gb-6000mhz-cl30.svg)
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
@@ -143,6 +182,8 @@ Target: **$899**
 ### 2TB NVMe SSD
 Target: **$219**
 
+![Price history for 2TB NVMe SSD](charts/2tb-nvme-ssd.svg)
+
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | 🗄️ | **$226.70** | Computer & Parts Land | 1. [MSI SPATIUM M470 PRO 2TB PCIe 4.0 NVMe M.2 2280 SSD](https://cplonline.com.au/msi-spatium-m470-pro-2tb-pcie-4-0-nvme-m-2-2280-ssd.html) | ⚪ check site |
@@ -155,8 +196,25 @@ Target: **$219**
 
 - 23 Oct · 👍 53 · [Crucial P310 2280 PCIe Gen4 3D NAND NVMe M.2 Internal SSD 2TB $363.18 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/980031)
 
+<details>
+<summary>OzBargain deal history (9)</summary>
+
+- 25 Oct · $272.29 · Amazon Germany via AU · [Western Digital WD Black SN850P NVMe M.2 2TB SSD for PS5 $272.29 Delivered @ Amazon Germany via AU](https://www.ozbargain.com.au/node/980297) (expired)
+- 23 Oct · $363.18 · Amazon UK via AU · [Crucial P310 2280 PCIe Gen4 3D NAND NVMe M.2 Internal SSD 2TB $363.18 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/980031)
+- 21 Oct · $451.25 · Mwave · [[Back Order] Lexar NM990 2TB PCIe 5.0 NVMe M.2 SSD $451.25 + Free Shipping @ Mwave](https://www.ozbargain.com.au/node/979814) (expired)
+- 17 Oct · $389 · MSY · [PNY CS2241 2TB PCIe Gen4 M.2 NVMe SSD $389 + Shipping ($0 C&C) @ MSY](https://www.ozbargain.com.au/node/979321) (expired)
+- 12 Oct · $405.02 · Amazon UK via AU · [Corsair MP700 PRO with Air Cooler 2TB M.2 PCIe Gen5 x4 NVMe 2.0 SSD $405.02 Delivered @ Amazon UK v…](https://www.ozbargain.com.au/node/978619) (expired)
+- 08 Oct · $333.67 · Amazon AU · [WD_BLACK SN850P 2TB NVMe M.2 SSD for PS5 (with Heatsink) $333.67 Delivered @ Amazon AU](https://www.ozbargain.com.au/node/978162) (expired)
+- 06 Oct · $589 · Computer Alliance · [Samsung 990 EVO Plus 2TB M.2 NVMe Gen4 SSD $589 + Delivery ($0 QLD C&C) @ Computer Alliance](https://www.ozbargain.com.au/node/977841)
+- 25 Sep · $231.95 · Mwave · [Silicon Power XS70 2TB PCIe Gen 4 NVMe M.2 SSD $231.95 + Delivery @ Mwave](https://www.ozbargain.com.au/node/976405) (expired)
+- 25 Sep · $159 · Mwave · [Kingston NV2 2TB NVMe M.2 2280 SSD $159.00 + Delivery @ Mwave](https://www.ozbargain.com.au/node/976408) (expired)
+
+</details>
+
 ### 4TB NVMe SSD
 Target: **$429**
+
+![Price history for 4TB NVMe SSD](charts/4tb-nvme-ssd.svg)
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
@@ -166,8 +224,17 @@ Target: **$429**
 | <img src="https://assets.umart.com.au/newsite/images/202411/goods_img/SSD-Hard-Drives-KLEVV-4TB-CRAS-C910-K04TBM2SP0-C91-PCIe-4-0-NVMe-M-2-2280-SSD-4.jpg" width="60"> | **$549** | UMart | 4. [K04TBM2SP0-C91 KLEVV 4TB CRAS C910 PCIe 4.0 NVMe M.2 2280 SSD(In Stoc…](https://www.umart.com.au/product/klevv-4tb-cras-c910-k04tbm2sp0-c91-pcie-4-0-nvme-m-2-2280-ssd-80369) | 🟢 in stock |
 | <img src="https://assets.umart.com.au/newsite/images/202111/goods_img/61471_P_1638249144002.jpg" width="60"> | **$549** | UMart | 5. [SFYRD/4000g Kingston FURY Renegade 4TB PCIe Gen4 M.2 2280 NVMe SSD](https://www.umart.com.au/product/kingston-fury-renegade-4tb-pcie-gen4-m-2-2280-nvme-ssd-sfyrd-4000g-61471) | ⚪ check site |
 
+<details>
+<summary>OzBargain deal history (1)</summary>
+
+- 28 Sep · $637.43 · Amazon UK via AU · [Corsair MP600 PRO LPX 4TB M.2 NVMe PCIe X4 Gen4 SSD $637.43 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/976703) (expired)
+
+</details>
+
 ### 8TB NVMe SSD
 Target: **$1,199**
+
+![Price history for 8TB NVMe SSD](charts/8tb-nvme-ssd.svg)
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
