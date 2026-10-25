@@ -1,0 +1,119 @@
+{
+  "_how_to_edit": "Each part below is one thing to watch. 'search' is what we type into StaticICE. A result must contain ALL of 'must_include' words and NONE of 'exclude' words. Results cheaper than 'min_price' are skipped (that filters out accessories). 'target_price' is the price you'd be happy to pay, in AUD.",
+  "parts": [
+    {
+      "name": "GPU - Radeon RX 9070 XT 16GB",
+      "search": "9070 XT",
+      "must_include": [
+        "9070",
+        "xt"
+      ],
+      "exclude": [
+        "water block",
+        "waterblock",
+        "backplate",
+        "bracket",
+        "cable",
+        "desktop",
+        "gaming pc",
+        "system"
+      ],
+      "min_price": 700,
+      "target_price": 1099
+    },
+    {
+      "name": "CPU - Ryzen 7 9800X3D",
+      "search": "9800X3D",
+      "must_include": [
+        "9800x3d"
+      ],
+      "exclude": [
+        "desktop",
+        "gaming pc",
+        "system",
+        "bundle",
+        "combo",
+        "rtx",
+        "radeon",
+        "motherboard"
+      ],
+      "min_price": 400,
+      "target_price": 549
+    },
+    {
+      "name": "RAM - DDR5 32GB (2x16GB) 6000MHz CL30",
+      "search": "DDR5 32GB 6000 CL30",
+      "must_include": [
+        "ddr5",
+        "32gb",
+        "6000",
+        "cl30"
+      ],
+      "exclude": [
+        "sodimm",
+        "so-dimm",
+        "laptop",
+        "notebook"
+      ],
+      "min_price": 100,
+      "target_price": 299
+    },
+    {
+      "name": "RAM - DDR5 64GB (2x32GB) 6000MHz CL30",
+      "search": "DDR5 64GB 6000 CL30",
+      "must_include": [
+        "ddr5",
+        "64gb",
+        "6000",
+        "cl30"
+      ],
+      "exclude": [
+        "sodimm",
+        "so-dimm",
+        "laptop",
+        "notebook"
+      ],
+      "min_price": 200,
+      "target_price": 699
+    },
+    {
+      "name": "SSD - 2TB NVMe Gen4",
+      "search": "2TB NVMe SSD",
+      "must_include": [
+        "2tb",
+        "nvme",
+        "2280"
+      ],
+      "exclude": [
+        "2230",
+        "2242",
+        "enclosure",
+        "external",
+        "portable",
+        "gen3",
+        "heatsink only"
+      ],
+      "min_price": 120,
+      "target_price": 219
+    },
+    {
+      "name": "SSD - 4TB NVMe Gen4",
+      "search": "4TB NVMe SSD",
+      "must_include": [
+        "4tb",
+        "nvme",
+        "2280"
+      ],
+      "exclude": [
+        "2230",
+        "2242",
+        "enclosure",
+        "external",
+        "portable",
+        "gen3"
+      ],
+      "min_price": 250,
+      "target_price": 429
+    }
+  ]
+}
