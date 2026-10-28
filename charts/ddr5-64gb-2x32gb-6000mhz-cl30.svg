@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="171.1" x2="696" y2="171.1" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="166.1" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $899</text>
-<polyline points="630.0,106.3 632.1,106.3 632.2,106.3 632.9,106.3 633.0,106.3 633.1,106.3 640.0,106.3 650.8,106.3 661.1,106.3 671.7,106.3 682.2,106.3" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="630.0,106.3 632.1,106.3 632.2,106.3 632.9,106.3 633.0,106.3 633.1,106.3 640.0,106.3 650.8,106.3 661.1,106.3 671.7,106.3 682.2,106.3 692.8,106.3" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="630.0" cy="106.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $959 at Computer &amp; Parts Land</title></circle>
 <circle cx="632.1" cy="106.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $959 at Computer &amp; Parts Land</title></circle>
 <circle cx="632.2" cy="106.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $959 at Computer &amp; Parts Land</title></circle>
@@ -50,4 +50,5 @@
 <circle cx="661.1" cy="106.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 08:08: $959 at Computer &amp; Parts Land</title></circle>
 <circle cx="671.7" cy="106.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 20:17: $959 at Computer &amp; Parts Land</title></circle>
 <circle cx="682.2" cy="106.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $959 at Computer &amp; Parts Land</title></circle>
+<circle cx="692.8" cy="106.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $959 at Computer &amp; Parts Land</title></circle>
 </svg>
