@@ -36,7 +36,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="177.0" x2="696" y2="177.0" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="172.0" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $549</text>
-<polyline points="609.0,102.5 611.1,102.5 611.2,102.5 611.9,102.5 612.0,102.5 612.1,102.5 619.0,102.5 629.8,102.5 640.1,102.5 650.7,102.5 661.2,102.5 671.8,102.5 682.2,102.5" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="609.0,102.5 611.1,102.5 611.2,102.5 611.9,102.5 612.0,102.5 612.1,102.5 619.0,102.5 629.8,102.5 640.1,102.5 650.7,102.5 661.2,102.5 671.8,102.5 682.2,102.5 692.9,102.5" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="609.0" cy="102.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $595 at CCPU Computers</title></circle>
 <circle cx="611.1" cy="102.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $595 at CCPU Computers</title></circle>
 <circle cx="611.2" cy="102.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $595 at CCPU Computers</title></circle>
@@ -50,5 +50,6 @@
 <circle cx="661.2" cy="102.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $595 at CCPU Computers</title></circle>
 <circle cx="671.8" cy="102.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $595 at CCPU Computers</title></circle>
 <circle cx="682.2" cy="102.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $595 at CCPU Computers</title></circle>
+<circle cx="692.9" cy="102.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $595 at CCPU Computers</title></circle>
 <path d="M160.5 117.6 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-10-04: $581.99 - AMD Ryzen 7 9800X3D 8-Core, 16-Thread Desktop Processor $581.99 (RRP $821) Delivered @ Amazon DE via AU (expired)</title></path>
 </svg>

@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="197.3" x2="696" y2="197.3" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="192.3" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,199</text>
-<polyline points="609.0,89.3 611.1,89.3 611.2,89.3 611.9,89.3 612.0,89.3 612.1,89.3 619.0,89.3 629.8,89.3 640.1,89.3 650.7,89.3 661.2,89.3 671.8,89.3 682.2,89.3" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="609.0,89.3 611.1,89.3 611.2,89.3 611.9,89.3 612.0,89.3 612.1,89.3 619.0,89.3 629.8,89.3 640.1,89.3 650.7,89.3 661.2,89.3 671.8,89.3 682.2,89.3 692.9,89.3" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="609.0" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $1,599 at Scorptec</title></circle>
 <circle cx="611.1" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $1,599 at Scorptec</title></circle>
 <circle cx="611.2" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $1,599 at Scorptec</title></circle>
@@ -52,4 +52,5 @@
 <circle cx="661.2" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $1,599 at Scorptec</title></circle>
 <circle cx="671.8" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $1,599 at Scorptec</title></circle>
 <circle cx="682.2" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $1,599 at Scorptec</title></circle>
+<circle cx="692.9" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $1,599 at Scorptec</title></circle>
 </svg>

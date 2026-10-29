@@ -36,7 +36,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.9" x2="696" y2="191.9" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.9" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,799</text>
-<polyline points="609.0,94.7 611.1,94.7 611.2,94.7 611.9,94.7 612.0,94.7 612.1,94.7 619.0,94.7 629.8,94.7 640.1,159.5 650.7,159.5 661.2,159.5 671.8,159.5 682.2,159.5" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="609.0,94.7 611.1,94.7 611.2,94.7 611.9,94.7 612.0,94.7 612.1,94.7 619.0,94.7 629.8,94.7 640.1,159.5 650.7,159.5 661.2,159.5 671.8,159.5 682.2,159.5 692.9,159.5" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="609.0" cy="94.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
 <circle cx="611.1" cy="94.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
 <circle cx="611.2" cy="94.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
@@ -50,4 +50,5 @@
 <circle cx="661.2" cy="159.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $1,899 at MSY</title></circle>
 <circle cx="671.8" cy="159.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $1,899 at MSY</title></circle>
 <circle cx="682.2" cy="159.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $1,899 at MSY</title></circle>
+<circle cx="692.9" cy="159.5" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $1,899 at MSY</title></circle>
 </svg>
