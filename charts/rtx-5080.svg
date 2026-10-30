@@ -23,36 +23,37 @@
 <line x1="66" y1="62.0" x2="696" y2="62.0" stroke="#d0d7de"/>
 <text x="58" y="66.0" font-size="11" text-anchor="end" fill="#1f2328">$3,000</text>
 <line x1="685.5" y1="224" x2="685.5" y2="228" stroke="#1f2328"/>
-<text x="685.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">30 Oct</text>
+<text x="685.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">31 Oct</text>
 <line x1="580.5" y1="224" x2="580.5" y2="228" stroke="#1f2328"/>
-<text x="580.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">25 Oct</text>
+<text x="580.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">26 Oct</text>
 <line x1="475.5" y1="224" x2="475.5" y2="228" stroke="#1f2328"/>
-<text x="475.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">20 Oct</text>
+<text x="475.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">21 Oct</text>
 <line x1="370.5" y1="224" x2="370.5" y2="228" stroke="#1f2328"/>
-<text x="370.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">15 Oct</text>
+<text x="370.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">16 Oct</text>
 <line x1="265.5" y1="224" x2="265.5" y2="228" stroke="#1f2328"/>
-<text x="265.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">10 Oct</text>
+<text x="265.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">11 Oct</text>
 <line x1="160.5" y1="224" x2="160.5" y2="228" stroke="#1f2328"/>
-<text x="160.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">5 Oct</text>
+<text x="160.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">6 Oct</text>
 <line x1="66" y1="224" x2="696" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.7" x2="696" y2="191.7" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.7" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,799</text>
-<polyline points="588.0,159.3 590.1,159.3 590.2,159.3 590.9,159.3 591.0,159.3 591.1,159.3 598.0,159.3 608.8,159.3 619.1,180.9 629.7,180.9 640.2,180.9 650.8,180.9 661.2,180.9 671.9,180.9 682.2,98.3 692.9,98.3" fill="none" stroke="#0969da" stroke-width="2"/>
-<circle cx="588.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
-<circle cx="590.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
-<circle cx="590.2" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
-<circle cx="590.9" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:54: $2,099 at UMart</title></circle>
-<circle cx="591.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:00: $2,099 at UMart</title></circle>
-<circle cx="591.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:07: $2,099 at UMart</title></circle>
-<circle cx="598.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 07:59: $2,099 at UMart</title></circle>
-<circle cx="608.8" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 20:19: $2,099 at UMart</title></circle>
-<circle cx="619.1" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 08:08: $1,899 at UMart</title></circle>
-<circle cx="629.7" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 20:17: $1,899 at UMart</title></circle>
-<circle cx="640.2" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $1,899 at MSY</title></circle>
-<circle cx="650.8" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $1,899 at MSY</title></circle>
-<circle cx="661.2" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $1,899 at MSY</title></circle>
-<circle cx="671.9" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $1,899 at MSY</title></circle>
-<circle cx="682.2" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 08:16: $2,664 at I-Tech</title></circle>
-<circle cx="692.9" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 20:25: $2,664 at I-Tech</title></circle>
+<polyline points="567.0,159.3 569.1,159.3 569.2,159.3 569.9,159.3 570.0,159.3 570.1,159.3 577.0,159.3 587.8,159.3 598.1,180.9 608.7,180.9 619.2,180.9 629.8,180.9 640.2,180.9 650.9,180.9 661.2,98.3 671.9,98.3 682.2,98.3" fill="none" stroke="#0969da" stroke-width="2"/>
+<circle cx="567.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
+<circle cx="569.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
+<circle cx="569.2" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
+<circle cx="569.9" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:54: $2,099 at UMart</title></circle>
+<circle cx="570.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:00: $2,099 at UMart</title></circle>
+<circle cx="570.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:07: $2,099 at UMart</title></circle>
+<circle cx="577.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 07:59: $2,099 at UMart</title></circle>
+<circle cx="587.8" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 20:19: $2,099 at UMart</title></circle>
+<circle cx="598.1" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 08:08: $1,899 at UMart</title></circle>
+<circle cx="608.7" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 20:17: $1,899 at UMart</title></circle>
+<circle cx="619.2" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $1,899 at MSY</title></circle>
+<circle cx="629.8" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $1,899 at MSY</title></circle>
+<circle cx="640.2" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $1,899 at MSY</title></circle>
+<circle cx="650.9" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $1,899 at MSY</title></circle>
+<circle cx="661.2" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 08:16: $2,664 at I-Tech</title></circle>
+<circle cx="671.9" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 20:25: $2,664 at I-Tech</title></circle>
+<circle cx="682.2" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 08:13: $2,664 at I-Tech</title></circle>
 </svg>
