@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-10-30 08:16 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-10-30 20:25 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -22,13 +22,13 @@ _Last checked: 2026-10-30 08:16 (Brisbane time) · Sources: StaticICE (~15 store
 |---|---|---:|---:|:---:|---|
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/sapphire_radeon_rx_9070_xt_16gb_video_card_ac82922_15135.jpg?v=1787747259" width="40"> | [RX 9070 XT](#rx-9070-xt) | **$1,199** | $1,099 | — | PC Case Gear |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/inno3d_geforce_rtx_5070_ti_x3_oc_16gb_gddr7_video_card_ac83002_53782.jpg?v=1787797058" width="40"> | [RTX 5070 Ti](#rtx-5070-ti) | **$1,899** | $1,199 | — | Mwave |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5080_infinity_3_16gb_video_card_ac98937_47714.jpg?v=1787798052" width="40"> | [RTX 5080](#rtx-5080) | **$2,664** | $1,799 | — | I-Tech |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5090_gamerock_oc_32gb_video_card_ac86219_9743.jpg?v=1787798045" width="40"> | [RTX 5090](#rtx-5090) | **$10,499** | $4,200 | — | PC Case Gear |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5080_windforce_sff_16gb_video_card_ac87623_12242.jpg?v=1787796656" width="40"> | [RTX 5080](#rtx-5080) | **$2,664** | $1,799 | — | I-Tech |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/zotac_gaming_geforce_rtx_5090_solid_oc_32gb_video_card_ac85829_3060.jpg?v=1787788477" width="40"> | [RTX 5090](#rtx-5090) | **$10,499** | $4,200 | — | PC Case Gear |
 | <img src="https://assets.umart.com.au/newsite/images/202411/goods_img/AMD-CPU-AMD-Ryzen-7-9800X3D-8-Core-AM5-5-2GHz-CPU-Processor-100-100001084WOF-2.jpg" width="40"> | [Ryzen 7 9800X3D](#ryzen-7-9800x3d) | **$595** | $549 | — | CCPU Computers |
 | <img src="https://assets.umart.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="40"> | [Ryzen 7 9850X3D](#ryzen-7-9850x3d) | **$740** | $699 | — | CCPU Computers |
 | <img src="https://assets.umart.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="40"> | [Ryzen 9 9950X3D](#ryzen-9-9950x3d) | **$835** | $899 | ✅ | CCPU Computers |
 | <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="40"> | [DDR5 32GB (2x16GB) 6000MHz CL30](#ddr5-32gb-2x16gb-6000mhz-cl30) | **$359** | $349 | — | Computer & Parts Land |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_white_ac78811_35070.jpg?v=1787797250" width="40"> | [DDR5 64GB (2x32GB) 6000MHz CL30](#ddr5-64gb-2x32gb-6000mhz-cl30) | **$959** | $899 | — | Computer & Parts Land |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_black_ac78807_77990.jpg?v=1787797249" width="40"> | [DDR5 64GB (2x32GB) 6000MHz CL30](#ddr5-64gb-2x32gb-6000mhz-cl30) | **$959** | $899 | — | Computer & Parts Land |
 | <img src="https://assets.msy.com.au/newsite/images/202506/goods_img/SSD-Hard-Drives-Gigabyte-2TB-AG4732TB-Aorus-PCIe-4-0-NVMe-M-2-2280-SSD-with-Heatsink-6.jpg" width="40"> | [2TB NVMe SSD](#2tb-nvme-ssd) | **$226.70** | $219 | — | Computer & Parts Land |
 | <img src="https://assets.msy.com.au/newsite/images/202411/goods_img/SSD-Hard-Drives-KLEVV-4TB-CRAS-C910-K04TBM2SP0-C91-PCIe-4-0-NVMe-M-2-2280-SSD-4.jpg" width="40"> | [4TB NVMe SSD](#4tb-nvme-ssd) | **$449** | $429 | — | Computer & Parts Land |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/biwin_black_opal_x570_pro_8tb_pcie_50_nvme_m2_ssd_bx570dn08tbrgx_ac98567_19747.jpg?v=1787795687" width="40"> | [8TB NVMe SSD](#8tb-nvme-ssd) | **$1,599** | $1,199 | — | Scorptec |
@@ -273,8 +273,8 @@ Target: **$899**
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | 💾 | **$959** | Computer & Parts Land | 1. [G.Skill F5-6000J3040G32GX2-RS5K Ripjaws S5 64GB (2x 32GB) DDR5 6000MH…](https://cplonline.com.au/g-skill-f5-6000j3040g32gx2-rs5k-ripjaws-s5-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black.html) | ⚪ check site |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_white_ac78811_35070.jpg?v=1787797250" width="60"> | **$1,499** | Mwave | 2. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Wh…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_black_ac78807_77990.jpg?v=1787797249" width="60"> | **$1,599** | Mwave | 3. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Bl…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black-ac78807) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_black_ac78807_77990.jpg?v=1787797249" width="60"> | **$1,599** | Mwave | 2. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Bl…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black-ac78807) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_white_ac78811_35070.jpg?v=1787797250" width="60"> | **$1,599** | Mwave | 3. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Wh…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811) | 🟢 in stock |
 | 💾 | **$1,799** | Scorptec | 4. [[SP064GXLWU60AFDF] Silicon Power XPOWER Zenith RGB 64GB (2x32GB) 6000…](https://www.scorptec.com.au/product/memory/ddr5-desktop-memory/129715-sp064gxlwu60afdf) | ⚪ check site |
 | 💾 | **$1,899** | PC Case Gear | 5. [Klevv Cras V RGB 64GB (2x32GB) 6000MHz CL30 DDR5 Black [KD5BGUA80-60A…](https://www.pccasegear.com/products/71063/klevv-cras-v-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-black) | 🟢 in stock |
 
@@ -360,7 +360,7 @@ Target: **$429**
 
 **🔥 OzBargain deals (last 30 days):**
 
-- 30 Oct · 👍 1 · [Klevv 4TB Cras C910G PCIe 4.0 NVMe M.2 2280 SSD $699, $711 Delivered @MSY](https://www.ozbargain.com.au/node/980907)
+- 30 Oct · 👍 5 · [Klevv 4TB Cras C910G PCIe 4.0 NVMe M.2 2280 SSD $699 + $12-$16 Delivered @ MSY](https://www.ozbargain.com.au/node/980907)
 
 <details>
 <summary>OzBargain deal history, last 12 months (17)</summary>
