@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-10-31 08:13 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-10-31 20:13 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -22,8 +22,8 @@ _Last checked: 2026-10-31 08:13 (Brisbane time) · Sources: StaticICE (~15 store
 |---|---|---:|---:|:---:|---|
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/sapphire_radeon_rx_9070_xt_16gb_video_card_ac82922_15135.jpg?v=1787747259" width="40"> | [RX 9070 XT](#rx-9070-xt) | **$1,240** | $1,099 | — | CCPU Computers |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/inno3d_geforce_rtx_5070_ti_x3_oc_16gb_gddr7_video_card_ac83002_53782.jpg?v=1787797058" width="40"> | [RTX 5070 Ti](#rtx-5070-ti) | **$1,899** | $1,199 | — | Mwave |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5080_windforce_sff_16gb_video_card_ac87623_12242.jpg?v=1787796656" width="40"> | [RTX 5080](#rtx-5080) | **$2,664** | $1,799 | — | I-Tech |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/zotac_gaming_geforce_rtx_5090_solid_oc_32gb_video_card_ac85829_3060.jpg?v=1787788477" width="40"> | [RTX 5090](#rtx-5090) | **$10,499** | $4,200 | — | PC Case Gear |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5080_infinity_3_16gb_video_card_ac98937_47714.jpg?v=1787798052" width="40"> | [RTX 5080](#rtx-5080) | **$2,664** | $1,799 | — | I-Tech |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5090_gamerock_oc_32gb_video_card_ac86219_9743.jpg?v=1787798045" width="40"> | [RTX 5090](#rtx-5090) | **$10,499** | $4,200 | — | PC Case Gear |
 | <img src="https://assets.umart.com.au/newsite/images/202411/goods_img/AMD-CPU-AMD-Ryzen-7-9800X3D-8-Core-AM5-5-2GHz-CPU-Processor-100-100001084WOF-2.jpg" width="40"> | [Ryzen 7 9800X3D](#ryzen-7-9800x3d) | **$595** | $549 | — | CCPU Computers |
 | <img src="https://assets.msy.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="40"> | [Ryzen 7 9850X3D](#ryzen-7-9850x3d) | **$740** | $699 | — | CCPU Computers |
 | <img src="https://assets.umart.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="40"> | [Ryzen 9 9950X3D](#ryzen-9-9950x3d) | **$835** | $899 | ✅ | CCPU Computers |
@@ -31,7 +31,7 @@ _Last checked: 2026-10-31 08:13 (Brisbane time) · Sources: StaticICE (~15 store
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_black_ac78807_77990.jpg?v=1787797249" width="40"> | [DDR5 64GB (2x32GB) 6000MHz CL30](#ddr5-64gb-2x32gb-6000mhz-cl30) | **$959** | $899 | — | Computer & Parts Land |
 | <img src="https://assets.msy.com.au/newsite/images/202506/goods_img/SSD-Hard-Drives-Gigabyte-2TB-AG4732TB-Aorus-PCIe-4-0-NVMe-M-2-2280-SSD-with-Heatsink-6.jpg" width="40"> | [2TB NVMe SSD](#2tb-nvme-ssd) | **$226.70** | $219 | — | Computer & Parts Land |
 | <img src="https://assets.msy.com.au/newsite/images/202111/goods_img/61471_P_1638249144002.jpg" width="40"> | [4TB NVMe SSD](#4tb-nvme-ssd) | **$449** | $429 | — | Computer & Parts Land |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/biwin_black_opal_x570_pro_8tb_pcie_50_nvme_m2_ssd_bx570dn08tbrgx_ac98567_19747.jpg?v=1787795687" width="40"> | [8TB NVMe SSD](#8tb-nvme-ssd) | **$1,599** | $1,199 | — | Scorptec |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/lexar_nm790_8tb_pcie_40_nvme_m2_ssd_lnm790x008trnnnu_ac80859_85102.jpg?v=1787786209" width="40"> | [8TB NVMe SSD](#8tb-nvme-ssd) | **$1,599** | $1,199 | — | Scorptec |
 
 ## Graphics cards
 
@@ -141,7 +141,7 @@ Target: **$1,799**
 | 🎮 | **$2,784** | I-Tech | 2. [Palit RTX5080 Infinity 3 16GB GDDR7 256bit 3-DP Hdmi Ne75080019T2-Gb2…](http://www.clixGalore.com/PSale.aspx?BID=14785&AfID=100703&AdID=1632&AffDirectURL=https://www.i-tech.com.au/ne75080019t2-gb2035s-palit-rtx5080-infinity-3-16gb-gddr7-444854.html) | ⚪ check site |
 | 🎮 | **$2,795** | Austin Computers | 3. [MSI GeForce RTX 5080 16G VENTUS 3X OC Gaming Graphics Card](https://www.austin.net.au/products/msi-geforce-rtx-5080-16g-ventus-3x-oc-gaming-graphics-card) | ⚪ check site |
 | 🎮 | **$2,799** | Scorptec | 4. [[GV-N5080WF3OCV2-16GD] Gigabyte GeForce RTX 5080 WINDFORCE OC V2 SFF …](https://www.scorptec.com.au/product/graphics-cards/nvidia/129017-gv-n5080wf3ocv2-16gd)<br><sub>Also: [$2,899 PC Case Gear](https://www.pccasegear.com/products/74326/gigabyte-geforce-rtx-5080-windforce-oc-v2-gddr7-16gb)</sub> | ⚪ check site |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5080_windforce_sff_16gb_video_card_ac87623_12242.jpg?v=1787796656" width="60"> | **$2,799** | Mwave | 5. [Gigabyte GeForce RTX 5080 WINDFORCE 16GB GDDR7 Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5080-windforce-16gb-gddr7-video-card-ac87623) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5080_infinity_3_16gb_video_card_ac98937_47714.jpg?v=1787798052" width="60"> | **$2,799** | Mwave | 5. [Palit GeForce RTX 5080 Infinity 3 16GB Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5080-infinity-3-16gb-video-card-ac98937) | 🟢 in stock |
 
 <details>
 <summary>OzBargain deal history, last 12 months (6)</summary>
@@ -392,7 +392,7 @@ Target: **$1,199**
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/biwin_black_opal_x570_pro_8tb_pcie_50_nvme_m2_ssd_bx570dn08tbrgx_ac98567_19747.jpg?v=1787795687" width="60"> | **$1,599** | Scorptec | 1. [[BX570DN08TB-RGX] Biwin Black Opal X570 PRO 8TB M.2 2280 NVMe 2.0 PCI…](https://www.scorptec.com.au/product/hard-drives-and-ssds/solid-state-drives--ssd/126550-bx570dn08tb-rgx) | ⚪ check site |
+| 🗄️ | **$1,599** | Scorptec | 1. [[BX570DN08TB-RGX] Biwin Black Opal X570 PRO 8TB M.2 2280 NVMe 2.0 PCI…](https://www.scorptec.com.au/product/hard-drives-and-ssds/solid-state-drives--ssd/126550-bx570dn08tb-rgx) | ⚪ check site |
 | 🗄️ | **$1,799** | Scorptec | 2. [[AGAMMIXS70B-8T-CS] XPG GAMMIX S70 Blade 8TB M.2 2280 NVMe PCIe Gen4 …](https://www.scorptec.com.au/product/hard-drives-and-ssds/solid-state-drives--ssd/108640-agammixs70b-8t-cs) | ⚪ check site |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/lexar_nm790_8tb_pcie_40_nvme_m2_ssd_lnm790x008trnnnu_ac80859_85102.jpg?v=1787786209" width="60"> | **$1,999** | Scorptec | 3. [[LNM790X008T-RNNNG] Lexar NM790 8TB M.2 2280 NVMe PCIe 4.0 SSD](https://www.scorptec.com.au/product/hard-drives-and-ssds/solid-state-drives--ssd/115341-lnm790x008t-rnnng)<br><sub>Also: [$2,250 Mwave](https://www.mwave.com.au/products/lexar-nm790-8tb-pcie-40-nvme-m2-ssd-lnm790x008trnnng-ac80859) · [$2,399 PLE Computers](https://www.ple.com.au/products/673519/lexar-nm790-pcie-gen4-nvme-m2-ssd-8tb) · [$2,399 PC Case Gear](https://www.pccasegear.com/products/67762/lexar-nm790-nvme-pcie-gen4-ssd-8tb) · [$2,664 I-Tech](http://www.clixGalore.com/PSale.aspx?BID=14785&AfID=100703&AdID=1632&AffDirectURL=https://www.i-tech.com.au/lnm790x008t-rnnng-lexar-lnm790x008t-rnnng-internal-ssd-8-424782.html)</sub> | ⚪ check site |
 | 🗄️ | **$1,999** | JW Computers | 4. [PNY CS3140 8TB M.2 NVMe Gen4 SSD](https://www.jw.com.au/product/pny-cs3140-8tb-m-2-nvme-gen4-ssd) | ⚪ check site |

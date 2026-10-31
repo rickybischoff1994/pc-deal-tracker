@@ -36,7 +36,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.8" x2="696" y2="191.8" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.8" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,199</text>
-<polyline points="567.0,169.1 569.1,169.1 569.2,169.1 569.9,169.1 570.0,169.1 570.1,169.1 577.0,169.1 587.8,169.1 598.1,169.1 608.7,169.1 619.2,169.1 629.8,169.1 640.2,169.1 650.9,169.1 661.2,78.4 671.9,78.4 682.2,78.4" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="567.0,169.1 569.1,169.1 569.2,169.1 569.9,169.1 570.0,169.1 570.1,169.1 577.0,169.1 587.8,169.1 598.1,169.1 608.7,169.1 619.2,169.1 629.8,169.1 640.2,169.1 650.9,169.1 661.2,78.4 671.9,78.4 682.2,78.4 692.7,78.4" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="567.0" cy="169.1" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $1,339 at MSY</title></circle>
 <circle cx="569.1" cy="169.1" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $1,339 at MSY</title></circle>
 <circle cx="569.2" cy="169.1" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $1,339 at MSY</title></circle>
@@ -54,5 +54,6 @@
 <circle cx="661.2" cy="78.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 08:16: $1,899 at Mwave</title></circle>
 <circle cx="671.9" cy="78.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 20:25: $1,899 at Mwave</title></circle>
 <circle cx="682.2" cy="78.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 08:13: $1,899 at Mwave</title></circle>
+<circle cx="692.7" cy="78.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 20:13: $1,899 at Mwave</title></circle>
 <path d="M370.5 145.3 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-10-16: $1,449 - PNY GeForce RTX 5070 Ti ARGB Triple Fan Plus OC 16G Graphics Card $1,449 + Delivery ($0 C&amp;C) @ Umart (expired)</title></path>
 </svg>
