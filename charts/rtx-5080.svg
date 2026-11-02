@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.7" x2="696" y2="191.7" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.7" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,799</text>
-<polyline points="525.0,159.3 527.1,159.3 527.2,159.3 527.9,159.3 528.0,159.3 528.1,159.3 535.0,159.3 545.8,159.3 556.1,180.9 566.7,180.9 577.2,180.9 587.8,180.9 598.2,180.9 608.9,180.9 619.2,98.3 629.9,98.3 640.2,98.3 650.7,98.3 661.1,144.2 671.7,144.2 682.2,144.2" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="525.0,159.3 527.1,159.3 527.2,159.3 527.9,159.3 528.0,159.3 528.1,159.3 535.0,159.3 545.8,159.3 556.1,180.9 566.7,180.9 577.2,180.9 587.8,180.9 598.2,180.9 608.9,180.9 619.2,98.3 629.9,98.3 640.2,98.3 650.7,98.3 661.1,144.2 671.7,144.2 682.2,144.2 693.0,144.2" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="525.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
 <circle cx="527.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
 <circle cx="527.2" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
@@ -60,4 +60,5 @@
 <circle cx="661.1" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 08:10: $2,239 at SkyComp Technology</title></circle>
 <circle cx="671.7" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 20:16: $2,239 at SkyComp Technology</title></circle>
 <circle cx="682.2" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 08:11: $2,239 at SkyComp Technology</title></circle>
+<circle cx="693.0" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 20:31: $2,239 at SkyComp Technology</title></circle>
 </svg>

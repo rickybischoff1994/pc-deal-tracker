@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-02 08:11 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-02 20:31 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -185,7 +185,7 @@ Target: **$549**
 
 **🔥 OzBargain deals (last 30 days):**
 
-- 02 Nov · 👍 69 · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship Store](https://www.ozbargain.com.au/node/981214)
+- 02 Nov · 👍 87 · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship Store](https://www.ozbargain.com.au/node/981214)
 
 <details>
 <summary>OzBargain deal history, last 12 months (14)</summary>
@@ -280,7 +280,7 @@ Target: **$899**
 | 💾 | **$959** | Computer & Parts Land | 1. [G.Skill F5-6000J3040G32GX2-RS5K Ripjaws S5 64GB (2x 32GB) DDR5 6000MH…](https://cplonline.com.au/g-skill-f5-6000j3040g32gx2-rs5k-ripjaws-s5-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black.html) | ⚪ check site |
 | 💾 | **$1,399** | Centre Com | 2. [Corsair Vengeance RGB 64GB (2 x 32GB) DDR5 6000MT/s CL30 RAM - Grey](https://www.centrecom.com.au/corsair-vengeance-rgb-64gb-2-x-32gb-ddr5-6000mhz-cl30-ram-grey) | ⚪ check site |
 | 💾 | **$1,599** | Centre Com | 3. [Klevv CRAS V RGB 64GB (2 x 32GB) DDR5 6000MHz CL30 Desktop RAM - Obsi…](https://www.centrecom.com.au/klevv-cras-v-rgb-64gb-2-x-32gb-ddr5-6000mhz-cl30-desktop-memory-obsidian-black) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_white_ac78811_35070.jpg?v=1787797250" width="60"> | **$1,599** | Mwave Australia | 4. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Wh…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811?variant=48001769341059&currency=AUD) | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_white_ac78811_35070.jpg?v=1787797250" width="60"> | **$1,599** | Mwave Australia | 4. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Wh…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811?variant=48001769341059&currency=AUD)<br><sub>Also: [$1,599 Mwave](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811)</sub> | ⚪ check site |
 | <img src="https://www.mwave.com.au/cdn/shop/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_black_ac78807_77990.jpg?v=1787797249" width="60"> | **$1,599** | Mwave Australia | 5. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Bl…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black-ac78807?variant=48001769373827&currency=AUD)<br><sub>Also: [$1,599 Mwave](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black-ac78807)</sub> | ⚪ check site |
 
 <details>
