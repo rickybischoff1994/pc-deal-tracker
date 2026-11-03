@@ -23,45 +23,46 @@
 <line x1="66" y1="62.0" x2="696" y2="62.0" stroke="#d0d7de"/>
 <text x="58" y="66.0" font-size="11" text-anchor="end" fill="#1f2328">$3,000</text>
 <line x1="685.5" y1="224" x2="685.5" y2="228" stroke="#1f2328"/>
-<text x="685.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">3 Nov</text>
+<text x="685.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">4 Nov</text>
 <line x1="580.5" y1="224" x2="580.5" y2="228" stroke="#1f2328"/>
-<text x="580.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">29 Oct</text>
+<text x="580.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">30 Oct</text>
 <line x1="475.5" y1="224" x2="475.5" y2="228" stroke="#1f2328"/>
-<text x="475.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">24 Oct</text>
+<text x="475.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">25 Oct</text>
 <line x1="370.5" y1="224" x2="370.5" y2="228" stroke="#1f2328"/>
-<text x="370.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">19 Oct</text>
+<text x="370.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">20 Oct</text>
 <line x1="265.5" y1="224" x2="265.5" y2="228" stroke="#1f2328"/>
-<text x="265.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">14 Oct</text>
+<text x="265.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">15 Oct</text>
 <line x1="160.5" y1="224" x2="160.5" y2="228" stroke="#1f2328"/>
-<text x="160.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">9 Oct</text>
+<text x="160.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">10 Oct</text>
 <line x1="66" y1="224" x2="696" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.7" x2="696" y2="191.7" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.7" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,799</text>
-<polyline points="504.0,159.3 506.1,159.3 506.2,159.3 506.9,159.3 507.0,159.3 507.1,159.3 514.0,159.3 524.8,159.3 535.1,180.9 545.7,180.9 556.2,180.9 566.8,180.9 577.2,180.9 587.9,180.9 598.2,98.3 608.9,98.3 619.2,98.3 629.7,98.3 640.1,144.2 650.7,144.2 661.2,144.2 672.0,144.2 682.3,144.2 692.9,144.2" fill="none" stroke="#0969da" stroke-width="2"/>
-<circle cx="504.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
-<circle cx="506.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
-<circle cx="506.2" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
-<circle cx="506.9" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:54: $2,099 at UMart</title></circle>
-<circle cx="507.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:00: $2,099 at UMart</title></circle>
-<circle cx="507.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:07: $2,099 at UMart</title></circle>
-<circle cx="514.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 07:59: $2,099 at UMart</title></circle>
-<circle cx="524.8" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 20:19: $2,099 at UMart</title></circle>
-<circle cx="535.1" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 08:08: $1,899 at UMart</title></circle>
-<circle cx="545.7" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 20:17: $1,899 at UMart</title></circle>
-<circle cx="556.2" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $1,899 at MSY</title></circle>
-<circle cx="566.8" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $1,899 at MSY</title></circle>
-<circle cx="577.2" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $1,899 at MSY</title></circle>
-<circle cx="587.9" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $1,899 at MSY</title></circle>
-<circle cx="598.2" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 08:16: $2,664 at I-Tech</title></circle>
-<circle cx="608.9" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 20:25: $2,664 at I-Tech</title></circle>
-<circle cx="619.2" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 08:13: $2,664 at I-Tech</title></circle>
-<circle cx="629.7" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 20:13: $2,664 at I-Tech</title></circle>
-<circle cx="640.1" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 08:10: $2,239 at SkyComp Technology</title></circle>
-<circle cx="650.7" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 20:16: $2,239 at SkyComp Technology</title></circle>
-<circle cx="661.2" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 08:11: $2,239 at SkyComp Technology</title></circle>
-<circle cx="672.0" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 20:31: $2,239 at SkyComp Technology</title></circle>
-<circle cx="682.3" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 08:19: $2,239 at SkyComp Technology</title></circle>
-<circle cx="692.9" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 20:30: $2,239 at SkyComp Technology</title></circle>
-<path d="M664.5 120.9 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-11-02: $2,399 - Palit GeForce RTX 5080 GamingPro OC V1 16GB GPU $2399 + Delivery ($0 to Metro Areas/ VIC C&amp;C) @ Scorptec (expired)</title></path>
+<polyline points="483.0,159.3 485.1,159.3 485.2,159.3 485.9,159.3 486.0,159.3 486.1,159.3 493.0,159.3 503.8,159.3 514.1,180.9 524.7,180.9 535.2,180.9 545.8,180.9 556.2,180.9 566.9,180.9 577.2,98.3 587.9,98.3 598.2,98.3 608.7,98.3 619.1,144.2 629.7,144.2 640.2,144.2 651.0,144.2 661.3,144.2 671.9,144.2 682.3,118.2" fill="none" stroke="#0969da" stroke-width="2"/>
+<circle cx="483.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
+<circle cx="485.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
+<circle cx="485.2" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
+<circle cx="485.9" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:54: $2,099 at UMart</title></circle>
+<circle cx="486.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:00: $2,099 at UMart</title></circle>
+<circle cx="486.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 00:07: $2,099 at UMart</title></circle>
+<circle cx="493.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 07:59: $2,099 at UMart</title></circle>
+<circle cx="503.8" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-26 20:19: $2,099 at UMart</title></circle>
+<circle cx="514.1" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 08:08: $1,899 at UMart</title></circle>
+<circle cx="524.7" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-27 20:17: $1,899 at UMart</title></circle>
+<circle cx="535.2" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $1,899 at MSY</title></circle>
+<circle cx="545.8" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $1,899 at MSY</title></circle>
+<circle cx="556.2" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $1,899 at MSY</title></circle>
+<circle cx="566.9" cy="180.9" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $1,899 at MSY</title></circle>
+<circle cx="577.2" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 08:16: $2,664 at I-Tech</title></circle>
+<circle cx="587.9" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 20:25: $2,664 at I-Tech</title></circle>
+<circle cx="598.2" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 08:13: $2,664 at I-Tech</title></circle>
+<circle cx="608.7" cy="98.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 20:13: $2,664 at I-Tech</title></circle>
+<circle cx="619.1" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 08:10: $2,239 at SkyComp Technology</title></circle>
+<circle cx="629.7" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 20:16: $2,239 at SkyComp Technology</title></circle>
+<circle cx="640.2" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 08:11: $2,239 at SkyComp Technology</title></circle>
+<circle cx="651.0" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 20:31: $2,239 at SkyComp Technology</title></circle>
+<circle cx="661.3" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 08:19: $2,239 at SkyComp Technology</title></circle>
+<circle cx="671.9" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 20:30: $2,239 at SkyComp Technology</title></circle>
+<circle cx="682.3" cy="118.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 08:20: $2,479.75 at TechBuy</title></circle>
+<path d="M643.5 120.9 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-11-02: $2,399 - Palit GeForce RTX 5080 GamingPro OC V1 16GB GPU $2399 + Delivery ($0 to Metro Areas/ VIC C&amp;C) @ Scorptec (expired)</title></path>
 </svg>
