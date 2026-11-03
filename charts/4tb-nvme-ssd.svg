@@ -36,7 +36,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="182.2" x2="696" y2="182.2" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="177.2" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $429</text>
-<polyline points="504.0,175.7 506.1,175.7 506.2,175.7 506.9,175.7 507.0,175.7 507.1,175.7 514.0,175.7 524.8,175.7 535.1,175.7 545.7,175.7 556.2,175.7 566.8,175.7 577.2,175.7 587.9,175.7 598.2,175.7 608.9,175.7 619.2,175.7 629.7,175.7 640.1,175.7 650.7,175.7 661.2,175.7 672.0,175.7 682.3,175.7" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="504.0,175.7 506.1,175.7 506.2,175.7 506.9,175.7 507.0,175.7 507.1,175.7 514.0,175.7 524.8,175.7 535.1,175.7 545.7,175.7 556.2,175.7 566.8,175.7 577.2,175.7 587.9,175.7 598.2,175.7 608.9,175.7 619.2,175.7 629.7,175.7 640.1,175.7 650.7,175.7 661.2,175.7 672.0,175.7 682.3,175.7 692.9,175.7" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="504.0" cy="175.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="506.1" cy="175.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="506.2" cy="175.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $449 at Computer &amp; Parts Land</title></circle>
@@ -60,5 +60,6 @@
 <circle cx="661.2" cy="175.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 08:11: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="672.0" cy="175.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 20:31: $449 at Computer &amp; Parts Land</title></circle>
 <circle cx="682.3" cy="175.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 08:19: $449 at Computer &amp; Parts Land</title></circle>
+<circle cx="692.9" cy="175.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 20:30: $449 at Computer &amp; Parts Land</title></circle>
 <path d="M601.5 88.7 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-10-30: $699 - Klevv 4TB Cras C910G PCIe 4.0 NVMe M.2 2280 SSD $699, $711 Delivered @MSY</title></path>
 </svg>

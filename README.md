@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-03 08:19 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-03 20:30 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -143,13 +143,10 @@ Target: **$1,799**
 | 🎮 | **$2,519** | SkyComp Technology | 4. [(N5080WF3-OC-16GD) Geforce Rtx 5080 Windforce Oc Sff 16g;integrated W…](https://www.skycomp.com.au/catalog/product/view/id/1121880/s/geforce-rtx-5080-windforce-oc-sff-16gintegrated-with-16gb-gddr7-256bit-memory-interfacewindforce-cooling-system-1121880/category/31/)<br><sub>Also: [$2,722.40 TechBuy](https://www.techbuy.com.au/searchcat/VIDEOCARDS_GEFORCE_PCI-EX_50XX_SERIES/5.asp)</sub> | ⚪ check site |
 | <img src="https://www.mwave.com.au/cdn/shop/files/galax_geforce_rtx_5080_1click_oc_16gb_video_card_white_ac81956_1790.jpg?v=1787796608" width="60"> | **$2,547.95** | Mwave Australia | 5. [GALAX GeForce RTX 5080 1-Click OC 16GB Video Card - White](https://www.mwave.com.au/products/galax-geforce-rtx-5080-1click-oc-16gb-video-card-white-ac81956?variant=47995028799619&currency=AUD)<br><sub>Also: [$2,547.95 Mwave Australia](https://www.mwave.com.au/products/galax-geforce-rtx-5080-1click-oc-16gb-video-card-black-ac81955?variant=47995028603011&currency=AUD)</sub> | ⚪ check site |
 
-**🔥 OzBargain deals (last 30 days):**
-
-- 02 Nov · 👍 50 · [Palit GeForce RTX 5080 GamingPro OC V1 16GB GPU $2399 + Delivery ($0 to Metro Areas/ VIC C&C) @ Scorptec](https://www.ozbargain.com.au/node/981356)
-
 <details>
-<summary>OzBargain deal history, last 12 months (6)</summary>
+<summary>OzBargain deal history, last 12 months (7)</summary>
 
+- 02 Nov · $2,399 · Scorptec · [Palit GeForce RTX 5080 GamingPro OC V1 16GB GPU $2399 + Delivery ($0 to Metro Areas/ VIC C&C) @ Sco…](https://www.ozbargain.com.au/node/981356) (expired)
 - 20 Jun · $1,600 · Mwave · [Inno3D GeForce RTX 5080 X3 16GB Graphics Card $1600 Delivered / NSW C&C @ Mwave](https://www.ozbargain.com.au/node/964340) (expired)
 - 20 May · $1,699 · KS Computer via Amazon AU · [Palit GeForce RTX 5080 GamingPro OC 16GB GDDR7 Graphics Card $1,699 Delivered @ KS Computer via Ama…](https://www.ozbargain.com.au/node/960008) (expired)
 - 28 Feb · $1,709.05 · PC Case Gear · [Zotac Gaming GeForce RTX 5080 Solid Core 16GB GDDR7 Graphics Card $1709.05 Delivered / VIC C&C @ PC…](https://www.ozbargain.com.au/node/949815) (expired)
@@ -189,7 +186,7 @@ Target: **$549**
 
 **🔥 OzBargain deals (last 30 days):**
 
-- 02 Nov · 👍 92 · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship Store](https://www.ozbargain.com.au/node/981214)
+- 02 Nov · 👍 96 · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship Store](https://www.ozbargain.com.au/node/981214)
 
 <details>
 <summary>OzBargain deal history, last 12 months (14)</summary>

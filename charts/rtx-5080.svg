@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.7" x2="696" y2="191.7" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.7" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,799</text>
-<polyline points="504.0,159.3 506.1,159.3 506.2,159.3 506.9,159.3 507.0,159.3 507.1,159.3 514.0,159.3 524.8,159.3 535.1,180.9 545.7,180.9 556.2,180.9 566.8,180.9 577.2,180.9 587.9,180.9 598.2,98.3 608.9,98.3 619.2,98.3 629.7,98.3 640.1,144.2 650.7,144.2 661.2,144.2 672.0,144.2 682.3,144.2" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="504.0,159.3 506.1,159.3 506.2,159.3 506.9,159.3 507.0,159.3 507.1,159.3 514.0,159.3 524.8,159.3 535.1,180.9 545.7,180.9 556.2,180.9 566.8,180.9 577.2,180.9 587.9,180.9 598.2,98.3 608.9,98.3 619.2,98.3 629.7,98.3 640.1,144.2 650.7,144.2 661.2,144.2 672.0,144.2 682.3,144.2 692.9,144.2" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="504.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
 <circle cx="506.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
 <circle cx="506.2" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
@@ -62,4 +62,6 @@
 <circle cx="661.2" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 08:11: $2,239 at SkyComp Technology</title></circle>
 <circle cx="672.0" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 20:31: $2,239 at SkyComp Technology</title></circle>
 <circle cx="682.3" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 08:19: $2,239 at SkyComp Technology</title></circle>
+<circle cx="692.9" cy="144.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 20:30: $2,239 at SkyComp Technology</title></circle>
+<path d="M664.5 120.9 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-11-02: $2,399 - Palit GeForce RTX 5080 GamingPro OC V1 16GB GPU $2399 + Delivery ($0 to Metro Areas/ VIC C&amp;C) @ Scorptec (expired)</title></path>
 </svg>
