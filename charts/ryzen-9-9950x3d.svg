@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="117.1" x2="696" y2="117.1" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="112.1" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $899</text>
-<polyline points="483.0,186.2 485.1,186.2 485.2,186.2 485.9,186.2 486.0,186.2 486.1,186.2 493.0,186.2 503.8,186.2 514.1,186.2 524.7,186.2 535.2,186.2 545.8,186.2 556.2,186.2 566.9,186.2 577.2,186.2 587.9,186.2 598.2,186.2 608.7,186.2 619.1,186.2 629.7,186.2 640.2,186.2 651.0,186.2 661.3,186.2 671.9,186.2 682.3,116.0" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="483.0,186.2 485.1,186.2 485.2,186.2 485.9,186.2 486.0,186.2 486.1,186.2 493.0,186.2 503.8,186.2 514.1,186.2 524.7,186.2 535.2,186.2 545.8,186.2 556.2,186.2 566.9,186.2 577.2,186.2 587.9,186.2 598.2,186.2 608.7,186.2 619.1,186.2 629.7,186.2 640.2,186.2 651.0,186.2 661.3,186.2 671.9,186.2 682.3,116.0 693.1,116.0" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="483.0" cy="186.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $835 at CCPU Computers</title></circle>
 <circle cx="485.1" cy="186.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $835 at CCPU Computers</title></circle>
 <circle cx="485.2" cy="186.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $835 at CCPU Computers</title></circle>
@@ -64,5 +64,6 @@
 <circle cx="661.3" cy="186.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 08:19: $835 at CCPU Computers</title></circle>
 <circle cx="671.9" cy="186.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 20:30: $835 at CCPU Computers</title></circle>
 <circle cx="682.3" cy="116.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 08:20: $900 at CCPU Computers</title></circle>
+<circle cx="693.1" cy="116.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 20:43: $900 at CCPU Computers</title></circle>
 <path d="M139.5 165.6 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-10-09: $848.50 - AMD Ryzen 9 9950X3D CPU $848.50 Delivered @ Amazon UK via AU (expired)</title></path>
 </svg>
