@@ -34,7 +34,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="175.8" x2="696" y2="175.8" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="170.8" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $219</text>
-<polyline points="462.0,172.7 464.1,172.7 464.2,172.7 464.9,172.7 465.0,172.7 465.1,172.7 472.0,172.7 482.8,172.7 493.1,172.7 503.7,172.7 514.2,172.7 524.8,172.7 535.2,172.7 545.9,172.7 556.2,172.7 566.9,172.7 577.2,172.7 587.7,172.7 598.1,172.7 608.7,172.7 619.2,172.7 630.0,172.7 640.3,172.7 650.9,172.7 661.3,172.7 672.1,172.7 682.4,172.7" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="462.0,172.7 464.1,172.7 464.2,172.7 464.9,172.7 465.0,172.7 465.1,172.7 472.0,172.7 482.8,172.7 493.1,172.7 503.7,172.7 514.2,172.7 524.8,172.7 535.2,172.7 545.9,172.7 556.2,172.7 566.9,172.7 577.2,172.7 587.7,172.7 598.1,172.7 608.7,172.7 619.2,172.7 630.0,172.7 640.3,172.7 650.9,172.7 661.3,172.7 672.1,172.7 682.4,172.7 693.0,172.7" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="462.0" cy="172.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $226.70 at Computer &amp; Parts Land</title></circle>
 <circle cx="464.1" cy="172.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $226.70 at Computer &amp; Parts Land</title></circle>
 <circle cx="464.2" cy="172.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $226.70 at Computer &amp; Parts Land</title></circle>
@@ -62,6 +62,7 @@
 <circle cx="661.3" cy="172.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 08:20: $226.70 at Computer &amp; Parts Land</title></circle>
 <circle cx="672.1" cy="172.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 20:43: $226.70 at Computer &amp; Parts Land</title></circle>
 <circle cx="682.4" cy="172.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-05 08:24: $226.70 at Computer &amp; Parts Land</title></circle>
+<circle cx="693.0" cy="172.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-05 20:37: $226.70 at Computer &amp; Parts Land</title></circle>
 <path d="M97.5 123.4 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-10-08: $333.67 - WD_BLACK SN850P 2TB NVMe M.2 SSD for PS5 (with Heatsink) $333.67 Delivered @ Amazon AU (expired)</title></path>
 <path d="M181.5 94.5 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-10-12: $405.02 - Corsair MP700 PRO with Air Cooler 2TB M.2 PCIe Gen5 x4 NVMe 2.0 SSD $405.02 Delivered @ Amazon UK via AU (expired)</title></path>
 <path d="M286.5 101.0 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-10-17: $389 - PNY CS2241 2TB PCIe Gen4 M.2 NVMe SSD $389 + Shipping ($0 C&amp;C) @ MSY (expired)</title></path>
