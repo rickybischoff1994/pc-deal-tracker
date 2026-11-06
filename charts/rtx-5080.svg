@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.7" x2="696" y2="191.7" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.7" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,799</text>
-<polyline points="441.0,159.3 443.1,159.3 443.2,159.3 443.9,159.3 444.0,159.3 444.1,159.3 451.0,159.3 461.8,159.3 472.1,180.9 482.7,180.9 493.2,180.9 503.8,180.9 514.2,180.9 524.9,180.9 535.2,98.3 545.9,98.3 556.2,98.3 566.7,98.3 577.1,144.2 587.7,144.2 598.2,144.2 609.0,144.2 619.3,144.2 629.9,144.2 640.3,118.2 651.1,118.2 661.4,118.2 672.0,118.2 682.4,116.1" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="441.0,159.3 443.1,159.3 443.2,159.3 443.9,159.3 444.0,159.3 444.1,159.3 451.0,159.3 461.8,159.3 472.1,180.9 482.7,180.9 493.2,180.9 503.8,180.9 514.2,180.9 524.9,180.9 535.2,98.3 545.9,98.3 556.2,98.3 566.7,98.3 577.1,144.2 587.7,144.2 598.2,144.2 609.0,144.2 619.3,144.2 629.9,144.2 640.3,118.2 651.1,118.2 661.4,118.2 672.0,118.2 682.4,116.1 693.0,116.1" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="441.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
 <circle cx="443.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
 <circle cx="443.2" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
@@ -68,5 +68,6 @@
 <circle cx="661.4" cy="118.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-05 08:24: $2,479.75 at TechBuy</title></circle>
 <circle cx="672.0" cy="118.2" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-05 20:37: $2,479.75 at TechBuy</title></circle>
 <circle cx="682.4" cy="116.1" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-06 08:25: $2,499 at Landmark Computers</title></circle>
+<circle cx="693.0" cy="116.1" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-06 20:37: $2,499 at Landmark Computers</title></circle>
 <path d="M601.5 120.9 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-11-02: $2,399 - Palit GeForce RTX 5080 GamingPro OC V1 16GB GPU $2399 + Delivery ($0 to Metro Areas/ VIC C&amp;C) @ Scorptec (expired)</title></path>
 </svg>

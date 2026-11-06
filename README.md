@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-06 08:25 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-06 20:37 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -109,8 +109,8 @@ Target: **$1,199**
 | <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5070_ti_x3_16gb_gddr7_video_card_ac83001_98301.jpg?v=1787797060" width="60"> | **$1,679** | Mwave Australia | 1. [Inno3D GeForce RTX 5070 TI X3 16GB GDDR7 Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-16gb-gddr7-video-card-ac83001?variant=47995197718659&currency=AUD)<br><sub>Also: [$1,899 Mwave](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-oc-16gb-gddr7-video-card-ac83002)</sub> | ⚪ check site |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/asus_prime_geforce_rtx_5070_ti_16gb_gddr7_oc_edition_video_card_ac81834_13581.jpg?v=1787795415" width="60"> | **$1,899** | Mwave | 2. [ASUS PRIME GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-prime-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-video-card-ac81834) | 🟢 in stock |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5070_ti_gamingpros_16gb_video_card_ac88912_93702.jpg?v=1787798042" width="60"> | **$1,899** | Mwave | 3. [Palit GeForce RTX 5070 Ti GamingPro-S 16GB Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5070-ti-gamingpros-16gb-video-card-ac88912) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_eagle_oc_ice_sff_16gb_video_card_ac82613_26124.jpg?v=1787796646" width="60"> | **$1,999** | Mwave | 4. [Gigabyte GeForce RTX 5070 Ti EAGLE OC ICE 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-16gb-video-card-ac82613) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_eagle_oc_sff_16gb_video_card_ac82612_8265.jpg?v=1787796644" width="60"> | **$1,999** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti EAGLE OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-eagle-oc-16gb-video-card-ac82612) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_aero_oc_16gb_video_card_ac82642_75740.jpg?v=1787796644" width="60"> | **$1,999** | Mwave | 4. [Gigabyte GeForce RTX 5070 Ti AERO OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-aero-oc-16gb-video-card-ac82642) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_eagle_oc_ice_sff_16gb_video_card_ac82613_26124.jpg?v=1787796646" width="60"> | **$1,999** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti EAGLE OC ICE 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-16gb-video-card-ac82613) | 🟢 in stock |
 
 <details>
 <summary>OzBargain deal history, last 12 months (9)</summary>
