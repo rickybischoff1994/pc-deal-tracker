@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-08 08:13 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-08 20:20 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -107,8 +107,8 @@ Target: **$1,199**
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5070_ti_x3_16gb_gddr7_video_card_ac83001_98301.jpg?v=1787797060" width="60"> | **$1,679** | Mwave Australia | 1. [Inno3D GeForce RTX 5070 TI X3 16GB GDDR7 Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-16gb-gddr7-video-card-ac83001?variant=47995197718659&currency=AUD)<br><sub>Also: [$1,899 Mwave](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-oc-16gb-gddr7-video-card-ac83002)</sub> | ⚪ check site |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/msi_geforce_rtx_5070_ti_mlg_edition_oc_16gb_gddr7_video_card_ac92600_42512.jpg?v=1793160643" width="60"> | **$1,789** | Mwave | 2. [MSI GeForce RTX 5070 Ti MLG EDITION OC 16GB GDDR7 Video Card](https://www.mwave.com.au/products/msi-geforce-rtx-5070-ti-mlg-edition-oc-16gb-gddr7-video-card-ac92600) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5070_ti_gamingpros_16gb_video_card_ac88912_93702.jpg?v=1787798042" width="60"> | **$1,899** | Mwave | 3. [Palit GeForce RTX 5070 Ti GamingPro-S 16GB Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5070-ti-gamingpros-16gb-video-card-ac88912) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5070_ti_gamingpros_16gb_video_card_ac88912_93702.jpg?v=1787798042" width="60"> | **$1,899** | Mwave | 2. [Palit GeForce RTX 5070 Ti GamingPro-S 16GB Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5070-ti-gamingpros-16gb-video-card-ac88912) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/asus_prime_geforce_rtx_5070_ti_16gb_gddr7_oc_edition_video_card_ac81834_13581.jpg?v=1787795415" width="60"> | **$1,899** | Mwave | 3. [ASUS PRIME GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-prime-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-video-card-ac81834) | 🟢 in stock |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_eagle_oc_ice_sff_16gb_video_card_ac82613_26124.jpg?v=1787796646" width="60"> | **$1,999** | Mwave | 4. [Gigabyte GeForce RTX 5070 Ti EAGLE OC ICE 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-16gb-video-card-ac82613) | 🟢 in stock |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_eagle_oc_sff_16gb_video_card_ac82612_8265.jpg?v=1787796644" width="60"> | **$1,999** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti EAGLE OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-eagle-oc-16gb-video-card-ac82612) | 🟢 in stock |
 
@@ -300,10 +300,6 @@ Target: **$219**
 | <img src="https://assets.umart.com.au/newsite/images/202508/goods_img/SSD-Hard-Drives-Transcend-2TB-TS2TMTE260S-NVMe-PCIe-Gen5-M-2-2280-SSD-5.jpg" width="60"> | **$329** | UMart | 4. [TS2TMTE260S Transcend 2TB NVMe PCIe Gen5 M.2 2280 SSD](https://www.umart.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)<br><sub>Also: [$329 MSY](https://www.msy.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)</sub> | ⚪ check site |
 | 🗄️ | **$339** | Computer & Parts Land | 5. [Crucial CT2000P3PSSD8 P3 Plus 2TB M.2 Internal NVMe PCIE4 SSD](https://cplonline.com.au/crucial-ct2000p3pssd8-p3-plus-2tb-m-2-internal-nvme-pcie4-ssd.html) | ⚪ check site |
 
-**🔥 OzBargain deals (last 30 days):**
-
-- 23 Oct · 👍 57 · [Crucial P310 2280 PCIe Gen4 3D NAND NVMe M.2 Internal SSD 2TB $363.18 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/980031)
-
 <details>
 <summary>OzBargain deal history, last 12 months (34)</summary>
 
@@ -356,10 +352,6 @@ Target: **$429**
 | <img src="https://assets.msy.com.au/newsite/images/202411/goods_img/SSD-Hard-Drives-KLEVV-4TB-CRAS-C910-K04TBM2SP0-C91-PCIe-4-0-NVMe-M-2-2280-SSD-4.jpg" width="60"> | **$549** | MSY | 3. [K04TBM2SP0-C91 KLEVV 4TB CRAS C910 PCIe 4.0 NVMe M.2 2280 SSD(In Stoc…](https://www.msy.com.au/product/klevv-4tb-cras-c910-k04tbm2sp0-c91-pcie-4-0-nvme-m-2-2280-ssd-80369)<br><sub>Also: [$549 UMart](https://www.umart.com.au/product/klevv-4tb-cras-c910-k04tbm2sp0-c91-pcie-4-0-nvme-m-2-2280-ssd-80369)</sub> | 🟢 in stock |
 | 🗄️ | **$599** | Computer & Parts Land | 4. [MSI SPATIUM M461 4TB PCIe 4.0 NVMe M.2 SSD](https://cplonline.com.au/msi-spatium-m461-4tb-pcie-4-0-nvme-m-2-ssd.html) | ⚪ check site |
 | <img src="https://assets.umart.com.au/newsite/images/202606/goods_img/SSD-Hard-Drives-KLEVV-4TB-K04TBM2SP0-10G-CRAS-C910G-PCIe-4-0-NVMe-M-2-2280-SSD-11.jpg" width="60"> | **$699** | UMart | 5. [K04TBM2SP0-10G KLEVV 4TB CRAS C910G PCIe 4.0 NVMe M.2 2280 SSD(In Sto…](https://www.umart.com.au/product/klevv-4tb-k04tbm2sp0-10g-cras-c910g-pcie-4-0-nvme-m-2-2280-ssd-94494)<br><sub>Also: [$699 MSY](https://www.msy.com.au/product/klevv-4tb-k04tbm2sp0-10g-cras-c910g-pcie-4-0-nvme-m-2-2280-ssd-94494)</sub> | 🟢 in stock |
-
-**🔥 OzBargain deals (last 30 days):**
-
-- 30 Oct · 👍 5 · [Klevv 4TB Cras C910G PCIe 4.0 NVMe M.2 2280 SSD $699 + $12-$16 Delivered @ MSY](https://www.ozbargain.com.au/node/980907)
 
 <details>
 <summary>OzBargain deal history, last 12 months (18)</summary>

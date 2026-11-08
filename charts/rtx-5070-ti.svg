@@ -36,7 +36,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.8" x2="696" y2="191.8" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.8" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,199</text>
-<polyline points="399.0,169.1 401.1,169.1 401.2,169.1 401.9,169.1 402.0,169.1 402.1,169.1 409.0,169.1 419.8,169.1 430.1,169.1 440.7,169.1 451.2,169.1 461.8,169.1 472.2,169.1 482.9,169.1 493.2,78.4 503.9,78.4 514.2,78.4 524.7,78.4 535.1,78.4 545.7,78.4 556.2,78.4 567.0,78.4 577.3,78.4 587.9,78.4 598.3,114.0 609.1,114.0 619.4,114.0 630.0,114.0 640.4,114.0 651.0,114.0 661.2,114.0 671.8,114.0 682.2,114.0" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="399.0,169.1 401.1,169.1 401.2,169.1 401.9,169.1 402.0,169.1 402.1,169.1 409.0,169.1 419.8,169.1 430.1,169.1 440.7,169.1 451.2,169.1 461.8,169.1 472.2,169.1 482.9,169.1 493.2,78.4 503.9,78.4 514.2,78.4 524.7,78.4 535.1,78.4 545.7,78.4 556.2,78.4 567.0,78.4 577.3,78.4 587.9,78.4 598.3,114.0 609.1,114.0 619.4,114.0 630.0,114.0 640.4,114.0 651.0,114.0 661.2,114.0 671.8,114.0 682.2,114.0 692.8,114.0" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="399.0" cy="169.1" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $1,339 at MSY</title></circle>
 <circle cx="401.1" cy="169.1" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $1,339 at MSY</title></circle>
 <circle cx="401.2" cy="169.1" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $1,339 at MSY</title></circle>
@@ -70,5 +70,6 @@
 <circle cx="661.2" cy="114.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-07 08:17: $1,679 at Mwave Australia</title></circle>
 <circle cx="671.8" cy="114.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-07 20:20: $1,679 at Mwave Australia</title></circle>
 <circle cx="682.2" cy="114.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 08:13: $1,679 at Mwave Australia</title></circle>
+<circle cx="692.8" cy="114.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 20:20: $1,679 at Mwave Australia</title></circle>
 <path d="M202.5 145.3 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-10-16: $1,449 - PNY GeForce RTX 5070 Ti ARGB Triple Fan Plus OC 16G Graphics Card $1,449 + Delivery ($0 C&amp;C) @ Umart (expired)</title></path>
 </svg>

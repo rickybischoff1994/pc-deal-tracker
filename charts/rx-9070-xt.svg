@@ -36,7 +36,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="192.2" x2="696" y2="192.2" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="187.2" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,099</text>
-<polyline points="399.0,127.4 401.1,127.4 401.2,127.4 401.9,127.4 402.0,127.4 402.1,127.4 409.0,127.4 419.8,127.4 430.1,127.4 440.7,127.4 451.2,127.4 461.8,127.4 472.2,127.4 482.9,127.4 493.2,127.4 503.9,127.4 514.2,100.9 524.7,100.9 535.1,109.3 545.7,109.3 556.2,109.3 567.0,109.3 577.3,109.3 587.9,109.3 598.3,109.3 609.1,109.3 619.4,109.3 630.0,109.3 640.4,109.3 651.0,109.3 661.2,95.0 671.8,95.0 682.2,95.0" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="399.0,127.4 401.1,127.4 401.2,127.4 401.9,127.4 402.0,127.4 402.1,127.4 409.0,127.4 419.8,127.4 430.1,127.4 440.7,127.4 451.2,127.4 461.8,127.4 472.2,127.4 482.9,127.4 493.2,127.4 503.9,127.4 514.2,100.9 524.7,100.9 535.1,109.3 545.7,109.3 556.2,109.3 567.0,109.3 577.3,109.3 587.9,109.3 598.3,109.3 609.1,109.3 619.4,109.3 630.0,109.3 640.4,109.3 651.0,109.3 661.2,95.0 671.8,95.0 682.2,95.0 692.8,95.0" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="399.0" cy="127.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $1,199 at PC Case Gear</title></circle>
 <circle cx="401.1" cy="127.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $1,199 at PC Case Gear</title></circle>
 <circle cx="401.2" cy="127.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $1,199 at PC Case Gear</title></circle>
@@ -70,4 +70,5 @@
 <circle cx="661.2" cy="95.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-07 08:17: $1,249 at Mwave Australia</title></circle>
 <circle cx="671.8" cy="95.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-07 20:20: $1,249 at Mwave Australia</title></circle>
 <circle cx="682.2" cy="95.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 08:13: $1,249 at Mwave Australia</title></circle>
+<circle cx="692.8" cy="95.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 20:20: $1,249 at Mwave Australia</title></circle>
 </svg>
