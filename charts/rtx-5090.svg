@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="194.3" x2="696" y2="194.3" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="189.3" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $4,200</text>
-<polyline points="378.0,122.8 380.1,122.8 380.2,122.8 380.9,122.8 381.0,122.8 381.1,122.8 388.0,122.8 398.8,122.8 409.1,122.8 419.7,122.8 430.2,122.8 440.8,122.8 451.2,122.8 461.9,122.8 472.2,109.3 482.9,109.3 493.2,109.3 503.7,109.3 514.1,163.4 524.7,163.4 535.2,163.4 546.0,163.4 556.3,163.4 566.9,163.4 577.3,163.4 588.1,163.4 598.4,163.4 609.0,163.4 619.4,109.3 630.0,109.3 640.2,149.8 650.8,149.8 661.2,149.8 671.8,149.8 682.2,95.8" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="378.0,122.8 380.1,122.8 380.2,122.8 380.9,122.8 381.0,122.8 381.1,122.8 388.0,122.8 398.8,122.8 409.1,122.8 419.7,122.8 430.2,122.8 440.8,122.8 451.2,122.8 461.9,122.8 472.2,109.3 482.9,109.3 493.2,109.3 503.7,109.3 514.1,163.4 524.7,163.4 535.2,163.4 546.0,163.4 556.3,163.4 566.9,163.4 577.3,163.4 588.1,163.4 598.4,163.4 609.0,163.4 619.4,109.3 630.0,109.3 640.2,149.8 650.8,149.8 661.2,149.8 671.8,149.8 682.2,95.8 692.9,95.8" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="378.0" cy="122.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $9,499 at MSY</title></circle>
 <circle cx="380.1" cy="122.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $9,499 at MSY</title></circle>
 <circle cx="380.2" cy="122.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $9,499 at MSY</title></circle>
@@ -74,4 +74,5 @@
 <circle cx="661.2" cy="149.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 08:13: $7,499 at PCDIY</title></circle>
 <circle cx="671.8" cy="149.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 20:20: $7,499 at PCDIY</title></circle>
 <circle cx="682.2" cy="95.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-09 08:13: $11,499 at Mwave Australia</title></circle>
+<circle cx="692.9" cy="95.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-09 20:26: $11,499 at Mwave Australia</title></circle>
 </svg>
