@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="191.7" x2="696" y2="191.7" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="186.7" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,799</text>
-<polyline points="357.0,159.3 359.1,159.3 359.2,159.3 359.9,159.3 360.0,159.3 360.1,159.3 367.0,159.3 377.8,159.3 388.1,180.9 398.7,180.9 409.2,180.9 419.8,180.9 430.2,180.9 440.9,180.9 451.2,98.3 461.9,98.3 472.2,98.3 482.7,98.3 493.1,144.2 503.7,144.2 514.2,144.2 525.0,144.2 535.3,144.2 545.9,144.2 556.3,118.2 567.1,118.2 577.4,118.2 588.0,118.2 598.4,116.1 609.0,116.1 619.2,110.8 629.8,110.8 640.2,110.8 650.8,110.8 661.2,110.8 671.9,110.8 682.3,110.8" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="357.0,159.3 359.1,159.3 359.2,159.3 359.9,159.3 360.0,159.3 360.1,159.3 367.0,159.3 377.8,159.3 388.1,180.9 398.7,180.9 409.2,180.9 419.8,180.9 430.2,180.9 440.9,180.9 451.2,98.3 461.9,98.3 472.2,98.3 482.7,98.3 493.1,144.2 503.7,144.2 514.2,144.2 525.0,144.2 535.3,144.2 545.9,144.2 556.3,118.2 567.1,118.2 577.4,118.2 588.0,118.2 598.4,116.1 609.0,116.1 619.2,110.8 629.8,110.8 640.2,110.8 650.8,110.8 661.2,110.8 671.9,110.8 682.3,110.8 693.0,110.8" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="357.0" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $2,099 at UMart</title></circle>
 <circle cx="359.1" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $2,099 at UMart</title></circle>
 <circle cx="359.2" cy="159.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $2,099 at UMart</title></circle>
@@ -76,5 +76,6 @@
 <circle cx="661.2" cy="110.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-09 08:13: $2,547.95 at Mwave Australia</title></circle>
 <circle cx="671.9" cy="110.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-09 20:26: $2,547.95 at Mwave Australia</title></circle>
 <circle cx="682.3" cy="110.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-10 08:22: $2,547.95 at Mwave Australia</title></circle>
+<circle cx="693.0" cy="110.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-10 20:31: $2,547.95 at Mwave Australia</title></circle>
 <path d="M517.5 120.9 l6 6 l-6 6 l-6 -6 z" fill="#c2410c" stroke="#ffffff" stroke-width="1"><title>OzBargain 2026-11-02: $2,399 - Palit GeForce RTX 5080 GamingPro OC V1 16GB GPU $2399 + Delivery ($0 to Metro Areas/ VIC C&amp;C) @ Scorptec (expired)</title></path>
 </svg>
