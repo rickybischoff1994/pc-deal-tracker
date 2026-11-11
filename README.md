@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-11 08:18 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-11 20:35 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -104,15 +104,16 @@ Target: **$1,199**
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
-| <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5070_ti_x3_16gb_gddr7_video_card_ac83001_98301.jpg?v=1787797060" width="60"> | **$1,679** | Mwave Australia | 1. [Inno3D GeForce RTX 5070 TI X3 16GB GDDR7 Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-16gb-gddr7-video-card-ac83001?variant=47995197718659&currency=AUD)<br><sub>Also: [$1,899 Mwave](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-oc-16gb-gddr7-video-card-ac83002)</sub> | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5070_ti_x3_16gb_gddr7_video_card_ac83001_98301.jpg?v=1787797060" width="60"> | **$1,679** | Mwave Australia | 1. [Inno3D GeForce RTX 5070 TI X3 16GB GDDR7 Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-16gb-gddr7-video-card-ac83001?variant=47995197718659&currency=AUD) | ⚪ check site |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5070_ti_gamingpros_16gb_video_card_ac88912_93702.jpg?v=1787798042" width="60"> | **$1,899** | Mwave | 2. [Palit GeForce RTX 5070 Ti GamingPro-S 16GB Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5070-ti-gamingpros-16gb-video-card-ac88912) | 🟢 in stock |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_eagle_oc_ice_sff_16gb_video_card_ac82613_26124.jpg?v=1787796646" width="60"> | **$1,999** | Mwave | 3. [Gigabyte GeForce RTX 5070 Ti EAGLE OC ICE 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-eagle-oc-ice-16gb-video-card-ac82613) | 🟢 in stock |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_eagle_oc_sff_16gb_video_card_ac82612_8265.jpg?v=1787796644" width="60"> | **$1,999** | Mwave | 4. [Gigabyte GeForce RTX 5070 Ti EAGLE OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-eagle-oc-16gb-video-card-ac82612) | 🟢 in stock |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/asus_tuf_gaming_geforce_rtx_5070_ti_16gb_gddr7_oc_edition_video_card_ac81837_53303.jpg?v=1787795484" width="60"> | **$2,099** | Mwave | 5. [ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-tuf-gaming-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-video-card-ac81837) | 🟢 in stock |
 
 <details>
-<summary>OzBargain deal history, last 12 months (9)</summary>
+<summary>OzBargain deal history, last 12 months (10)</summary>
 
+- 11 Nov · $1,441 · Centre Com · [MSI GeForce RTX 5070 Ti 16G VENTUS 3X PZ OC Graphics Card $1,441 Delivered / VIC, QLD C&C @ Centre …](https://www.ozbargain.com.au/node/982611) (expired)
 - 16 Oct · $1,449 · Umart · [PNY GeForce RTX 5070 Ti ARGB Triple Fan Plus OC 16G Graphics Card $1,449 + Delivery ($0 C&C) @ Umart](https://www.ozbargain.com.au/node/979226) (expired)
 - 11 Jun · $1,149 · Shopping Express · [MSI GeForce RTX 5070 Ti 16G Shadow 3X OC 16GB GDDR7 Graphics Card $1,149 Delivered @ Shopping Expre…](https://www.ozbargain.com.au/node/963007) (expired)
 - 24 May · $1,269 · Umart / MSY · [MAXSUN iCraft GeForce RTX 5070 Ti OC 16GB Graphics Card $1269 + Delivery ($0 C&C) @ Umart / MSY](https://www.ozbargain.com.au/node/960410) (expired)
@@ -179,10 +180,14 @@ Target: **$549**
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/amd_ryzen_7_9800x3d_8_core_am5_up_to_52ghz_unlocked_cpu_processor_ac79140_38762.jpg?v=1787795181" width="60"> | **$648** | Mwave | 4. [AMD Ryzen 7 9800X3D 8 Core 16 Thread AM5 up to 5.2GHz AM5 Unlocked CP…](https://www.mwave.com.au/products/amd-ryzen-7-9800x3d-8-core-16-thread-am5-up-to-52ghz-am5-unlocked-cpu-processor-ac79140) | 🟢 in stock |
 | <img src="https://www.mwave.com.au/cdn/shop/files/amd_ryzen_7_9800x3d_8_core_am5_up_to_52ghz_unlocked_cpu_processor_ac79140_38762.jpg?v=1787795181" width="60"> | **$649** | Computer Alliance | 5. [AMD AM5 Ryzen 7 9800X3D 8 Core 5.2GHz CPU 100-000001084 (TRAY)](https://www.computeralliance.com.au/product/amd-am5-ryzen-7-9800x3d-8-core-5-2ghz-cpu-100-000001084-tray/) | ⚪ check site |
 
+**🔥 OzBargain deals (last 30 days):**
+
+- 02 Nov · 👍 98 · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship Store](https://www.ozbargain.com.au/node/981214)
+
 <details>
 <summary>OzBargain deal history, last 12 months (14)</summary>
 
-- 02 Nov · $462.39 · Yeah Magic Flagship Store · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship …](https://www.ozbargain.com.au/node/981214) (expired)
+- 02 Nov · $462.39 · Yeah Magic Flagship Store · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship …](https://www.ozbargain.com.au/node/981214)
 - 04 Oct · $581.99 · Amazon DE via AU · [AMD Ryzen 7 9800X3D 8-Core, 16-Thread Desktop Processor $581.99 (RRP $821) Delivered @ Amazon DE vi…](https://www.ozbargain.com.au/node/977686) (expired)
 - 11 Sep · $555.60 · Mwave · [AMD Ryzen 7 9800X3D $555.60 Delivered @ Mwave](https://www.ozbargain.com.au/node/974670) (expired)
 - 23 Aug · $569.54 · Amazon DE via AU · [AMD Ryzen 7 9800X3D 8-Core, 16-Thread Desktop Processor $569.54 Delivered @ Amazon DE via AU](https://www.ozbargain.com.au/node/972376) (expired)
