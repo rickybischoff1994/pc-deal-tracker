@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="194.3" x2="696" y2="194.3" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="189.3" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $4,200</text>
-<polyline points="315.0,122.8 317.1,122.8 317.2,122.8 317.9,122.8 318.0,122.8 318.1,122.8 325.0,122.8 335.8,122.8 346.1,122.8 356.7,122.8 367.2,122.8 377.8,122.8 388.2,122.8 398.9,122.8 409.2,109.3 419.9,109.3 430.2,109.3 440.7,109.3 451.1,163.4 461.7,163.4 472.2,163.4 483.0,163.4 493.3,163.4 503.9,163.4 514.3,163.4 525.1,163.4 535.4,163.4 546.0,163.4 556.4,109.3 567.0,109.3 577.2,149.8 587.8,149.8 598.2,149.8 608.8,149.8 619.2,95.8 629.9,95.8 640.3,102.6 651.0,102.6 661.3,102.6 672.0,102.6 682.4,102.6" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="315.0,122.8 317.1,122.8 317.2,122.8 317.9,122.8 318.0,122.8 318.1,122.8 325.0,122.8 335.8,122.8 346.1,122.8 356.7,122.8 367.2,122.8 377.8,122.8 388.2,122.8 398.9,122.8 409.2,109.3 419.9,109.3 430.2,109.3 440.7,109.3 451.1,163.4 461.7,163.4 472.2,163.4 483.0,163.4 493.3,163.4 503.9,163.4 514.3,163.4 525.1,163.4 535.4,163.4 546.0,163.4 556.4,109.3 567.0,109.3 577.2,149.8 587.8,149.8 598.2,149.8 608.8,149.8 619.2,95.8 629.9,95.8 640.3,102.6 651.0,102.6 661.3,102.6 672.0,102.6 682.4,102.6 693.0,102.6" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="315.0" cy="122.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $9,499 at MSY</title></circle>
 <circle cx="317.1" cy="122.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $9,499 at MSY</title></circle>
 <circle cx="317.2" cy="122.8" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $9,499 at MSY</title></circle>
@@ -80,4 +80,5 @@
 <circle cx="661.3" cy="102.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-11 08:18: $10,990 at CCPU Computers</title></circle>
 <circle cx="672.0" cy="102.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-11 20:35: $10,990 at CCPU Computers</title></circle>
 <circle cx="682.4" cy="102.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-12 08:30: $10,990 at CCPU Computers</title></circle>
+<circle cx="693.0" cy="102.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-12 20:36: $10,990 at CCPU Computers</title></circle>
 </svg>

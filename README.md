@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-12 08:30 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-12 20:36 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -299,7 +299,7 @@ Target: **$219**
 |---|---:|---|---|---|
 | 🗄️ | **$226.70** | Computer & Parts Land | 1. [MSI SPATIUM M470 PRO 2TB PCIe 4.0 NVMe M.2 2280 SSD](https://cplonline.com.au/msi-spatium-m470-pro-2tb-pcie-4-0-nvme-m-2-2280-ssd.html) | ⚪ check site |
 | 🗄️ | **$259** | Computer & Parts Land | 2. [HP 8U2N5AA# FX700 2TB PCIe Gen 4x4 NVMe M.2 2280 SSD](https://cplonline.com.au/hp-8u2n5aa-fx700-2tb-pcie-gen-4x4-nvme-m-2-2280-ssd.html) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/wd_green_sn3000_2tb_pcie_gen_4_m2_2280_nvme_ssd_wds200t5g0e00cps0_ac97420_83969.jpg?v=1787799769" width="60"> | **$328** | Mwave Australia | 3. [WD Green SN3000 2TB PCIe Gen 4 M.2 2280 NVMe SSD - WDS200T5G0E-00CPS0](https://www.mwave.com.au/products/wd-green-sn3000-2tb-pcie-gen-4-m2-2280-nvme-ssd-wds200t5g0e00cps0-ac97420?variant=47995792490627&currency=AUD)<br><sub>Also: [$328 Mwave](https://www.mwave.com.au/products/wd-green-sn3000-2tb-pcie-gen-4-m2-2280-nvme-ssd-wds200t5g0e00cps0-ac97420)</sub> | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/wd_green_sn3000_2tb_pcie_gen_4_m2_2280_nvme_ssd_wds200t5g0e00cps0_ac97420_83969.jpg?v=1787799769" width="60"> | **$328** | Mwave Australia | 3. [WD Green SN3000 2TB PCIe Gen 4 M.2 2280 NVMe SSD - WDS200T5G0E-00CPS0](https://www.mwave.com.au/products/wd-green-sn3000-2tb-pcie-gen-4-m2-2280-nvme-ssd-wds200t5g0e00cps0-ac97420?variant=47995792490627&currency=AUD) | ⚪ check site |
 | <img src="https://assets.umart.com.au/newsite/images/202506/goods_img/SSD-Hard-Drives-Gigabyte-2TB-AG4732TB-Aorus-PCIe-4-0-NVMe-M-2-2280-SSD-with-Heatsink-6.jpg" width="60"> | **$329** | UMart | 4. [AG4732TB Gigabyte 2TB Aorus PCIe 4.0 NVMe M.2 2280 SSD with Heatsink](https://www.umart.com.au/product/gigabyte-2tb-ag4732tb-aorus-pcie-4-0-nvme-m-2-2280-ssd-with-heatsink-84128)<br><sub>Also: [$329 MSY](https://www.msy.com.au/product/gigabyte-2tb-ag4732tb-aorus-pcie-4-0-nvme-m-2-2280-ssd-with-heatsink-84128)</sub> | ⚪ check site |
 | <img src="https://assets.msy.com.au/newsite/images/202508/goods_img/SSD-Hard-Drives-Transcend-2TB-TS2TMTE260S-NVMe-PCIe-Gen5-M-2-2280-SSD-5.jpg" width="60"> | **$329** | MSY | 5. [TS2TMTE260S Transcend 2TB NVMe PCIe Gen5 M.2 2280 SSD](https://www.msy.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)<br><sub>Also: [$329 UMart](https://www.umart.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)</sub> | ⚪ check site |
 

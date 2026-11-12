@@ -38,7 +38,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="197.3" x2="696" y2="197.3" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="192.3" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $1,199</text>
-<polyline points="315.0,89.3 317.1,89.3 317.2,89.3 317.9,89.3 318.0,89.3 318.1,89.3 325.0,89.3 335.8,89.3 346.1,89.3 356.7,89.3 367.2,89.3 377.8,89.3 388.2,89.3 398.9,89.3 409.2,89.3 419.9,89.3 430.2,89.3 440.7,89.3 451.1,89.3 461.7,89.3 472.2,89.3 483.0,89.3 493.3,89.3 503.9,89.3 514.3,89.3 525.1,89.3 535.4,89.3 546.0,89.3 556.4,89.3 567.0,89.3 577.2,89.3 587.8,89.3 598.2,89.3 608.8,89.3 619.2,89.3 629.9,89.3 640.3,89.3 651.0,89.3 661.3,89.3 672.0,89.3 682.4,89.3" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="315.0,89.3 317.1,89.3 317.2,89.3 317.9,89.3 318.0,89.3 318.1,89.3 325.0,89.3 335.8,89.3 346.1,89.3 356.7,89.3 367.2,89.3 377.8,89.3 388.2,89.3 398.9,89.3 409.2,89.3 419.9,89.3 430.2,89.3 440.7,89.3 451.1,89.3 461.7,89.3 472.2,89.3 483.0,89.3 493.3,89.3 503.9,89.3 514.3,89.3 525.1,89.3 535.4,89.3 546.0,89.3 556.4,89.3 567.0,89.3 577.2,89.3 587.8,89.3 598.2,89.3 608.8,89.3 619.2,89.3 629.9,89.3 640.3,89.3 651.0,89.3 661.3,89.3 672.0,89.3 682.4,89.3 693.0,89.3" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="315.0" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $1,599 at Scorptec</title></circle>
 <circle cx="317.1" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $1,599 at Scorptec</title></circle>
 <circle cx="317.2" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $1,599 at Scorptec</title></circle>
@@ -80,4 +80,5 @@
 <circle cx="661.3" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-11 08:18: $1,599 at Scorptec</title></circle>
 <circle cx="672.0" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-11 20:35: $1,599 at Scorptec</title></circle>
 <circle cx="682.4" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-12 08:30: $1,599 at Scorptec</title></circle>
+<circle cx="693.0" cy="89.3" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-12 20:36: $1,599 at Scorptec</title></circle>
 </svg>
