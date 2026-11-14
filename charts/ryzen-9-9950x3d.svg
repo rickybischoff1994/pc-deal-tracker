@@ -34,7 +34,7 @@
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="143.8" x2="696" y2="143.8" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="138.8" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $899</text>
-<polyline points="273.0,195.7 275.1,195.7 275.2,195.7 275.9,195.7 276.0,195.7 276.1,195.7 283.0,195.7 293.8,195.7 304.1,195.7 314.7,195.7 325.2,195.7 335.8,195.7 346.2,195.7 356.9,195.7 367.2,195.7 377.9,195.7 388.2,195.7 398.7,195.7 409.1,195.7 419.7,195.7 430.2,195.7 441.0,195.7 451.3,195.7 461.9,195.7 472.3,143.0 483.1,143.0 493.4,143.0 504.0,143.0 514.4,143.0 525.0,143.0 535.2,111.4 545.8,111.4 556.2,111.4 566.8,111.4 577.2,111.4 587.9,111.4 598.3,111.4 609.0,111.4 619.3,111.4 630.0,111.4 640.4,111.4 651.0,111.4 661.3,111.4 672.0,111.4 682.3,111.4" fill="none" stroke="#0969da" stroke-width="2"/>
+<polyline points="273.0,195.7 275.1,195.7 275.2,195.7 275.9,195.7 276.0,195.7 276.1,195.7 283.0,195.7 293.8,195.7 304.1,195.7 314.7,195.7 325.2,195.7 335.8,195.7 346.2,195.7 356.9,195.7 367.2,195.7 377.9,195.7 388.2,195.7 398.7,195.7 409.1,195.7 419.7,195.7 430.2,195.7 441.0,195.7 451.3,195.7 461.9,195.7 472.3,143.0 483.1,143.0 493.4,143.0 504.0,143.0 514.4,143.0 525.0,143.0 535.2,111.4 545.8,111.4 556.2,111.4 566.8,111.4 577.2,111.4 587.9,111.4 598.3,111.4 609.0,111.4 619.3,111.4 630.0,111.4 640.4,111.4 651.0,111.4 661.3,111.4 672.0,111.4 682.3,111.4 692.8,111.4" fill="none" stroke="#0969da" stroke-width="2"/>
 <circle cx="273.0" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 20:37: $835 at CCPU Computers</title></circle>
 <circle cx="275.1" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 22:56: $835 at CCPU Computers</title></circle>
 <circle cx="275.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-25 23:08: $835 at CCPU Computers</title></circle>
@@ -80,4 +80,5 @@
 <circle cx="661.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-13 08:23: $939 at PC Case Gear</title></circle>
 <circle cx="672.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-13 20:35: $939 at PC Case Gear</title></circle>
 <circle cx="682.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-14 08:22: $939 at PC Case Gear</title></circle>
+<circle cx="692.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-14 20:20: $939 at PC Case Gear</title></circle>
 </svg>
