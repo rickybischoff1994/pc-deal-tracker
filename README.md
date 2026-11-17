@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-17 08:25 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-17 20:36 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -273,7 +273,7 @@ Target: **$899**
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | 💾 | **$959** | Computer & Parts Land | 1. [G.Skill F5-6000J3040G32GX2-RS5K Ripjaws S5 64GB (2x 32GB) DDR5 6000MH…](https://cplonline.com.au/g-skill-f5-6000j3040g32gx2-rs5k-ripjaws-s5-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black.html) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_white_ac78811_35070.jpg?v=1787797250" width="60"> | **$1,599** | Mwave Australia | 2. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Wh…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811?variant=48001769341059&currency=AUD)<br><sub>Also: [$1,599 Mwave](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811)</sub> | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/klevv_cras_v_rgb_64gb_2x_32gb_ddr5_6000mhz_c30_desktop_memory_white_ac78811_35070.jpg?v=1787797250" width="60"> | **$1,599** | Mwave Australia | 2. [KLEVV CRAS V RGB 64GB (2x 32GB) DDR5 6000MHz CL30 Desktop Memory - Wh…](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811?variant=48001769341059&currency=AUD)<br><sub>Also: [$1,999 Mwave](https://www.mwave.com.au/products/klevv-cras-v-rgb-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-white-ac78811)</sub> | ⚪ check site |
 | <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_white_ac61078_75776.jpg?v=1787783571" width="60"> | **$1,799** | Scorptec | 3. [[SP064GXLWU60AFDF] Silicon Power XPOWER Zenith RGB 64GB (2x32GB) 6000…](https://www.scorptec.com.au/product/memory/ddr5-desktop-memory/129715-sp064gxlwu60afdf) | ⚪ check site |
 | <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_white_ac61078_75776.jpg?v=1787783571" width="60"> | **$1,899** | PC Case Gear | 4. [Klevv Cras V RGB 64GB (2x32GB) 6000MHz CL30 DDR5 White [KD5BGUA80-60A…](https://www.pccasegear.com/products/71061/klevv-cras-v-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-white) | 🟢 in stock |
 | <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_white_ac61078_75776.jpg?v=1787783571" width="60"> | **$1,899** | PC Case Gear | 5. [Klevv Cras V RGB 64GB (2x32GB) 6000MHz CL30 DDR5 Black [KD5BGUA80-60A…](https://www.pccasegear.com/products/71063/klevv-cras-v-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-black) | 🟢 in stock |
