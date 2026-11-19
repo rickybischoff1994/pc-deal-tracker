@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-19 20:31 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-20 08:26 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -28,8 +28,8 @@ _Last checked: 2026-11-19 20:31 (Brisbane time) · Sources: StaticICE (~15 store
 | <img src="https://assets.umart.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="40"> | [Ryzen 7 9850X3D](#ryzen-7-9850x3d) | **$740** | $699 | — | CCPU Computers |
 | <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="40"> | [Ryzen 9 9950X3D](#ryzen-9-9950x3d) | **$939** | $899 | — | PC Case Gear |
 | <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="40"> | [DDR5 32GB (2x16GB) 6000MHz CL30](#ddr5-32gb-2x16gb-6000mhz-cl30) | **$359** | $349 | — | Computer & Parts Land |
-| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_white_ac61078_75776.jpg?v=1787783571" width="40"> | [DDR5 64GB (2x32GB) 6000MHz CL30](#ddr5-64gb-2x32gb-6000mhz-cl30) | **$959** | $899 | — | Computer & Parts Land |
-| <img src="https://assets.umart.com.au/newsite/images/202506/goods_img/SSD-Hard-Drives-Gigabyte-2TB-AG4732TB-Aorus-PCIe-4-0-NVMe-M-2-2280-SSD-with-Heatsink-6.jpg" width="40"> | [2TB NVMe SSD](#2tb-nvme-ssd) | **$226.70** | $219 | — | Computer & Parts Land |
+| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="40"> | [DDR5 64GB (2x32GB) 6000MHz CL30](#ddr5-64gb-2x32gb-6000mhz-cl30) | **$959** | $899 | — | Computer & Parts Land |
+| <img src="https://assets.msy.com.au/newsite/images/202508/goods_img/SSD-Hard-Drives-Transcend-2TB-TS2TMTE260S-NVMe-PCIe-Gen5-M-2-2280-SSD-5.jpg" width="40"> | [2TB NVMe SSD](#2tb-nvme-ssd) | **$226.70** | $219 | — | Computer & Parts Land |
 | <img src="https://www.mwave.com.au/cdn/shop/files/hp_fx700_4tb_pcie_gen_4x4_nvme_m2_2280_ssd_ac78281_69915.jpg?v=1787746077" width="40"> | [4TB NVMe SSD](#4tb-nvme-ssd) | **$449** | $429 | — | Computer & Parts Land |
 | <img src="https://www.mwave.com.au/cdn/shop/files/biwin_black_opal_x570_pro_8tb_pcie_50_nvme_m2_ssd_bx570dn08tbrgx_ac98567_19747.jpg?v=1787795687" width="40"> | [8TB NVMe SSD](#8tb-nvme-ssd) | **$1,599** | $1,199 | — | Scorptec |
 
@@ -109,7 +109,7 @@ Target: **$1,199**
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_gaming_oc_16gb_video_card_ac82565_41890.jpg?v=1787796650" width="60"> | **$2,249** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti GAMING OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-video-card-ac82565) | 🟢 in stock |
 
 <details>
-<summary>OzBargain deal history, last 12 months (10)</summary>
+<summary>OzBargain deal history, last 12 months (8)</summary>
 
 - 11 Nov · $1,441 · Centre Com · [MSI GeForce RTX 5070 Ti 16G VENTUS 3X PZ OC Graphics Card $1,441 Delivered / VIC, QLD C&C @ Centre …](https://www.ozbargain.com.au/node/982611) (expired)
 - 16 Oct · $1,449 · Umart · [PNY GeForce RTX 5070 Ti ARGB Triple Fan Plus OC 16G Graphics Card $1,449 + Delivery ($0 C&C) @ Umart](https://www.ozbargain.com.au/node/979226) (expired)
@@ -119,8 +119,6 @@ Target: **$1,199**
 - 09 Dec · $1,379 · Computer Alliance · [ASUS Prime RTX 5070 Ti 16GB Graphics Card $1379 Delivered (+Bonus $100 eGift Card via Redemption) @…](https://www.ozbargain.com.au/node/939170) (expired)
 - 03 Dec · $1,231 · Centre Com eBay · [[eBay Plus] PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fans Graphics Card $1231 Delivered @ Centre C…](https://www.ozbargain.com.au/node/938144) (expired)
 - 28 Nov · $1,169 · Scorptec · [MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC Graphics Card $1169 + Delivery ($0 to Metro/ C&C/ In-Store…](https://www.ozbargain.com.au/node/936956) (expired)
-- 19 Nov · $1,199 · Centre Com · [PNY GeForce RTX 5070 Ti 16GB GDDR7 Triple Fans Graphics Card $1199 Delivered ($0 C&C/ in-Store) @ C…](https://www.ozbargain.com.au/node/934290) (expired)
-- 19 Nov · $1,148 · Futu_Online eBay · [Palit GeForce RTX 5070 Ti GamingPro V1 16GB Graphics Card $1148 Delivered (Excl. NT) @ Futu_Online …](https://www.ozbargain.com.au/node/934331) (expired)
 
 </details>
 
@@ -132,10 +130,10 @@ Target: **$1,799**
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | 🎮 | **$2,795** | Austin Computers | 1. [MSI GeForce RTX 5080 16G VENTUS 3X OC Gaming Graphics Card](https://www.austin.net.au/products/msi-geforce-rtx-5080-16g-ventus-3x-oc-gaming-graphics-card) | ⚪ check site |
-| 🎮 | **$2,999** | Scorptec | 2. [[NE75080S19T2-GB2031A] Palit GeForce RTX 5080 GamingPro OC, 16GB](https://www.scorptec.com.au/product/graphics-cards/nvidia/123727-ne75080s19t2-gb2031a)<br><sub>Also: [$3,050 CCPU Computers](https://www.ccpu.com.au/product/palit-ne75080s19t2-gb2031a-geforce-rtx-5080-gamingpro-oc-16gb/)</sub> | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/asus_prime_geforce_rtx_5080_evo_16gb_gddr7_oc_edition_video_card_ac99572_31571.jpg?v=1787795419" width="60"> | **$2,999** | Mwave Australia | 3. [ASUS PRIME GeForce RTX 5080 EVO 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-prime-geforce-rtx-5080-evo-16gb-gddr7-oc-edition-video-card-ac99572?variant=47994714259587&currency=AUD) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/182284_9.png?v=1792033388" width="60"> | **$2,999** | Mwave Australia | 4. [Palit GeForce RTX 5080 GamingPro OC 16GB GDDR7 Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5080-gamingpro-oc-16gb-gddr7-video-card?variant=50565869109379&currency=AUD) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/gigabyte_geforce_rtx_5080_aero_oc_sff_16gb_video_card_ac81990_88959.jpg?v=1787785378" width="60"> | **$2,999** | Mwave Australia | 5. [Gigabyte GeForce RTX 5080 AERO OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5080-aero-oc-16gb-video-card-ac81990?variant=47995034927235&currency=AUD) | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/asus_prime_geforce_rtx_5080_evo_16gb_gddr7_oc_edition_video_card_ac99572_31571.jpg?v=1787795419" width="60"> | **$2,999** | Mwave Australia | 2. [ASUS PRIME GeForce RTX 5080 EVO 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-prime-geforce-rtx-5080-evo-16gb-gddr7-oc-edition-video-card-ac99572?variant=47994714259587&currency=AUD) | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/asus_prime_geforce_rtx_5080_16gb_gddr7_video_card_ac81838_1820.jpg?v=1787795414" width="60"> | **$2,999** | Mwave Australia | 3. [ASUS PRIME GeForce RTX 5080 16GB GDDR7 Video Card](https://www.mwave.com.au/products/asus-prime-geforce-rtx-5080-16gb-gddr7-video-card-ac81838?variant=47994714128515&currency=AUD) | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/msi_geforce_rtx_5080_gaming_trio_oc_16gb_video_card_ac81846_37597.jpg?v=1787797753" width="60"> | **$2,999** | Mwave Australia | 4. [MSI GeForce RTX 5080 GAMING TRIO OC 16GB Video Card](https://www.mwave.com.au/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-video-card-ac81846?variant=47995340783747&currency=AUD) | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/asus_tuf_gaming_geforce_rtx_5080_16gb_gddr7_video_card_ac81835_2560.jpg?v=1787795488" width="60"> | **$2,999** | Mwave Australia | 5. [ASUS TUF Gaming GeForce RTX 5080 16GB GDDR7 Video Card](https://www.mwave.com.au/products/asus-tuf-gaming-geforce-rtx-5080-16gb-gddr7-video-card-ac81835?variant=47994723238019&currency=AUD) | ⚪ check site |
 
 <details>
 <summary>OzBargain deal history, last 12 months (6)</summary>
@@ -159,8 +157,8 @@ Target: **$4,200**
 | 🎮 | **$10,990** | CCPU Computers | 1. [Palit NE75090S19R5-GB2020G RTX 5090 32GB GameRock OC](https://www.ccpu.com.au/product/palit-ne75090s19r5-gb2020g-rtx-5090-32gb-gamerock-oc/)<br><sub>Also: [$12,299 Scorptec](https://www.scorptec.com.au/product/graphics-cards/nvidia/121949-ne75090s19r5-gb2020g)</sub> | ⚪ check site |
 | 🎮 | **$10,990** | CCPU Computers | 2. [PNY RTX 5090 Triple Fan OC GDDR7 32GB VCG509032TFXPB1-O](https://www.ccpu.com.au/product/pny-rtx-5090-triple-fan-oc-gddr7-32gb-vcg509032tfxpb1-o/)<br><sub>Also: [$12,499 Scorptec](https://www.scorptec.com.au/product/graphics-cards/nvidia/116124-vcg509032tfxpb1-o) · [$12,499 PC Case Gear](https://www.pccasegear.com/products/69120/pny-geforce-rtx-5090-triple-fan-oc-gddr7-32gb) · [$13,999 MegaBuy](https://www.megabuy.com.au/pny-graphics-cardrtx509032gbtrplfanocpbpny-gpu-p1439515.html)</sub> | ⚪ check site |
 | 🎮 | **$11,200** | CCPU Computers | 3. [MSI RTX 5090 32GB VENTUS 3X OC](https://www.ccpu.com.au/product/msi-rtx-5090-32gb-ventus-3x-oc-5090-ventus-3x-o/) | ⚪ check site |
-| 🎮 | **$11,999** | Austin Computers | 4. [Asus ROG-ASTRAL-RTX5090-O32G-WHITE Gaming Graphics card](https://www.austin.net.au/products/asus-rog-astral-rtx5090-o32g-white-gaming-graphics-card) | ⚪ check site |
-| 🎮 | **$11,999** | Scorptec | 5. [[NE75090019R5-GB2020G] Palit GeForce RTX 5090 GameRock, 32GB](https://www.scorptec.com.au/product/graphics-cards/nvidia/116255-ne75090019r5-gb2020g) | ⚪ check site |
+| 🎮 | **$11,999** | Scorptec | 4. [[NE75090019R5-GB2020G] Palit GeForce RTX 5090 GameRock, 32GB](https://www.scorptec.com.au/product/graphics-cards/nvidia/116255-ne75090019r5-gb2020g) | ⚪ check site |
+| 🎮 | **$11,999** | Austin Computers | 5. [Asus ROG-ASTRAL-RTX5090-O32G-WHITE Gaming Graphics card](https://www.austin.net.au/products/asus-rog-astral-rtx5090-o32g-white-gaming-graphics-card) | ⚪ check site |
 
 ## Processors
 
@@ -173,13 +171,13 @@ Target: **$549**
 |---|---:|---|---|---|
 | <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$645** | JW Computers | 1. [Carton Damaged AMD Ryzen 7 9800X3D 8 Core 16 Threads AM5 Processor](https://www.jw.com.au/product/amd-ryzen-7-9800x3d-8-core-16-threads-am5-processor-db) | ⚪ check site |
 | <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$665** | JB Hi-Fi | 2. [AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)](https://www.jbhifi.com.au/products/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof?variant=40426831577289) | ⚪ check site |
-| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$679** | Computer Alliance | 3. [AMD AM5 Ryzen 7 9800X3D 8 Core CPU (No Cooler) 100-100001084WOF](https://www.computeralliance.com.au/product/amd-am5-ryzen-7-9800x3d-8-core-cpu-no-cooler-100-100001084wof/) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/amd_ryzen_7_9800x3d_8_core_am5_up_to_52ghz_unlocked_cpu_processor_ac79140_38762.jpg?v=1787795181" width="60"> | **$679** | Mwave Australia | 4. [AMD Ryzen 7 9800X3D 8 Core 16 Thread AM5 up to 5.2GHz AM5 Unlocked CP…](https://www.mwave.com.au/products/amd-ryzen-7-9800x3d-8-core-16-thread-am5-up-to-52ghz-am5-unlocked-cpu-processor-ac79140?variant=47994670219395&currency=AUD) | ⚪ check site |
-| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$679** | Computer & Parts Land | 5. [AMD 100-100001084WOF Ryzen 7 9800X3D Desktop Processor](https://cplonline.com.au/amd-100-100001084wof-ryzen-7-9800x3d-desktop-processor.html) | ⚪ check site |
+| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$679** | Computer & Parts Land | 3. [AMD 100-100001084WOF Ryzen 7 9800X3D Desktop Processor](https://cplonline.com.au/amd-100-100001084wof-ryzen-7-9800x3d-desktop-processor.html) | ⚪ check site |
+| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$679** | JW Computers | 4. [AMD Ryzen 7 9800X3D 8 Core 16 Threads AM5 Processor](https://www.jw.com.au/product/amd-ryzen-7-9800x3d-8-core-processor) | ⚪ check site |
+| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$679** | Scorptec | 5. [[100-100001084WOF] AMD Ryzen 7 9800X3D Desktop Processor](https://www.scorptec.com.au/product/cpu/amd-socket-am5/114321-100-100001084wof) | ⚪ check site |
 
 **🔥 OzBargain deals (last 30 days):**
 
-- 02 Nov · 👍 102 · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship Store](https://www.ozbargain.com.au/node/981214)
+- 02 Nov · 👍 103 · [AMD Ryzen 7 9800X3D CPU US$324.23 (~A$462.39) with PayPal AU Stock Delivered @ Yeah Magic Flagship Store](https://www.ozbargain.com.au/node/981214)
 
 <details>
 <summary>OzBargain deal history, last 12 months (14)</summary>
@@ -212,7 +210,7 @@ Target: **$699**
 | <img src="https://assets.umart.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="60"> | **$742.77** | JW Computers | 2. [AMD Ryzen 7 9850X3D 8 Core Processor](https://www.jw.com.au/product/amd-ryzen-7-9850x3d-8-core-processor) | ⚪ check site |
 | <img src="https://assets.umart.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="60"> | **$744** | Computer & Parts Land | 3. [AMD 100-100001973WOF Ryzen 7 9850X3D 8 Core AM5 up to 5.6GHz Unlocked…](https://cplonline.com.au/amd-100-100001973wof-ryzen-7-9850x3d-8-core-am5-up-to-5-6ghz-unlocked-cpu-processor.html) | ⚪ check site |
 | <img src="https://assets.umart.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="60"> | **$744** | UMart | 4. [100-100001973WOF AMD Ryzen 7 9850X3D 8 Core 5.6 GHz AM5 CPU Proce(In …](https://www.umart.com.au/product/amd-ryzen-7-9850x3d-8-core-5-6-ghz-am5-cpu-processor-100-100001973wof-92287) | 🟢 in stock |
-| <img src="https://assets.msy.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="60"> | **$744** | MSY | 5. [100-100001973WOF AMD Ryzen 7 9850X3D 8 Core 5.6 GHz AM5 CPU Proce(In …](https://www.msy.com.au/product/amd-ryzen-7-9850x3d-8-core-5-6-ghz-am5-cpu-processor-100-100001973wof-92287) | 🟢 in stock |
+| <img src="https://assets.umart.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="60"> | **$744** | Scorptec | 5. [[100-100001973WOF] AMD Ryzen 7 9850X3D Desktop Processor](https://www.scorptec.com.au/product/cpu/amd-socket-am5/123647-100-100001973wof) | ⚪ check site |
 
 ### Ryzen 9 9950X3D
 Target: **$899**
@@ -223,8 +221,8 @@ Target: **$899**
 |---|---:|---|---|---|
 | <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$939** | PC Case Gear | 1. [AMD Ryzen 9 9950X3D Processor [100-100000719WOF] [Avail: In Stock]](https://www.pccasegear.com/products/68688/amd-ryzen-9-9950x3d-processor) | 🟢 in stock |
 | <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$1,020** | CCPU Computers | 2. [AMD RYZEN 9 9950X3D CPU 100-100000719WOF](https://www.ccpu.com.au/product/amd-ryzen-9-9950x3d-cpu-100-100000719wof/) | ⚪ check site |
-| <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$1,029** | Computer Alliance | 3. [100-100000719WOF AMD AM5 Ryzen 9 9950X3D 16 Core 5.7GHz CPU](https://www.computeralliance.com.au/product/amd-am5-ryzen-9-9950x3d-16-core-5-7ghz-cpu/) | ⚪ check site |
-| <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$1,029** | Scorptec | 4. [[100-100000719WOF] AMD Ryzen 9 9950X3D Desktop Processor](https://www.scorptec.com.au/product/cpu/amd-socket-am5/116832-100-100000719wof) | ⚪ check site |
+| <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$1,029** | Scorptec | 3. [[100-100000719WOF] AMD Ryzen 9 9950X3D Desktop Processor](https://www.scorptec.com.au/product/cpu/amd-socket-am5/116832-100-100000719wof) | ⚪ check site |
+| <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$1,029** | JW Computers | 4. [AMD Ryzen 9 9950X3D AM5 16 Core Processor](https://www.jw.com.au/product/amd-ryzen-9-9950x3d-processor) | ⚪ check site |
 | <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="60"> | **$1,029** | MSY | 5. [100-100000719WOF AMD Ryzen 9 9950X3D 16 Core AM5 5.7GHz CPU Proce(In …](https://www.msy.com.au/product/amd-ryzen-9-9950x3d-16-core-am5-5-7ghz-cpu-processor-100-100000719wof-81996) | 🟢 in stock |
 
 <details>
@@ -247,20 +245,19 @@ Target: **$349**
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | 💾 | **$359** | Computer & Parts Land | 1. [Team CTCED532G6000HC30DC01 T-CREATE EXPERT DDR5 32GB (16GBx2) 6000MHz…](https://cplonline.com.au/team-ctced532g6000hc30dc01-t-create-expert-ddr5-32gb-16gbx2-6000mhz-cl30-memory.html) | ⚪ check site |
-| <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="60"> | **$689** | MSY | 2. [CMK32GX5M2B6000C30 Corsair Vengeance 32GB (2x16GB) 6000MHz CL30 DDR5 …](https://www.msy.com.au/product/corsair-vengeance-32gb-2x16gb-6000mhz-cl30-ddr5-ram-cmk32gx5m2b6000c30-71933)<br><sub>Also: [$689 UMart](https://www.umart.com.au/product/corsair-vengeance-32gb-2x16gb-6000mhz-cl30-ddr5-ram-cmk32gx5m2b6000c30-71933) · [$799 Computer & Parts Land](https://cplonline.com.au/team-ff3d532g6000hc30dc01-t-force-delta-rgb-32gb-2x16gb-6000mhz-cl30-ddr5-xmp-3-0-memory.html) · [$839 JW Computers](https://www.jw.com.au/product/klevv-cras-v-rgb-32gb-2x16gb-ddr5-6000-cl30-bk)</sub> | ⚪ check site |
-| <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="60"> | **$799** | PC Case Gear | 3. [V-COLOR Manta XFinity Plus OLED 32GB (2x16GB) 6000Mhz CL30 DDR5 White…](https://www.pccasegear.com/products/74219/v-color-manta-xfinity-plus-oled-32gb-2x16gb-6000mhz-cl30-ddr5-white) | 🟢 in stock |
-| <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="60"> | **$799** | PC Case Gear | 4. [Klevv Fit V 32GB (2x16GB) 6000MHz CL30 DDR5 White [KD5AGU880-60A300F]…](https://www.pccasegear.com/products/72155/klevv-fit-v-32gb-2x16gb-6000mhz-cl30-ddr5-white) | 🟢 in stock |
-| <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="60"> | **$799** | PC Case Gear | 5. [V-COLOR Manta XSky RGB 32GB (2x16GB) 6000Mhz CL30 EXPO DDR5 White [TM…](https://www.pccasegear.com/products/74161/v-color-manta-xsky-rgb-32gb-2x16gb-6000mhz-cl30-expo-ddr5-white) | 🟢 in stock |
+| <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="60"> | **$689** | MSY | 2. [CMK32GX5M2B6000C30 Corsair Vengeance 32GB (2x16GB) 6000MHz CL30 DDR5 …](https://www.msy.com.au/product/corsair-vengeance-32gb-2x16gb-6000mhz-cl30-ddr5-ram-cmk32gx5m2b6000c30-71933)<br><sub>Also: [$689 UMart](https://www.umart.com.au/product/corsair-vengeance-32gb-2x16gb-6000mhz-cl30-ddr5-ram-cmk32gx5m2b6000c30-71933) · [$799 Computer & Parts Land](https://cplonline.com.au/team-ff3d532g6000hc30dc01-t-force-delta-rgb-32gb-2x16gb-6000mhz-cl30-ddr5-xmp-3-0-memory.html) · [$839 JW Computers](https://www.jw.com.au/product/klevv-cras-v-rgb-32gb-2x16gb-ddr5-6000-cl30-bk) · [$849 PC Case Gear](https://www.pccasegear.com/products/66028/team-t-force-vulcan-z-32gb-2x16gb-6000mhz-cl30-ddr5-black)</sub> | ⚪ check site |
+| <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="60"> | **$799** | PC Case Gear | 3. [V-COLOR Manta XSky RGB 32GB (2x16GB) 6000Mhz CL30 EXPO DDR5 Black [TM…](https://www.pccasegear.com/products/73983/v-color-manta-xsky-rgb-32gb-2x16gb-6000mhz-cl30-expo-ddr5-black) | 🟢 in stock |
+| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_32gb_2x_16gb_ddr5_6000mhz_cl30_desktop_memory_black_ac80195_18267.jpg?v=1787744436" width="60"> | **$799** | Mwave Australia | 4. [ADATA XPG LANCER RGB 32GB (2x 16GB) DDR5 6000MHz CL30 Desktop Memory …](https://www.mwave.com.au/products/adata-xpg-lancer-rgb-32gb-2x-16gb-ddr5-6000mhz-cl30-desktop-memory-black-ac80195?variant=47994617888899&currency=AUD) | ⚪ check site |
+| <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="60"> | **$799** | PC Case Gear | 5. [V-COLOR Manta XFinity Plus OLED 32GB (2x16GB) 6000Mhz CL30 DDR5 Black…](https://www.pccasegear.com/products/74218/v-color-manta-xfinity-plus-oled-32gb-2x16gb-6000mhz-cl30-ddr5-black) | 🟢 in stock |
 
 <details>
-<summary>OzBargain deal history, last 12 months (6)</summary>
+<summary>OzBargain deal history, last 12 months (5)</summary>
 
 - 21 Apr · $422 · Amazon AU · [Corsair Vengeance DDR5 RAM 32GB (2x16GB) 6000MHz CL30 Intel XMP iCUE Compatible $422 Delivered @ Am…](https://www.ozbargain.com.au/node/956395) (expired)
 - 05 Mar · $799 · PC Case Gear · [Corsair Dominator Titanium 64GB (2x32GB) 6000MHz CL30 DDR5 RAM (Grey) $799 Delivered / VIC C&C @ PC…](https://www.ozbargain.com.au/node/950602) (expired)
 - 24 Feb · $499 · Mwave · [PNY XLR8 Gaming 32GB (2x 16GB) DDR5 6000MT/s CL30 RGB RAM $499 + Delivery ($0 NSW C&C/ mVIP) @ Mwave](https://www.ozbargain.com.au/node/949314) (expired)
 - 23 Dec · $479.99 · TEAMGROUP via Amazon AU · [TEAMGROUP T-Force Delta RGB DDR5 Ram 32GB (2x16GB) 6000MHz CL30 $479.99 Delivered @ TEAMGROUP via A…](https://www.ozbargain.com.au/node/941384) (expired)
 - 18 Dec · $324 · Amazon AU · [[Back Order] Kingston Fury Beast DDR5 6000MT/s 32GB (2x16GB) CL30 RAM $324 Delivered @ Amazon AU](https://www.ozbargain.com.au/node/940606) (expired)
-- 19 Nov · $420.19 · Amazon UK via AU · [Corsair Vengeance DDR5 64GB (2x32GB) 6000MHz CL30 - $420.19 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/934394) (expired)
 
 </details>
 
@@ -272,16 +269,15 @@ Target: **$899**
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | 💾 | **$959** | Computer & Parts Land | 1. [G.Skill F5-6000J3040G32GX2-RS5K Ripjaws S5 64GB (2x 32GB) DDR5 6000MH…](https://cplonline.com.au/g-skill-f5-6000j3040g32gx2-rs5k-ripjaws-s5-64gb-2x-32gb-ddr5-6000mhz-cl30-desktop-memory-black.html) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_white_ac61078_75776.jpg?v=1787783571" width="60"> | **$1,799** | Scorptec | 2. [[SP064GXLWU60AFDF] Silicon Power XPOWER Zenith RGB 64GB (2x32GB) 6000…](https://www.scorptec.com.au/product/memory/ddr5-desktop-memory/129715-sp064gxlwu60afdf) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_white_ac61078_75776.jpg?v=1787783571" width="60"> | **$1,899** | PC Case Gear | 3. [G.Skill Trident Z5 64GB (2x32GB) 6000MHz CL30 DDR5 Silver [F5-6000J30…](https://www.pccasegear.com/products/61409/g-skill-trident-z5-64gb-2x32gb-6000mhz-cl30-ddr5-silver)<br><sub>Also: [$1,899 Mwave Australia](https://www.mwave.com.au/products/adata-xpg-lancer-rgb-64gb-2x32gb-ddr5-6000mhz-cl30-amd-desktop-memory-white-ac61078?variant=47994617954435&currency=AUD) · [$1,899 Mwave Australia](https://www.mwave.com.au/products/adata-xpg-lancer-rgb-64gb-2x32gb-ddr5-6000mhz-cl30-amd-desktop-memory-black-ac61075?variant=47994617921667&currency=AUD) · [$1,999 PC Case Gear](https://www.pccasegear.com/products/70446/team-t-force-delta-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-white) · [$1,999 PC Case Gear](https://www.pccasegear.com/products/70445/team-t-force-delta-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-black)</sub> | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_white_ac61078_75776.jpg?v=1787783571" width="60"> | **$1,899** | PC Case Gear | 4. [Klevv Cras V RGB 64GB (2x32GB) 6000MHz CL30 DDR5 White [KD5BGUA80-60A…](https://www.pccasegear.com/products/71061/klevv-cras-v-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-white) | 🟢 in stock |
-| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_white_ac61078_75776.jpg?v=1787783571" width="60"> | **$1,899** | PC Case Gear | 5. [Klevv Cras V RGB 64GB (2x32GB) 6000MHz CL30 DDR5 Black [KD5BGUA80-60A…](https://www.pccasegear.com/products/71063/klevv-cras-v-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-black) | 🟢 in stock |
+| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,799** | Scorptec | 2. [[SP064GXLWU60AFDF] Silicon Power XPOWER Zenith RGB 64GB (2x32GB) 6000…](https://www.scorptec.com.au/product/memory/ddr5-desktop-memory/129715-sp064gxlwu60afdf) | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,899** | PC Case Gear | 3. [G.Skill Trident Z5 64GB (2x32GB) 6000MHz CL30 DDR5 Silver [F5-6000J30…](https://www.pccasegear.com/products/61409/g-skill-trident-z5-64gb-2x32gb-6000mhz-cl30-ddr5-silver)<br><sub>Also: [$1,899 Mwave Australia](https://www.mwave.com.au/products/adata-xpg-lancer-rgb-64gb-2x32gb-ddr5-6000mhz-cl30-amd-desktop-memory-black-ac61075?variant=47994617921667&currency=AUD) · [$1,899 Mwave Australia](https://www.mwave.com.au/products/adata-xpg-lancer-rgb-64gb-2x32gb-ddr5-6000mhz-cl30-amd-desktop-memory-white-ac61078?variant=47994617954435&currency=AUD) · [$1,999 PC Case Gear](https://www.pccasegear.com/products/70445/team-t-force-delta-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-black) · [$1,999 PC Case Gear](https://www.pccasegear.com/products/70446/team-t-force-delta-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-white)</sub> | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,899** | PC Case Gear | 4. [Klevv Cras V RGB 64GB (2x32GB) 6000MHz CL30 DDR5 Black [KD5BGUA80-60A…](https://www.pccasegear.com/products/71063/klevv-cras-v-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-black) | 🟢 in stock |
+| <img src="https://www.mwave.com.au/cdn/shop/files/adata_xpg_lancer_rgb_64gb_2_x_32gb_ddr5_6000mhz_memory_black_ac61075_45786.jpg?v=1787744427" width="60"> | **$1,899** | PC Case Gear | 5. [Klevv Cras V RGB 64GB (2x32GB) 6000MHz CL30 DDR5 White [KD5BGUA80-60A…](https://www.pccasegear.com/products/71061/klevv-cras-v-rgb-64gb-2x32gb-6000mhz-cl30-ddr5-white) | 🟢 in stock |
 
 <details>
-<summary>OzBargain deal history, last 12 months (2)</summary>
+<summary>OzBargain deal history, last 12 months (1)</summary>
 
 - 05 Mar · $799 · PC Case Gear · [Corsair Dominator Titanium 64GB (2x32GB) 6000MHz CL30 DDR5 RAM (Grey) $799 Delivered / VIC C&C @ PC…](https://www.ozbargain.com.au/node/950602) (expired)
-- 19 Nov · $420.19 · Amazon UK via AU · [Corsair Vengeance DDR5 64GB (2x32GB) 6000MHz CL30 - $420.19 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/934394) (expired)
 
 </details>
 
@@ -296,12 +292,12 @@ Target: **$219**
 |---|---:|---|---|---|
 | 🗄️ | **$226.70** | Computer & Parts Land | 1. [MSI SPATIUM M470 PRO 2TB PCIe 4.0 NVMe M.2 2280 SSD](https://cplonline.com.au/msi-spatium-m470-pro-2tb-pcie-4-0-nvme-m-2-2280-ssd.html) | ⚪ check site |
 | 🗄️ | **$259** | Computer & Parts Land | 2. [HP 8U2N5AA# FX700 2TB PCIe Gen 4x4 NVMe M.2 2280 SSD](https://cplonline.com.au/hp-8u2n5aa-fx700-2tb-pcie-gen-4x4-nvme-m-2-2280-ssd.html) | ⚪ check site |
-| <img src="https://assets.umart.com.au/newsite/images/202506/goods_img/SSD-Hard-Drives-Gigabyte-2TB-AG4732TB-Aorus-PCIe-4-0-NVMe-M-2-2280-SSD-with-Heatsink-6.jpg" width="60"> | **$329** | UMart | 3. [AG4732TB Gigabyte 2TB Aorus PCIe 4.0 NVMe M.2 2280 SSD with Heatsink](https://www.umart.com.au/product/gigabyte-2tb-ag4732tb-aorus-pcie-4-0-nvme-m-2-2280-ssd-with-heatsink-84128)<br><sub>Also: [$329 MSY](https://www.msy.com.au/product/gigabyte-2tb-ag4732tb-aorus-pcie-4-0-nvme-m-2-2280-ssd-with-heatsink-84128)</sub> | ⚪ check site |
-| <img src="https://assets.msy.com.au/newsite/images/202508/goods_img/SSD-Hard-Drives-Transcend-2TB-TS2TMTE260S-NVMe-PCIe-Gen5-M-2-2280-SSD-5.jpg" width="60"> | **$329** | MSY | 4. [TS2TMTE260S Transcend 2TB NVMe PCIe Gen5 M.2 2280 SSD](https://www.msy.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)<br><sub>Also: [$329 UMart](https://www.umart.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)</sub> | ⚪ check site |
+| <img src="https://assets.msy.com.au/newsite/images/202508/goods_img/SSD-Hard-Drives-Transcend-2TB-TS2TMTE260S-NVMe-PCIe-Gen5-M-2-2280-SSD-5.jpg" width="60"> | **$329** | MSY | 3. [TS2TMTE260S Transcend 2TB NVMe PCIe Gen5 M.2 2280 SSD](https://www.msy.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)<br><sub>Also: [$329 UMart](https://www.umart.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)</sub> | ⚪ check site |
+| <img src="https://assets.msy.com.au/newsite/images/202506/goods_img/SSD-Hard-Drives-Gigabyte-2TB-AG4732TB-Aorus-PCIe-4-0-NVMe-M-2-2280-SSD-with-Heatsink-6.jpg" width="60"> | **$329** | MSY | 4. [AG4732TB Gigabyte 2TB Aorus PCIe 4.0 NVMe M.2 2280 SSD with Heatsink](https://www.msy.com.au/product/gigabyte-2tb-ag4732tb-aorus-pcie-4-0-nvme-m-2-2280-ssd-with-heatsink-84128)<br><sub>Also: [$329 UMart](https://www.umart.com.au/product/gigabyte-2tb-ag4732tb-aorus-pcie-4-0-nvme-m-2-2280-ssd-with-heatsink-84128)</sub> | ⚪ check site |
 | 🗄️ | **$339** | Computer & Parts Land | 5. [Crucial CT2000P3PSSD8 P3 Plus 2TB M.2 Internal NVMe PCIE4 SSD](https://cplonline.com.au/crucial-ct2000p3pssd8-p3-plus-2tb-m-2-internal-nvme-pcie4-ssd.html) | ⚪ check site |
 
 <details>
-<summary>OzBargain deal history, last 12 months (34)</summary>
+<summary>OzBargain deal history, last 12 months (32)</summary>
 
 - 25 Oct · $272.29 · Amazon Germany via AU · [Western Digital WD Black SN850P NVMe M.2 2TB SSD for PS5 $272.29 Delivered @ Amazon Germany via AU](https://www.ozbargain.com.au/node/980297) (expired)
 - 23 Oct · $363.18 · Amazon UK via AU · [Crucial P310 2280 PCIe Gen4 3D NAND NVMe M.2 Internal SSD 2TB $363.18 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/980031) (expired)
@@ -335,8 +331,6 @@ Target: **$219**
 - 25 Dec · $268.70 · Amazon.com.au · [Crucial T700 2TB PCIe Gen 5 NVMe SSD with Heataink $268.70 Delivered @ Amazon.com.au](https://www.ozbargain.com.au/node/941715) (expired)
 - 08 Dec · $263.26 · Amazon UK via AU · [Crucial T500 2TB PCIe Gen4 NVMe M.2 SSD $263.26 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/938914) (expired)
 - 24 Nov · $162.23 · Fanxiang via eBay · [Fanxiang S880 M.2 2TB PS5 SSD NVMe SSD 4.0 PCIe Internal SSD ($162.23 eBay Plus) Delivered @ Fanxia…](https://www.ozbargain.com.au/node/935770) (expired)
-- 19 Nov · $225.64 · Amazon UK via AU · [Samsung 990 PRO 2TB PCIe 4.0 NVMe M.2 SSD $225.64 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/934499) (expired)
-- 19 Nov · $193.53 · Amazon UK via AU · [Samsung 990 EVO Plus 2TB M.2 NVMe SSD $193.53 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/934512) (expired)
 
 </details>
 
@@ -351,14 +345,14 @@ Target: **$429**
 | <img src="https://www.mwave.com.au/cdn/shop/files/hp_fx700_4tb_pcie_gen_4x4_nvme_m2_2280_ssd_ac78281_69915.jpg?v=1787746077" width="60"> | **$499.95** | Mwave Australia | 2. [HP FX700 4TB PCIe Gen 4x4 NVMe M.2 2280 SSD](https://www.mwave.com.au/products/hp-fx700-4tb-pcie-gen-4x4-nvme-m2-2280-ssd-ac78281?variant=47995158265987&currency=AUD) | ⚪ check site |
 | <img src="https://assets.umart.com.au/newsite/images/202411/goods_img/SSD-Hard-Drives-KLEVV-4TB-CRAS-C910-K04TBM2SP0-C91-PCIe-4-0-NVMe-M-2-2280-SSD-4.jpg" width="60"> | **$549** | UMart | 3. [K04TBM2SP0-C91 KLEVV 4TB CRAS C910 PCIe 4.0 NVMe M.2 2280 SSD(In Stoc…](https://www.umart.com.au/product/klevv-4tb-cras-c910-k04tbm2sp0-c91-pcie-4-0-nvme-m-2-2280-ssd-80369)<br><sub>Also: [$549 MSY](https://www.msy.com.au/product/klevv-4tb-cras-c910-k04tbm2sp0-c91-pcie-4-0-nvme-m-2-2280-ssd-80369)</sub> | 🟢 in stock |
 | 🗄️ | **$599** | Computer & Parts Land | 4. [MSI SPATIUM M461 4TB PCIe 4.0 NVMe M.2 SSD](https://cplonline.com.au/msi-spatium-m461-4tb-pcie-4-0-nvme-m-2-ssd.html) | ⚪ check site |
-| <img src="https://assets.msy.com.au/newsite/images/202606/goods_img/SSD-Hard-Drives-KLEVV-4TB-K04TBM2SP0-10G-CRAS-C910G-PCIe-4-0-NVMe-M-2-2280-SSD-11.jpg" width="60"> | **$699** | MSY | 5. [K04TBM2SP0-10G KLEVV 4TB CRAS C910G PCIe 4.0 NVMe M.2 2280 SSD(In Sto…](https://www.msy.com.au/product/klevv-4tb-k04tbm2sp0-10g-cras-c910g-pcie-4-0-nvme-m-2-2280-ssd-94494)<br><sub>Also: [$699 UMart](https://www.umart.com.au/product/klevv-4tb-k04tbm2sp0-10g-cras-c910g-pcie-4-0-nvme-m-2-2280-ssd-94494)</sub> | 🟢 in stock |
+| <img src="https://assets.umart.com.au/newsite/images/202606/goods_img/SSD-Hard-Drives-KLEVV-4TB-K04TBM2SP0-10G-CRAS-C910G-PCIe-4-0-NVMe-M-2-2280-SSD-11.jpg" width="60"> | **$699** | UMart | 5. [K04TBM2SP0-10G KLEVV 4TB CRAS C910G PCIe 4.0 NVMe M.2 2280 SSD(In Sto…](https://www.umart.com.au/product/klevv-4tb-k04tbm2sp0-10g-cras-c910g-pcie-4-0-nvme-m-2-2280-ssd-94494)<br><sub>Also: [$699 MSY](https://www.msy.com.au/product/klevv-4tb-k04tbm2sp0-10g-cras-c910g-pcie-4-0-nvme-m-2-2280-ssd-94494)</sub> | 🟢 in stock |
 
 **🔥 OzBargain deals (last 30 days):**
 
 - 30 Oct · 👍 5 · [Klevv 4TB Cras C910G PCIe 4.0 NVMe M.2 2280 SSD $699 + $12-$16 Delivered @ MSY](https://www.ozbargain.com.au/node/980907)
 
 <details>
-<summary>OzBargain deal history, last 12 months (18)</summary>
+<summary>OzBargain deal history, last 12 months (17)</summary>
 
 - 04 Nov · $569 · Mwave · [KLEVV CRAS C910G 4TB PCIe 4.0 NVMe M.2 SSD $569 + Delivery ($0 NSW C&C) @ Mwave](https://www.ozbargain.com.au/node/981619) (expired)
 - 30 Oct · $699 · MSY · [Klevv 4TB Cras C910G PCIe 4.0 NVMe M.2 2280 SSD $699, $711 Delivered @MSY](https://www.ozbargain.com.au/node/980907)
@@ -377,7 +371,6 @@ Target: **$429**
 - 24 Nov · $429 · Mwave · [Lexar NM790 4TB PCIe 4.0 NVMe M.2 SSD $429 + Delivery ($0 to Metro/ mVIP/ NSW C&C) @ Mwave](https://www.ozbargain.com.au/node/935715) (expired)
 - 24 Nov · $311.92 · Fanxiang eBay · [Fanxiang S880 4TB M.2 NVMe SSD Gaming PCIe 4.0 $311.92 ($304.19 eBay Plus) Delivered @ Fanxiang eBay](https://www.ozbargain.com.au/node/935778) (expired)
 - 21 Nov · $399 · LingsTech · [Lexar Ares M.2 2280 PCIe Gen 4×4 NVMe 4TB TLC SSD $399 + Shipped @ LingsTech](https://www.ozbargain.com.au/node/935103) (expired)
-- 19 Nov · $575.51 · Amazon UK via AU · [Samsung 9100 PRO 4TB M.2 NVMe SSD $575.51 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/934516) (expired)
 
 </details>
 
@@ -392,7 +385,7 @@ Target: **$1,199**
 | 🗄️ | **$1,799** | Scorptec | 2. [[AGAMMIXS70B-8T-CS] XPG GAMMIX S70 Blade 8TB M.2 2280 NVMe PCIe Gen4 …](https://www.scorptec.com.au/product/hard-drives-and-ssds/solid-state-drives--ssd/108640-agammixs70b-8t-cs) | ⚪ check site |
 | 🗄️ | **$1,954** | I-Tech | 3. [Biwin Black Opal X570-8TB Pro SSD M.2 NVMe PCIe Gen5*4 Reading Speed …](http://www.clixGalore.com/PSale.aspx?BID=14785&AfID=100703&AdID=1632&AffDirectURL=https://www.i-tech.com.au/bx570dn08tb-rgx-biwin-black-opal-8tb-x570-pro-pcie-gen5-437255.html) | ⚪ check site |
 | 🗄️ | **$1,994.77** | JW Computers | 4. [Lexar 8TB NM790 M.2 2280 PCIe Gen4x4 NVMe SSD](https://www.jw.com.au/product/lexar-8tb-nm790-m-2-2280-pcie-gen4x4-nvme-ssd) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/lexar_nm790_8tb_pcie_40_nvme_m2_ssd_lnm790x008trnnnu_ac80859_85102.jpg?v=1787786209" width="60"> | **$1,995** | Mwave Australia | 5. [Lexar NM790 8TB PCIe 4.0 NVMe M.2 SSD - LNM790X008T-RNNNG](https://www.mwave.com.au/products/lexar-nm790-8tb-pcie-40-nvme-m2-ssd-lnm790x008trnnng-ac80859?variant=47995276591235&currency=AUD)<br><sub>Also: [$1,995 Mwave](https://www.mwave.com.au/products/lexar-nm790-8tb-pcie-40-nvme-m2-ssd-lnm790x008trnnng-ac80859) · [$1,999 Scorptec](https://www.scorptec.com.au/product/hard-drives-and-ssds/solid-state-drives--ssd/115341-lnm790x008t-rnnng) · [$2,399 PLE Computers](https://www.ple.com.au/products/673519/lexar-nm790-pcie-gen4-nvme-m2-ssd-8tb) · [$2,399 PC Case Gear](https://www.pccasegear.com/products/67762/lexar-nm790-nvme-pcie-gen4-ssd-8tb)</sub> | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/lexar_nm790_8tb_pcie_40_nvme_m2_ssd_lnm790x008trnnnu_ac80859_85102.jpg?v=1787786209" width="60"> | **$1,995** | Mwave Australia | 5. [Lexar NM790 8TB PCIe 4.0 NVMe M.2 SSD - LNM790X008T-RNNNG](https://www.mwave.com.au/products/lexar-nm790-8tb-pcie-40-nvme-m2-ssd-lnm790x008trnnng-ac80859?variant=47995276591235&currency=AUD)<br><sub>Also: [$1,995 Mwave](https://www.mwave.com.au/products/lexar-nm790-8tb-pcie-40-nvme-m2-ssd-lnm790x008trnnng-ac80859) · [$1,999 Scorptec](https://www.scorptec.com.au/product/hard-drives-and-ssds/solid-state-drives--ssd/115341-lnm790x008t-rnnng) · [$2,034 PLE Computers](https://www.ple.com.au/products/673519/lexar-nm790-pcie-gen4-nvme-m2-ssd-8tb) · [$2,399 PC Case Gear](https://www.pccasegear.com/products/67762/lexar-nm790-nvme-pcie-gen4-ssd-8tb)</sub> | ⚪ check site |
 
 <details>
 <summary>OzBargain deal history, last 12 months (1)</summary>
