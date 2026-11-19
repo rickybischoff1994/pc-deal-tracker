@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-19 08:27 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-19 20:31 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -24,7 +24,7 @@ _Last checked: 2026-11-19 08:27 (Brisbane time) · Sources: StaticICE (~15 store
 | <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5070_ti_x3_16gb_gddr7_video_card_ac83001_98301.jpg?v=1787797060" width="40"> | [RTX 5070 Ti](#rtx-5070-ti) | **$1,679** | $1,199 | — | Mwave Australia |
 | <img src="https://www.mwave.com.au/cdn/shop/files/asus_prime_geforce_rtx_5080_evo_16gb_gddr7_oc_edition_video_card_ac99572_31571.jpg?v=1787795419" width="40"> | [RTX 5080](#rtx-5080) | **$2,795** | $1,799 | — | Austin Computers |
 | <img src="https://www.mwave.com.au/cdn/shop/files/msi_geforce_rtx_5090_suprim_soc_32gb_video_card_ac81849_1209.jpg?v=1787797755" width="40"> | [RTX 5090](#rtx-5090) | **$10,990** | $4,200 | — | CCPU Computers |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/amd_ryzen_7_9800x3d_8_core_am5_up_to_52ghz_unlocked_cpu_processor_ac79140_38762.jpg?v=1787795181" width="40"> | [Ryzen 7 9800X3D](#ryzen-7-9800x3d) | **$679** | $549 | — | Mwave |
+| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="40"> | [Ryzen 7 9800X3D](#ryzen-7-9800x3d) | **$645** | $549 | — | JW Computers |
 | <img src="https://assets.umart.com.au/newsite/images/202601/goods_img/AMD-CPU-AMD-Ryzen-7-9850X3D-8-Core-5-6-GHz-AM5-CPU-Processor-100-100001973WOF-2.jpg" width="40"> | [Ryzen 7 9850X3D](#ryzen-7-9850x3d) | **$740** | $699 | — | CCPU Computers |
 | <img src="https://assets.msy.com.au/newsite/images/202503/goods_img/AMD-CPU-AMD-Ryzen-9-9950X3D-16-Core-AM5-5-7GHz-CPU-Processor-100-100000719WOF-2.jpg" width="40"> | [Ryzen 9 9950X3D](#ryzen-9-9950x3d) | **$939** | $899 | — | PC Case Gear |
 | <img src="https://assets.msy.com.au/newsite/images/202307/goods_img/Corsair-32GB-2x16GB-CMK32GX5M2B6000C30-Vengeance-6000MHz-CL30-DDR5-RAM-3.jpg" width="40"> | [DDR5 32GB (2x16GB) 6000MHz CL30](#ddr5-32gb-2x16gb-6000mhz-cl30) | **$359** | $349 | — | Computer & Parts Land |
@@ -105,8 +105,8 @@ Target: **$1,199**
 | <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5070_ti_x3_16gb_gddr7_video_card_ac83001_98301.jpg?v=1787797060" width="60"> | **$1,679** | Mwave Australia | 1. [Inno3D GeForce RTX 5070 TI X3 16GB GDDR7 Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-16gb-gddr7-video-card-ac83001?variant=47995197718659&currency=AUD) | ⚪ check site |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/pny_geforce_rtx_5070_ti_triple_fan_oc_16gb_graphics_card_ac88910_90714.jpg?v=1787798085" width="60"> | **$1,969** | Mwave | 2. [PNY GeForce RTX 5070 Ti Triple Fan OC 16GB Graphics Card](https://www.mwave.com.au/products/pny-geforce-rtx-5070-ti-triple-fan-oc-16gb-graphics-card-ac88910) | 🟢 in stock |
 | <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/182776_6.png?v=1794538368" width="60"> | **$2,099** | Mwave | 3. [ASUS ProArt GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-proart-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-video-card) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/asus_tuf_gaming_geforce_rtx_5070_ti_16gb_gddr7_oc_edition_video_card_ac81837_53303.jpg?v=1787795484" width="60"> | **$2,099** | Mwave | 4. [ASUS TUF Gaming GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-tuf-gaming-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-video-card-ac81837) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_aorus_master_16gb_video_card_ac81823_10707.jpg?v=1787745861" width="60"> | **$2,199** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti AORUS MASTER 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-aorus-master-16gb-video-card-ac81823) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_aorus_master_16gb_video_card_ac81823_10707.jpg?v=1787745861" width="60"> | **$2,199** | Mwave | 4. [Gigabyte GeForce RTX 5070 Ti AORUS MASTER 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-aorus-master-16gb-video-card-ac81823) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_gaming_oc_16gb_video_card_ac82565_41890.jpg?v=1787796650" width="60"> | **$2,249** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti GAMING OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-video-card-ac82565) | 🟢 in stock |
 
 <details>
 <summary>OzBargain deal history, last 12 months (10)</summary>
@@ -171,7 +171,11 @@ Target: **$549**
 
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/amd_ryzen_7_9800x3d_8_core_am5_up_to_52ghz_unlocked_cpu_processor_ac79140_38762.jpg?v=1787795181" width="60"> | **$679** | Mwave | 1. [AMD Ryzen 7 9800X3D 8 Core 16 Thread AM5 up to 5.2GHz AM5 Unlocked CP…](https://www.mwave.com.au/products/amd-ryzen-7-9800x3d-8-core-16-thread-am5-up-to-52ghz-am5-unlocked-cpu-processor-ac79140) | 🟢 in stock |
+| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$645** | JW Computers | 1. [Carton Damaged AMD Ryzen 7 9800X3D 8 Core 16 Threads AM5 Processor](https://www.jw.com.au/product/amd-ryzen-7-9800x3d-8-core-16-threads-am5-processor-db) | ⚪ check site |
+| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$665** | JB Hi-Fi | 2. [AMD Ryzen 7 9800X3D 8 Core AM5 5.2GHz CPU Processor (100-100001084WOF)](https://www.jbhifi.com.au/products/amd-ryzen-7-9800x3d-8-core-am5-5-2ghz-cpu-processor-100-100001084wof?variant=40426831577289) | ⚪ check site |
+| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$679** | Computer Alliance | 3. [AMD AM5 Ryzen 7 9800X3D 8 Core CPU (No Cooler) 100-100001084WOF](https://www.computeralliance.com.au/product/amd-am5-ryzen-7-9800x3d-8-core-cpu-no-cooler-100-100001084wof/) | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/amd_ryzen_7_9800x3d_8_core_am5_up_to_52ghz_unlocked_cpu_processor_ac79140_38762.jpg?v=1787795181" width="60"> | **$679** | Mwave Australia | 4. [AMD Ryzen 7 9800X3D 8 Core 16 Thread AM5 up to 5.2GHz AM5 Unlocked CP…](https://www.mwave.com.au/products/amd-ryzen-7-9800x3d-8-core-16-thread-am5-up-to-52ghz-am5-unlocked-cpu-processor-ac79140?variant=47994670219395&currency=AUD) | ⚪ check site |
+| <img src="https://www.jbhifi.com.au/cdn/shop/files/494afb97e28d46cc89d0d1f806712b11_1024x1024.jpg" width="60"> | **$679** | Computer & Parts Land | 5. [AMD 100-100001084WOF Ryzen 7 9800X3D Desktop Processor](https://cplonline.com.au/amd-100-100001084wof-ryzen-7-9800x3d-desktop-processor.html) | ⚪ check site |
 
 **🔥 OzBargain deals (last 30 days):**
 
