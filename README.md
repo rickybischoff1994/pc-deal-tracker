@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-20 08:26 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-20 20:34 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -103,10 +103,10 @@ Target: **$1,199**
 | | Price | Store | Product | Stock |
 |---|---:|---|---|---|
 | <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5070_ti_x3_16gb_gddr7_video_card_ac83001_98301.jpg?v=1787797060" width="60"> | **$1,679** | Mwave Australia | 1. [Inno3D GeForce RTX 5070 TI X3 16GB GDDR7 Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5070-ti-x3-16gb-gddr7-video-card-ac83001?variant=47995197718659&currency=AUD) | ⚪ check site |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/pny_geforce_rtx_5070_ti_triple_fan_oc_16gb_graphics_card_ac88910_90714.jpg?v=1787798085" width="60"> | **$1,969** | Mwave | 2. [PNY GeForce RTX 5070 Ti Triple Fan OC 16GB Graphics Card](https://www.mwave.com.au/products/pny-geforce-rtx-5070-ti-triple-fan-oc-16gb-graphics-card-ac88910) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/182776_6.png?v=1794538368" width="60"> | **$2,099** | Mwave | 3. [ASUS ProArt GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-proart-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-video-card) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_aorus_master_16gb_video_card_ac81823_10707.jpg?v=1787745861" width="60"> | **$2,199** | Mwave | 4. [Gigabyte GeForce RTX 5070 Ti AORUS MASTER 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-aorus-master-16gb-video-card-ac81823) | 🟢 in stock |
-| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_gaming_oc_16gb_video_card_ac82565_41890.jpg?v=1787796650" width="60"> | **$2,249** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti GAMING OC 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-video-card-ac82565) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/palit_geforce_rtx_5070_ti_gamingpros_16gb_video_card_ac88912_93702.jpg?v=1787798042" width="60"> | **$1,899** | Mwave | 2. [Palit GeForce RTX 5070 Ti GamingPro-S 16GB Video Card](https://www.mwave.com.au/products/palit-geforce-rtx-5070-ti-gamingpros-16gb-video-card-ac88912) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/pny_geforce_rtx_5070_ti_triple_fan_oc_16gb_graphics_card_ac88910_90714.jpg?v=1787798085" width="60"> | **$1,969** | Mwave | 3. [PNY GeForce RTX 5070 Ti Triple Fan OC 16GB Graphics Card](https://www.mwave.com.au/products/pny-geforce-rtx-5070-ti-triple-fan-oc-16gb-graphics-card-ac88910) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/182776_6.png?v=1794538368" width="60"> | **$2,099** | Mwave | 4. [ASUS ProArt GeForce RTX 5070 Ti 16GB GDDR7 OC Edition Video Card](https://www.mwave.com.au/products/asus-proart-geforce-rtx-5070-ti-16gb-gddr7-oc-edition-video-card) | 🟢 in stock |
+| <img src="https://cdn.shopify.com/s/files/1/0708/6633/7923/files/gigabyte_geforce_rtx_5070_ti_aorus_master_16gb_video_card_ac81823_10707.jpg?v=1787745861" width="60"> | **$2,199** | Mwave | 5. [Gigabyte GeForce RTX 5070 Ti AORUS MASTER 16GB Video Card](https://www.mwave.com.au/products/gigabyte-geforce-rtx-5070-ti-aorus-master-16gb-video-card-ac81823) | 🟢 in stock |
 
 <details>
 <summary>OzBargain deal history, last 12 months (8)</summary>
