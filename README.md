@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-21 08:24 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-21 20:26 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -349,7 +349,7 @@ Target: **$429**
 
 **🔥 OzBargain deals (last 30 days):**
 
-- 20 Nov · 👍 5 · [Lexar NM790 4TB PCIe 4.0 NVMe M.2 2280 SSD $725 Delivered (SMS Coupon Code Required) @ Mwave](https://www.ozbargain.com.au/node/984546)
+- 20 Nov · 👍 11 · [Lexar NM790 4TB PCIe 4.0 NVMe M.2 2280 SSD $725 Delivered (SMS Coupon Code Required) @ Mwave](https://www.ozbargain.com.au/node/984546)
 - 30 Oct · 👍 5 · [Klevv 4TB Cras C910G PCIe 4.0 NVMe M.2 2280 SSD $699 + $12-$16 Delivered @ MSY](https://www.ozbargain.com.au/node/980907)
 
 <details>
