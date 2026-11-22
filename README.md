@@ -14,7 +14,7 @@ PC **twice a day** (7:37am and 7:37pm Brisbane time), using GitHub Actions. It l
 ## Today's prices
 
 <!-- PRICES:START -->
-_Last checked: 2026-11-22 08:17 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
+_Last checked: 2026-11-22 20:25 (Brisbane time) · Sources: StaticICE (~15 stores), Mwave, OzBargain_
 
 ### Summary
 
@@ -130,7 +130,7 @@ Target: **$1,799**
 | <img src="https://www.mwave.com.au/cdn/shop/files/asus_prime_geforce_rtx_5080_16gb_gddr7_video_card_ac81838_1820.jpg?v=1787795414" width="60"> | **$2,999** | Mwave Australia | 2. [ASUS PRIME GeForce RTX 5080 16GB GDDR7 Video Card](https://www.mwave.com.au/products/asus-prime-geforce-rtx-5080-16gb-gddr7-video-card-ac81838?variant=47994714128515&currency=AUD) | ⚪ check site |
 | <img src="https://www.mwave.com.au/cdn/shop/files/msi_geforce_rtx_5080_gaming_trio_oc_16gb_video_card_white_ac81848_50065.jpg?v=1787797753" width="60"> | **$2,999** | Mwave Australia | 3. [MSI GeForce RTX 5080 GAMING TRIO OC 16GB Video Card - White](https://www.mwave.com.au/products/msi-geforce-rtx-5080-gaming-trio-oc-16gb-video-card-white-ac81848?variant=47995340914819&currency=AUD) | ⚪ check site |
 | <img src="https://www.mwave.com.au/cdn/shop/files/asus_tuf_gaming_geforce_rtx_5080_16gb_gddr7_video_card_ac81835_2560.jpg?v=1787795488" width="60"> | **$2,999** | Mwave Australia | 4. [ASUS TUF Gaming GeForce RTX 5080 16GB GDDR7 Video Card](https://www.mwave.com.au/products/asus-tuf-gaming-geforce-rtx-5080-16gb-gddr7-video-card-ac81835?variant=47994723238019&currency=AUD) | ⚪ check site |
-| <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5080_x3_16gb_video_card_ac82068_77743.jpg?v=1787797063" width="60"> | **$2,999** | Mwave Australia | 5. [Inno3D GeForce RTX 5080 X3 16GB Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5080-x3-16gb-video-card-ac82068?variant=47995198013571&currency=AUD)<br><sub>Also: [$3,299 Mwave](https://www.mwave.com.au/products/inno3d-geforce-rtx-5080-x3-oc-16gb-video-card-ac82069)</sub> | ⚪ check site |
+| <img src="https://www.mwave.com.au/cdn/shop/files/inno3d_geforce_rtx_5080_x3_16gb_video_card_ac82068_77743.jpg?v=1787797063" width="60"> | **$2,999** | Mwave Australia | 5. [Inno3D GeForce RTX 5080 X3 16GB Video Card](https://www.mwave.com.au/products/inno3d-geforce-rtx-5080-x3-16gb-video-card-ac82068?variant=47995198013571&currency=AUD) | ⚪ check site |
 
 <details>
 <summary>OzBargain deal history, last 12 months (6)</summary>
@@ -292,9 +292,14 @@ Target: **$219**
 | <img src="https://assets.msy.com.au/newsite/images/202508/goods_img/SSD-Hard-Drives-Transcend-2TB-TS2TMTE260S-NVMe-PCIe-Gen5-M-2-2280-SSD-5.jpg" width="60"> | **$329** | MSY | 4. [TS2TMTE260S Transcend 2TB NVMe PCIe Gen5 M.2 2280 SSD](https://www.msy.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)<br><sub>Also: [$329 UMart](https://www.umart.com.au/product/transcend-2tb-ts2tmte260s-nvme-pcie-gen5-m-2-2280-ssd-85961)</sub> | ⚪ check site |
 | 🗄️ | **$339** | Computer & Parts Land | 5. [Crucial CT2000P3PSSD8 P3 Plus 2TB M.2 Internal NVMe PCIE4 SSD](https://cplonline.com.au/crucial-ct2000p3pssd8-p3-plus-2tb-m-2-internal-nvme-pcie4-ssd.html) | ⚪ check site |
 
-<details>
-<summary>OzBargain deal history, last 12 months (33)</summary>
+**🔥 OzBargain deals (last 30 days):**
 
+- 22 Nov · 👍 12 · [Kingston Fury Renegade with Heatsink 2TB M.2 2280 NVMe PCIe 4.0 SSD $469 (Free C&C, Metro Delivery) (Was $999) @ Scorpt…](https://www.ozbargain.com.au/node/984760)
+
+<details>
+<summary>OzBargain deal history, last 12 months (34)</summary>
+
+- 22 Nov · $469 · Scorptec · [Kingston Fury Renegade with Heatsink 2TB M.2 2280 NVMe PCIe 4.0 SSD $469 (Free C&C, Metro Delivery)…](https://www.ozbargain.com.au/node/984760)
 - 20 Nov · $375.03 · Amazon AU · [Lexar NM1090 2TB SSD PCle Gen5x4 NVMe, M.2 2280 $375.03 Delivered @ Amazon AU](https://www.ozbargain.com.au/node/984536) (expired)
 - 25 Oct · $272.29 · Amazon Germany via AU · [Western Digital WD Black SN850P NVMe M.2 2TB SSD for PS5 $272.29 Delivered @ Amazon Germany via AU](https://www.ozbargain.com.au/node/980297) (expired)
 - 23 Oct · $363.18 · Amazon UK via AU · [Crucial P310 2280 PCIe Gen4 3D NAND NVMe M.2 Internal SSD 2TB $363.18 Delivered @ Amazon UK via AU](https://www.ozbargain.com.au/node/980031) (expired)
@@ -347,7 +352,6 @@ Target: **$429**
 **🔥 OzBargain deals (last 30 days):**
 
 - 20 Nov · 👍 12 · [Lexar NM790 4TB PCIe 4.0 NVMe M.2 2280 SSD $725 Delivered (SMS Coupon Code Required) @ Mwave](https://www.ozbargain.com.au/node/984546)
-- 30 Oct · 👍 5 · [Klevv 4TB Cras C910G PCIe 4.0 NVMe M.2 2280 SSD $699 + $12-$16 Delivered @ MSY](https://www.ozbargain.com.au/node/980907)
 
 <details>
 <summary>OzBargain deal history, last 12 months (17)</summary>
