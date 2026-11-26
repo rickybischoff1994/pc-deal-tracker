@@ -19,78 +19,77 @@
 <line x1="66" y1="62.0" x2="696" y2="62.0" stroke="#d0d7de"/>
 <text x="58" y="66.0" font-size="11" text-anchor="end" fill="#1f2328">$1,000</text>
 <line x1="685.5" y1="224" x2="685.5" y2="228" stroke="#1f2328"/>
-<text x="685.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">26 Nov</text>
+<text x="685.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">27 Nov</text>
 <line x1="580.5" y1="224" x2="580.5" y2="228" stroke="#1f2328"/>
-<text x="580.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">21 Nov</text>
+<text x="580.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">22 Nov</text>
 <line x1="475.5" y1="224" x2="475.5" y2="228" stroke="#1f2328"/>
-<text x="475.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">16 Nov</text>
+<text x="475.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">17 Nov</text>
 <line x1="370.5" y1="224" x2="370.5" y2="228" stroke="#1f2328"/>
-<text x="370.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">11 Nov</text>
+<text x="370.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">12 Nov</text>
 <line x1="265.5" y1="224" x2="265.5" y2="228" stroke="#1f2328"/>
-<text x="265.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">6 Nov</text>
+<text x="265.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">7 Nov</text>
 <line x1="160.5" y1="224" x2="160.5" y2="228" stroke="#1f2328"/>
-<text x="160.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">1 Nov</text>
+<text x="160.5" y="242" font-size="11" text-anchor="middle" fill="#1f2328">2 Nov</text>
 <line x1="66" y1="224" x2="696" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="62" x2="66" y2="224" stroke="#1f2328"/>
 <line x1="66" y1="143.8" x2="696" y2="143.8" stroke="#cf222e" stroke-width="1.5" stroke-dasharray="6 4"/>
 <text x="72" y="138.8" font-size="11" font-weight="700" text-anchor="start" fill="#cf222e" stroke="#ffffff" stroke-width="3" paint-order="stroke">Target $899</text>
-<polyline points="73.2,195.7 83.8,195.7 94.2,195.7 104.8,195.7 115.2,195.7 125.9,195.7 136.2,195.7 146.7,195.7 157.1,195.7 167.7,195.7 178.2,195.7 189.0,195.7 199.3,195.7 209.9,195.7 220.3,143.0 231.1,143.0 241.3,143.0 252.0,143.0 262.4,143.0 273.0,143.0 283.2,111.4 293.8,111.4 304.2,111.4 314.8,111.4 325.2,111.4 335.9,111.4 346.3,111.4 357.0,111.4 367.3,111.4 378.0,111.4 388.4,111.4 399.0,111.4 409.3,111.4 420.0,111.4 430.3,111.4 440.8,111.4 451.2,111.4 461.8,111.4 472.2,111.4 483.4,111.4 493.4,111.4 504.0,111.4 514.4,111.4 525.0,111.4 535.4,111.4 546.0,111.4 556.4,111.4 567.0,111.4 577.4,111.4 587.9,111.4 598.2,111.6 608.9,111.6 622.5,111.6 639.7,111.6 659.5,111.6 666.7,111.6 679.9,111.6 687.0,118.7" fill="none" stroke="#0969da" stroke-width="2"/>
-<circle cx="73.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 08:12: $835 at CCPU Computers</title></circle>
-<circle cx="83.8" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-28 20:22: $835 at CCPU Computers</title></circle>
-<circle cx="94.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $835 at CCPU Computers</title></circle>
-<circle cx="104.8" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $835 at CCPU Computers</title></circle>
-<circle cx="115.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 08:16: $835 at CCPU Computers</title></circle>
-<circle cx="125.9" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 20:25: $835 at CCPU Computers</title></circle>
-<circle cx="136.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 08:13: $835 at CCPU Computers</title></circle>
-<circle cx="146.7" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 20:13: $835 at CCPU Computers</title></circle>
-<circle cx="157.1" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 08:10: $835 at CCPU Computers</title></circle>
-<circle cx="167.7" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 20:16: $835 at CCPU Computers</title></circle>
-<circle cx="178.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 08:11: $835 at CCPU Computers</title></circle>
-<circle cx="189.0" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 20:31: $835 at CCPU Computers</title></circle>
-<circle cx="199.3" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 08:19: $835 at CCPU Computers</title></circle>
-<circle cx="209.9" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 20:30: $835 at CCPU Computers</title></circle>
-<circle cx="220.3" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 08:20: $900 at CCPU Computers</title></circle>
-<circle cx="231.1" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 20:43: $900 at CCPU Computers</title></circle>
-<circle cx="241.3" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-05 08:24: $900 at CCPU Computers</title></circle>
-<circle cx="252.0" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-05 20:37: $900 at CCPU Computers</title></circle>
-<circle cx="262.4" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-06 08:25: $900 at CCPU Computers</title></circle>
-<circle cx="273.0" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-06 20:37: $900 at CCPU Computers</title></circle>
-<circle cx="283.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-07 08:17: $939 at PC Case Gear</title></circle>
-<circle cx="293.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-07 20:20: $939 at PC Case Gear</title></circle>
-<circle cx="304.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 08:13: $939 at PC Case Gear</title></circle>
-<circle cx="314.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 20:20: $939 at PC Case Gear</title></circle>
-<circle cx="325.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-09 08:13: $939 at PC Case Gear</title></circle>
-<circle cx="335.9" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-09 20:26: $939 at PC Case Gear</title></circle>
-<circle cx="346.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-10 08:22: $939 at PC Case Gear</title></circle>
-<circle cx="357.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-10 20:31: $939 at PC Case Gear</title></circle>
-<circle cx="367.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-11 08:18: $939 at PC Case Gear</title></circle>
-<circle cx="378.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-11 20:35: $939 at PC Case Gear</title></circle>
-<circle cx="388.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-12 08:30: $939 at PC Case Gear</title></circle>
-<circle cx="399.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-12 20:36: $939 at PC Case Gear</title></circle>
-<circle cx="409.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-13 08:23: $939 at PC Case Gear</title></circle>
-<circle cx="420.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-13 20:35: $939 at PC Case Gear</title></circle>
-<circle cx="430.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-14 08:22: $939 at PC Case Gear</title></circle>
-<circle cx="440.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-14 20:20: $939 at PC Case Gear</title></circle>
-<circle cx="451.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-15 08:13: $939 at PC Case Gear</title></circle>
-<circle cx="461.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-15 20:22: $939 at PC Case Gear</title></circle>
-<circle cx="472.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-16 08:14: $939 at PC Case Gear</title></circle>
-<circle cx="483.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-16 20:59: $939 at PC Case Gear</title></circle>
-<circle cx="493.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-17 08:25: $939 at PC Case Gear</title></circle>
-<circle cx="504.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-17 20:36: $939 at PC Case Gear</title></circle>
-<circle cx="514.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-18 08:29: $939 at PC Case Gear</title></circle>
-<circle cx="525.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-18 20:34: $939 at PC Case Gear</title></circle>
-<circle cx="535.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-19 08:27: $939 at PC Case Gear</title></circle>
-<circle cx="546.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-19 20:31: $939 at PC Case Gear</title></circle>
-<circle cx="556.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-20 08:26: $939 at PC Case Gear</title></circle>
-<circle cx="567.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-20 20:34: $939 at PC Case Gear</title></circle>
-<circle cx="577.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-21 08:24: $939 at PC Case Gear</title></circle>
-<circle cx="587.9" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-21 20:26: $939 at PC Case Gear</title></circle>
-<circle cx="598.2" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-22 08:17: $938.77 at JW Computers</title></circle>
-<circle cx="608.9" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-22 20:25: $938.77 at JW Computers</title></circle>
-<circle cx="622.5" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-23 11:57: $938.77 at JW Computers</title></circle>
-<circle cx="639.7" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-24 07:39: $938.77 at JW Computers</title></circle>
-<circle cx="659.5" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-25 06:19: $938.77 at JW Computers</title></circle>
-<circle cx="666.7" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-25 14:33: $938.77 at JW Computers</title></circle>
-<circle cx="679.9" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-26 05:33: $938.77 at JW Computers</title></circle>
-<circle cx="687.0" cy="118.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-26 13:45: $930 at CCPU Computers</title></circle>
+<polyline points="73.2,195.7 83.8,195.7 94.2,195.7 104.9,195.7 115.2,195.7 125.7,195.7 136.1,195.7 146.7,195.7 157.2,195.7 168.0,195.7 178.3,195.7 188.9,195.7 199.3,143.0 210.1,143.0 220.3,143.0 231.0,143.0 241.4,143.0 252.0,143.0 262.2,111.4 272.8,111.4 283.2,111.4 293.8,111.4 304.2,111.4 314.9,111.4 325.3,111.4 336.0,111.4 346.3,111.4 357.0,111.4 367.4,111.4 378.0,111.4 388.3,111.4 399.0,111.4 409.3,111.4 419.8,111.4 430.2,111.4 440.8,111.4 451.2,111.4 462.4,111.4 472.4,111.4 483.0,111.4 493.4,111.4 504.0,111.4 514.4,111.4 525.0,111.4 535.4,111.4 546.0,111.4 556.4,111.4 566.9,111.4 577.2,111.6 587.9,111.6 601.5,111.6 618.7,111.6 638.5,111.6 645.7,111.6 658.9,111.6 666.0,118.7 679.6,118.7" fill="none" stroke="#0969da" stroke-width="2"/>
+<circle cx="73.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 08:15: $835 at CCPU Computers</title></circle>
+<circle cx="83.8" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-29 20:24: $835 at CCPU Computers</title></circle>
+<circle cx="94.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 08:16: $835 at CCPU Computers</title></circle>
+<circle cx="104.9" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-30 20:25: $835 at CCPU Computers</title></circle>
+<circle cx="115.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 08:13: $835 at CCPU Computers</title></circle>
+<circle cx="125.7" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-10-31 20:13: $835 at CCPU Computers</title></circle>
+<circle cx="136.1" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 08:10: $835 at CCPU Computers</title></circle>
+<circle cx="146.7" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-01 20:16: $835 at CCPU Computers</title></circle>
+<circle cx="157.2" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 08:11: $835 at CCPU Computers</title></circle>
+<circle cx="168.0" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-02 20:31: $835 at CCPU Computers</title></circle>
+<circle cx="178.3" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 08:19: $835 at CCPU Computers</title></circle>
+<circle cx="188.9" cy="195.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-03 20:30: $835 at CCPU Computers</title></circle>
+<circle cx="199.3" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 08:20: $900 at CCPU Computers</title></circle>
+<circle cx="210.1" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-04 20:43: $900 at CCPU Computers</title></circle>
+<circle cx="220.3" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-05 08:24: $900 at CCPU Computers</title></circle>
+<circle cx="231.0" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-05 20:37: $900 at CCPU Computers</title></circle>
+<circle cx="241.4" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-06 08:25: $900 at CCPU Computers</title></circle>
+<circle cx="252.0" cy="143.0" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-06 20:37: $900 at CCPU Computers</title></circle>
+<circle cx="262.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-07 08:17: $939 at PC Case Gear</title></circle>
+<circle cx="272.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-07 20:20: $939 at PC Case Gear</title></circle>
+<circle cx="283.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 08:13: $939 at PC Case Gear</title></circle>
+<circle cx="293.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-08 20:20: $939 at PC Case Gear</title></circle>
+<circle cx="304.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-09 08:13: $939 at PC Case Gear</title></circle>
+<circle cx="314.9" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-09 20:26: $939 at PC Case Gear</title></circle>
+<circle cx="325.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-10 08:22: $939 at PC Case Gear</title></circle>
+<circle cx="336.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-10 20:31: $939 at PC Case Gear</title></circle>
+<circle cx="346.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-11 08:18: $939 at PC Case Gear</title></circle>
+<circle cx="357.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-11 20:35: $939 at PC Case Gear</title></circle>
+<circle cx="367.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-12 08:30: $939 at PC Case Gear</title></circle>
+<circle cx="378.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-12 20:36: $939 at PC Case Gear</title></circle>
+<circle cx="388.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-13 08:23: $939 at PC Case Gear</title></circle>
+<circle cx="399.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-13 20:35: $939 at PC Case Gear</title></circle>
+<circle cx="409.3" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-14 08:22: $939 at PC Case Gear</title></circle>
+<circle cx="419.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-14 20:20: $939 at PC Case Gear</title></circle>
+<circle cx="430.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-15 08:13: $939 at PC Case Gear</title></circle>
+<circle cx="440.8" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-15 20:22: $939 at PC Case Gear</title></circle>
+<circle cx="451.2" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-16 08:14: $939 at PC Case Gear</title></circle>
+<circle cx="462.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-16 20:59: $939 at PC Case Gear</title></circle>
+<circle cx="472.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-17 08:25: $939 at PC Case Gear</title></circle>
+<circle cx="483.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-17 20:36: $939 at PC Case Gear</title></circle>
+<circle cx="493.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-18 08:29: $939 at PC Case Gear</title></circle>
+<circle cx="504.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-18 20:34: $939 at PC Case Gear</title></circle>
+<circle cx="514.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-19 08:27: $939 at PC Case Gear</title></circle>
+<circle cx="525.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-19 20:31: $939 at PC Case Gear</title></circle>
+<circle cx="535.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-20 08:26: $939 at PC Case Gear</title></circle>
+<circle cx="546.0" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-20 20:34: $939 at PC Case Gear</title></circle>
+<circle cx="556.4" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-21 08:24: $939 at PC Case Gear</title></circle>
+<circle cx="566.9" cy="111.4" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-21 20:26: $939 at PC Case Gear</title></circle>
+<circle cx="577.2" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-22 08:17: $938.77 at JW Computers</title></circle>
+<circle cx="587.9" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-22 20:25: $938.77 at JW Computers</title></circle>
+<circle cx="601.5" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-23 11:57: $938.77 at JW Computers</title></circle>
+<circle cx="618.7" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-24 07:39: $938.77 at JW Computers</title></circle>
+<circle cx="638.5" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-25 06:19: $938.77 at JW Computers</title></circle>
+<circle cx="645.7" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-25 14:33: $938.77 at JW Computers</title></circle>
+<circle cx="658.9" cy="111.6" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-26 05:33: $938.77 at JW Computers</title></circle>
+<circle cx="666.0" cy="118.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-26 13:45: $930 at CCPU Computers</title></circle>
+<circle cx="679.6" cy="118.7" r="4" fill="#0969da" stroke="#ffffff" stroke-width="1"><title>Our check 2026-11-27 05:15: $930 at CCPU Computers</title></circle>
 </svg>
